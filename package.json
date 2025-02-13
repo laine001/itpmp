@@ -1,5 +1,6 @@
 {
   "name": "itpmp",
+  "packageManager": "pnpm@9.14.2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
