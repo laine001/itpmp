@@ -9,7 +9,7 @@
 ::: details 点击展开
 - [高清pdf-百度网盘](https://pan.baidu.com/s/1QYkeg2xkFyFdcj9BOdQVfQ?pwd=22b4) 提取码：`22b4`
 - [高清pdf-夸克网盘](https://pan.quark.cn/s/59c48b70cf71) 提取码：`9GDi`
-- [非高清pdf-带划重点(gitee)]()
+<!-- - [非高清pdf-带划重点(gitee)]() -->
 :::
 
 ## 其他相关资料
