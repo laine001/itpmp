@@ -1,0 +1,39 @@
+// 头部菜单
+.VPMenu {
+  border: none !important;
+}
+
+// 首页feature
+.VPFeature {
+  transition: all 0.28s;
+  border: 1px solid var(--vp-c-bg-soft);
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-3);
+}
+
+.VPFeature .link-text-value .vpi-arrow-right {
+  transform: translateX(-2px);
+  transition: all 0.28s;
+}
+
+/* .VPFeature:hover .link-text-value .vpi-arrow-right {
+  transform: translateX(-2px);
+  transition: all 0.28s;
+} */
+.VPFeature:hover .link-text-value .vpi-arrow-right {
+  transform: translateX(6px);
+}
+
+// 卜算子
+.pv-uv-count {
+  font-size: 10px;
+  color: #888;
+  text-align: center;
+}
+
+// 首页的按钮
+.actions .VPButton.medium {
+  border-radius: 12px;
+}

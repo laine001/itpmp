@@ -17,9 +17,51 @@ hero:
 features:
   - title: 🎨Feature A
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /life/medicine.html
+    linkText: 去看看
   - title: ⚡️Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /life/medicine.html
+    linkText: 去看看
   - title: 🎉Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /life/medicine.html
+    linkText: 去看看
 ---
 
+<script setup lang="ts">
+  import { onMounted } from 'vue'
+  import confetti from 'canvas-confetti'
+  onMounted(() => {
+    setTimeout(() => {
+      confetti({
+        particleCount: 100,
+        spread: 170,
+        origin: { y: 0.6 },
+      })
+    }, 200)
+  })
+
+// const end = Date.now() + (1 * 260);
+// const colors = ['#3451b2', '#6f42c1', '#299764'];
+// (function frame() {
+//   confetti({
+//     particleCount: 2,
+//     angle: 60,
+//     spread: 55,
+//     origin: { x: 0 },
+//     // colors: colors ?? []
+//   });
+//   confetti({
+//     particleCount: 2,
+//     angle: 120,
+//     spread: 55,
+//     origin: { x: 1 },
+//     // colors: colors ?? []
+//   });
+
+//   if (Date.now() < end) {
+//     requestAnimationFrame(frame);
+//   }
+// }());
+</script>
