@@ -13,8 +13,12 @@ const sidebar = {
           link: '/summary/calc-concept'
         },
         {
-          text: '资料整理',
+          text: '资料整理收录',
           link: '/summary/learn-data'
+        },
+        {
+          text: '历年论文',
+          link: '/summary/thesis-record'
         }
       ],
     },

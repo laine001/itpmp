@@ -29,7 +29,7 @@ export default defineConfig({
           root: {
             translations: {
               button: {
-                buttonText: '搜索',
+                buttonText: '搜索。例：EV或挣值',
                 buttonAriaLabel: '搜索文档'
               },
               modal: {

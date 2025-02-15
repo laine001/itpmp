@@ -18,12 +18,12 @@ hero:
 
 features:
   - title: 🎨 资料收录
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /life/medicine.html
+    details: 收集一些关于高级信息系统项目管理师的资料，例如教材、工具书/图片/表格等。
+    link: /summary/learn-data
     linkText: 去看看
   - title: ⚡️ 记录总结
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /life/medicine.html
+    details: 学习过程中遇到的需要特别记住的点/概念/公式，以及一些总结。
+    link: /summary/calc-concept
     linkText: 去看看
   # - title: 🎉Feature C
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

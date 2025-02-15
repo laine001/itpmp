@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "busuanzi.pure.js": "^1.0.3",
-    "canvas-confetti": "^1.9.3"
+    "canvas-confetti": "^1.9.3",
+    "tdesign-vue-next": "^1.10.7"
   }
 }
