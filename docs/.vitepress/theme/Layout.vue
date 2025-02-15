@@ -39,11 +39,11 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 
 <template>
   <DefaultTheme.Layout>
-    <template #layout-bottom>
+    <!-- <template #layout-bottom>
       <div class="pv-uv-count">
         本站总访问量 <span id="busuanzi_value_site_pv" /> 次 本站访客数 <span id="busuanzi_value_site_uv" /> 人次
       </div>
-    </template>
+    </template> -->
     <!-- <template #home-footer>123</template> -->
   </DefaultTheme.Layout>
 </template>

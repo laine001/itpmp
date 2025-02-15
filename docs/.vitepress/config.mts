@@ -5,7 +5,18 @@ import nav from './config/nav'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "信息系统项目管理师",
-  description: "study record",
+  description: "信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP",
+  head: [
+    [
+      'link',
+      {
+        rel: 'alternate icon',
+        href: '/images/site/favicon.ico',
+        type: 'image/png',
+        sizes: '32x32',
+      },
+    ],
+  ],
   themeConfig: {
     outline: 'deep',
     // https://vitepress.dev/reference/default-theme-config

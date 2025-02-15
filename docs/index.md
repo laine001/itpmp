@@ -6,6 +6,8 @@ hero:
   name: "信息系统项目管理师"
   text: "学习记录和总结"
   # tagline: 随手记
+  image: 
+    src: /images/site/logo.svg
   actions:
     - theme: brand
       text: ✨开始
@@ -15,18 +17,18 @@ hero:
       link: /summary/top-ten-management
 
 features:
-  - title: 🎨Feature A
+  - title: 🎨 资料收录
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /life/medicine.html
     linkText: 去看看
-  - title: ⚡️Feature B
+  - title: ⚡️ 记录总结
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
     link: /life/medicine.html
     linkText: 去看看
-  - title: 🎉Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /life/medicine.html
-    linkText: 去看看
+  # - title: 🎉Feature C
+  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #   link: /life/medicine.html
+  #   linkText: 去看看
 ---
 
 <script setup lang="ts">

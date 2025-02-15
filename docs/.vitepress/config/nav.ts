@@ -14,6 +14,10 @@ export default [
       {
         text: '📝资料整理',
         link: '/summary/learn-data'
+      },
+      {
+        text: '🚚历年论文主题',
+        link: '/summary/thesis-record'
       }
     ]
   },
