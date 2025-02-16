@@ -8,7 +8,7 @@ import Layout from './Layout.vue'
 import './style.css'
 import './my-style.scss'
 
-import { NImage, NBackTop, NIcon } from 'naive-ui'
+import { NImage, NBackTop, NIcon, NTag, NTooltip } from 'naive-ui'
 // import { CafeOutline } from '@vicons/ionicons5'
 
 export default {
@@ -24,5 +24,7 @@ export default {
     // app.component('CafeOutline', CafeOutline)
     app.component('n-back-top', NBackTop)
     app.component('n-icon', NIcon)
+    app.component('n-tag', NTag)
+    app.component('n-tooltip', NTooltip)
   }
 } satisfies Theme
