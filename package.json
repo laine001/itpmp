@@ -18,8 +18,9 @@
     "vitepress": "^1.6.3"
   },
   "dependencies": {
+    "@vicons/ionicons5": "^0.13.0",
     "busuanzi.pure.js": "^1.0.3",
     "canvas-confetti": "^1.9.3",
-    "tdesign-vue-next": "^1.10.7"
+    "naive-ui": "^2.41.0"
   }
 }

@@ -1,5 +1,5 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
+import { h, defineComponent } from 'vue'
 import { inBrowser } from 'vitepress'
 import type { Theme } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
@@ -8,9 +8,8 @@ import Layout from './Layout.vue'
 import './style.css'
 import './my-style.scss'
 
-import { ImageViewer } from 'tdesign-vue-next'
-// 引入组件库的少量全局样式变量
-import 'tdesign-vue-next/es/style/index.css';
+import { NImage, NBackTop, NIcon } from 'naive-ui'
+// import { CafeOutline } from '@vicons/ionicons5'
 
 export default {
   extends: DefaultTheme,
@@ -21,6 +20,9 @@ export default {
         busuanzi.fetch()
       }
     }
-    app.component('i-image', ImageViewer)
+    app.component('n-image', NImage)
+    // app.component('CafeOutline', CafeOutline)
+    app.component('n-back-top', NBackTop)
+    app.component('n-icon', NIcon)
   }
 } satisfies Theme
