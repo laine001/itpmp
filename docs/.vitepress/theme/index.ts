@@ -10,7 +10,7 @@ import './my-style.scss'
 
 // import { NImage, NBackTop, NIcon, NTag, NTooltip } from 'naive-ui'
 // import { CafeOutline } from '@vicons/ionicons5'
-import pkg from 'naive-ui';
+import * as pkg from 'naive-ui';
 const { NImage, NBackTop, NIcon, NTag, NTooltip } = pkg;
 
 export default {
