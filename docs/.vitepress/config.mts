@@ -16,6 +16,13 @@ export default defineConfig({
         sizes: '32x32',
       },
     ],
+    [
+      'meta',
+      {
+        name: 'google-site-verification',
+        content: 'tEoeYv9IDXWj8H1q_-ZfisEOOsvVmj8TDF3QDg1wssw'
+      }
+    ]
   ],
   themeConfig: {
     outline: 'deep',
