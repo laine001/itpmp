@@ -22,6 +22,13 @@ export default defineConfig({
         name: 'google-site-verification',
         content: 'tEoeYv9IDXWj8H1q_-ZfisEOOsvVmj8TDF3QDg1wssw'
       }
+    ],
+    [
+      'meta',
+      {
+        name: 'msvalidate.01',
+        content: '2D1814F64604C599D231358157EE60ED'
+      }
     ]
   ],
   themeConfig: {
