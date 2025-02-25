@@ -6,6 +6,16 @@ import nav from './config/nav'
 export default defineConfig({
   title: "信息系统项目管理师",
   description: "信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP",
+  docFooter: {
+    prev: '上一页',
+    next: '下一页'
+  },
+  outline: {
+    label: '页面导航'
+  },
+  returnToTopLabel: '回到顶部',
+  sidebarMenuLabel: '菜单',
+  darkModeSwitchLabel: '主题',
   head: [
     [
       'link',
