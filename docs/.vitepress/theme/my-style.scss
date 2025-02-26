@@ -1,6 +1,7 @@
 // 头部菜单
 .VPMenu {
-  border: none !important;
+  // border: none !important;
+  border: 1px solid var(--vp-c-brand-1) !important;
 }
 
 // 首页feature
@@ -36,4 +37,9 @@
 // 首页的按钮
 .actions .VPButton.medium {
   border-radius: 12px;
+}
+
+// 移动端下的下拉页面导航
+.VPLocalNavOutlineDropdown .items {
+  border: 1px solid var(--vp-c-brand-1);
 }
