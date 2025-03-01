@@ -60,6 +60,7 @@ export default defineConfig({
       `
     ]
   ],
+  cleanUrls: true,
   themeConfig: {
     logo: '/images/site/logo.svg',
     outline: 'deep',

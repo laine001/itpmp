@@ -23,8 +23,3 @@
   width="90%"
   src="https://itpmp.netlify.app/assets/49个过程.png"
 />
-<!-- <i-image :images="['https://itpmp.netlify.app/assets/49个过程.png']">
-  <template #trigger="{ open }">
-    <img alt="" style="cursor: zoom-in" src="https://itpmp.netlify.app/assets/49个过程.png" @click="open" />
-  </template>
-</i-image> -->

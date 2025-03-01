@@ -227,3 +227,8 @@
   - 输出：工作绩效信息、变更请求、更新的项目管理计划和文件
 
 <n-back-top />
+
+<n-image
+  width="90%"
+  src="https://itpmp.netlify.app/assets/49个过程.png"
+/>

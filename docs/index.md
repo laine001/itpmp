@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: ✨开始
-      link: /about/site
+      link: /about/itpmp
     - theme: alt
       text: 🚀学习记录
       link: /summary/top-ten-management
