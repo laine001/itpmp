@@ -1,10 +1,11 @@
 // https://vitepress.dev/guide/custom-theme
 import { h, defineComponent } from 'vue'
 import { inBrowser } from 'vitepress'
-import type { Theme } from 'vitepress'
+// import type { Theme } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
+import MyTooltip from './components/my-tooltip/index.vue'
 import './style.css'
 import './my-style.scss'
 
@@ -28,5 +29,6 @@ export default {
     app.component('n-icon', NIcon)
     app.component('n-tag', NTag)
     app.component('n-tooltip', NTooltip)
+    app.component('m-tooltip', MyTooltip)
   }
 } satisfies Theme

@@ -63,7 +63,6 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     logo: '/images/site/logo.svg',
-    outline: 'deep',
     // https://vitepress.dev/reference/default-theme-config
     nav,
     sidebar,
@@ -72,7 +71,8 @@ export default defineConfig({
       next: '下一页'
     },
     outline: {
-      label: '页面导航'
+      label: '页面导航',
+      level: 'deep'
     },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
