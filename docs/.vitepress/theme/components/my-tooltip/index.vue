@@ -1,5 +1,5 @@
 <script setup>
-import { NTooltip } from 'naive-ui'
+// import { NTooltip } from 'naive-ui'
 const props = defineProps({
   text: {
     type: String,
