@@ -232,3 +232,7 @@
   width="90%"
   src="https://itpmp.netlify.app/assets/49个过程.png"
 />
+
+## ITTO PDF版
+
+<a href="https://itpmp.netlify.app/assets/ITTO.pdf" target="_blank">Information-Technology-Project-Management-Practice-PDF.pdf</a>
