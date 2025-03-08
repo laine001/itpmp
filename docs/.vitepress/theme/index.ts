@@ -12,7 +12,7 @@ import './my-style.scss'
 // import { NImage, NBackTop, NIcon, NTag, NTooltip } from 'naive-ui'
 // import { CafeOutline } from '@vicons/ionicons5'
 import * as pkg from 'naive-ui';
-const { NImage, NBackTop, NIcon, NTag, NTooltip } = pkg;
+const { NImage, NBackTop, NIcon, NTag, NTooltip, NDataTable } = pkg;
 
 export default {
   extends: DefaultTheme,
@@ -29,6 +29,7 @@ export default {
     app.component('n-icon', NIcon)
     app.component('n-tag', NTag)
     app.component('n-tooltip', NTooltip)
+    app.component('n-data-table', NDataTable)
     app.component('m-tooltip', MyTooltip)
   }
 } satisfies Theme

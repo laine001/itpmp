@@ -43,3 +43,7 @@
 .VPLocalNavOutlineDropdown .items {
   border: 1px solid var(--vp-c-brand-1);
 }
+
+.VPDoc.has-aside .content-container {
+  max-width: 100% !important;
+}

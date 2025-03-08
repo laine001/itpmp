@@ -1,12 +1,14 @@
+import { managementMenuList } from './const'
+
 export default [
   { text: '✨首页', link: '/' },
   {
+    text: '🔨10大管理',
+    items: managementMenuList
+  },
+  {
     text: '🚩记录总结',
     items: [
-      {
-        text: '🔨10大管理',
-        link: '/summary/top-ten-management'
-      },
       {
         text: '✏️计算题相关概念',
         link: '/summary/calc-concept'

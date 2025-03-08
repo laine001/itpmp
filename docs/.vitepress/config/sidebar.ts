@@ -1,43 +1,60 @@
+import { managementMenuList } from './const'
+
 const sidebar = {
-  '/summary/': [
+  "/book/": [
     {
-      text: '记录总结',
+      text: "指引",
+      items: [
+        {
+          text: "知识域导读",
+          link: "/book/top-ten-management",
+        },
+        {
+          text: "必会概念",
+          link: "/book/top-ten-management",
+        },
+      ],
+    },
+    {
+      text: "10大管理",
+      items: managementMenuList,
+    },
+  ],
+  "/summary/": [
+    {
+      text: "记录总结",
       // collapsed: true,
       items: [
         {
-          text: '10大管理',
-          link: '/summary/top-ten-management',
+          text: "计算题相关概念",
+          link: "/summary/calc-concept",
         },
         {
-          text: '计算题相关概念',
-          link: '/summary/calc-concept'
+          text: "资料整理收录",
+          link: "/summary/learn-data",
         },
         {
-          text: '资料整理收录',
-          link: '/summary/learn-data'
+          text: "历年论文",
+          link: "/summary/thesis-record",
         },
-        {
-          text: '历年论文',
-          link: '/summary/thesis-record'
-        }
       ],
     },
   ],
-  '/about/': [
+  "/about/": [
     {
       text: "",
       items: [
         {
-          text: '🌱关于本站',
-          link: '/about/site'
+          text: "🌱关于本站",
+          link: "/about/site",
         },
         {
-          text: '🧐信息系统项目管理师',
-          link: '/about/itpmp'
+          text: "🧐信息系统项目管理师",
+          link: "/about/itpmp",
         },
-      ]
-    }
-  ]
-}
+      ],
+    },
+  ],
+};
 
-export default sidebar
+export default sidebar;

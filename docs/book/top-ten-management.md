@@ -1,4 +1,10 @@
-# 10 大管理、49 个过程、ITTO
+<script setup>
+import TenManageTable from '../components/ten-manage-table/index.vue'
+</script>
+
+# 10 大管理、49 个过程
+
+<TenManageTable />
 
 ## 一 **项目整合管理**
 

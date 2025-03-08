@@ -72,7 +72,7 @@ export default defineConfig({
     },
     outline: {
       label: '页面导航',
-      level: 'deep'
+      level: [3, 5]
     },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
@@ -100,8 +100,8 @@ export default defineConfig({
         }
       }
     },
-    socialLinks: [
-      // { icon: 'github', link: 'https://github.com/laine001/itpmp' }
-    ]
+    // socialLinks: [
+    //   // { icon: 'github', link: 'https://github.com/laine001/itpmp' }
+    // ]
   }
 })
