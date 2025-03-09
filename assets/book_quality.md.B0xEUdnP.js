@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.B5199-QK.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"book/quality.md","filePath":"book/quality.md"}'),o={name:"book/quality.md"};function r(s,c,n,i,l,p){return a(),e("div")}const m=t(o,[["render",r]]);export{d as __pageData,m as default};
