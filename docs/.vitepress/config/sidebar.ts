@@ -10,8 +10,8 @@ const sidebar = {
           link: "/book/top-ten-management",
         },
         {
-          text: "必会概念",
-          link: "/book/top-ten-management",
+          text: "一些名词概念",
+          link: "/book/concept",
         },
       ],
     },

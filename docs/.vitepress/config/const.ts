@@ -13,11 +13,11 @@ export const managementMenuList = [
   },
   {
     text: "项目成本管理",
-    link: "/book/project-delivery",
+    link: "/book/cost",
   },
   {
     text: "项目质量管理",
-    link: "/book/project-evaluation",
+    link: "/book/quality",
   },
   {
     text: "项目资源管理",
@@ -25,18 +25,18 @@ export const managementMenuList = [
   },
   {
     text: "项目沟通管理",
-    link: "/book/project-evaluation",
+    link: "/book/communication",
   },
   {
     text: "项目风险管理",
-    link: "/book/project-evaluation",
+    link: "/book/risk",
   },
   {
     text: "项目采购管理",
-    link: "/book/project-evaluation",
+    link: "/book/purchase",
   },
   {
     text: "项目干系人管理",
-    link: "/book/project-evaluation",
+    link: "/book/related",
   },
 ];

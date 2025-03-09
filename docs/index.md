@@ -14,9 +14,13 @@ hero:
       link: /about/itpmp
     - theme: alt
       text: 🚀学习记录
-      link: /summary/top-ten-management
+      link: /book/top-ten-management
 
 features:
+  - title: 🎉十大管理整理
+    details: 整理十大管理的各个过程和输入、工具技术、输出等
+    link: /book/top-ten-management
+    linkText: 去看看
   - title: 🎨 资料收录
     details: 收集一些关于高级信息系统项目管理师的资料，例如教材、工具书/图片/表格等。
     link: /summary/learn-data
@@ -25,10 +29,6 @@ features:
     details: 学习过程中遇到的需要特别记住的点/概念/公式，以及一些总结。
     link: /summary/calc-concept
     linkText: 去看看
-  # - title: 🎉Feature C
-  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #   link: /life/medicine.html
-  #   linkText: 去看看
 ---
 
 <script setup lang="ts">

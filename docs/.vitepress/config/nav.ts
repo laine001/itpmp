@@ -2,6 +2,7 @@ import { managementMenuList } from './const'
 
 export default [
   { text: '✨首页', link: '/' },
+  { text: '🍉导读', link: '/book/top-ten-management' },
   {
     text: '🔨10大管理',
     items: managementMenuList

@@ -1,9 +1,14 @@
+---
+outline: deep
+---
+
 <script setup>
 import TenManageTable from '../components/ten-manage-table/index.vue'
 </script>
 
 # 10 大管理、49 个过程
 
+<n-back-top />
 <TenManageTable />
 
 ## 一 **项目整合管理**
@@ -232,8 +237,6 @@ import TenManageTable from '../components/ten-manage-table/index.vue'
   - 工具与技术：数据分析（如满意度调查分析等）、决策（如调整参与策略决策等）、数据表现（如干系人参与度图表等）、沟通技能（如沟通调整等）、人际关系与团队技能（如关系修复等）、会议（如监督会议等）
   - 输出：工作绩效信息、变更请求、更新的项目管理计划和文件
 
-<n-back-top />
-
 <n-image
   width="90%"
   src="https://itpmp.netlify.app/assets/49个过程.png"
@@ -241,4 +244,4 @@ import TenManageTable from '../components/ten-manage-table/index.vue'
 
 ## ITTO PDF版
 
-<a href="https://itpmp.netlify.app/assets/ITTO.pdf" target="_blank">Information-Technology-Project-Management-Practice-PDF.pdf</a>
+<a href="https://itpmp.netlify.app/assets/ITTO.pdf" target="_blank">ITTO.pdf</a>
