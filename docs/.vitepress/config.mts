@@ -72,7 +72,7 @@ export default defineConfig({
     },
     outline: {
       label: '页面导航',
-      level: [3, 5]
+      level: [2, 5]
     },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
