@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as e,aA as o}from"./chunks/framework.B5199-QK.js";const p=JSON.parse('{"title":"项目风险管理","description":"","frontmatter":{},"headers":[],"relativePath":"book/risk.md","filePath":"book/risk.md"}'),r={name:"book/risk.md"};function t(h,a,d,n,c,s){return e(),i("div",null,a[0]||(a[0]=[o("",25)]))}const b=l(r,[["render",t]]);export{p as __pageData,b as default};
