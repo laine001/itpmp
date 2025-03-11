@@ -1,4 +1,9 @@
+import ProjectPlanFile from '../components/project-plan-file.vue'
 # 一些不太好记的概念和公式
+
+## 项目管理计划和项目文件
+<ProjectPlanFile />
+
 ## 挣值分析相关
 ### EV、AC、PV、ETC、EAC、VAC等概念
 - `EV（Earned Value）`：即挣值，也被称作已完成工作预算成本
