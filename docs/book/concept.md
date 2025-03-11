@@ -1,4 +1,7 @@
+<script setup>
 import ProjectPlanFile from '../components/project-plan-file.vue'
+</script>
+
 # 一些不太好记的概念和公式
 
 ## 项目管理计划和项目文件
