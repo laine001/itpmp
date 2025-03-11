@@ -1,4 +1,4 @@
-<script setup>
+<template>
 <table border="0">
   <thead>
     <tr>
@@ -99,4 +99,4 @@
     </tr>
   </tbody>
 </table>
-</script>
+</template>
