@@ -1,7 +1,7 @@
 <!-- .vitepress/theme/Layout.vue -->
 
 <script setup lang="ts">
-import { NConfigProvider } from 'naive-ui'
+// import { NConfigProvider } from 'naive-ui'
 import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
