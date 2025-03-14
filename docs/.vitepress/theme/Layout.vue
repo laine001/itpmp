@@ -1,6 +1,7 @@
 <!-- .vitepress/theme/Layout.vue -->
 
 <script setup lang="ts">
+import { NConfigProvider } from 'naive-ui'
 import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, provide } from 'vue'
@@ -38,14 +39,24 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-  <DefaultTheme.Layout>
-    <!-- <template #layout-bottom>
-      <div class="pv-uv-count">
-        本站总访问量 <span id="busuanzi_value_site_pv" /> 次 本站访客数 <span id="busuanzi_value_site_uv" /> 人次
-      </div>
-    </template> -->
-    <!-- <template #home-footer>123</template> -->
-  </DefaultTheme.Layout>
+  <n-config-provider
+    :theme-overrides="{
+      common: {
+        primaryColor: 'var(--vp-c-brand-3)',
+        primaryColorHover: 'var(--vp-c-brand-1)',
+        primaryColorPressed: 'var(--vp-c-brand-3)'
+      }
+    }"
+  >
+    <DefaultTheme.Layout>
+      <!-- <template #layout-bottom>
+        <div class="pv-uv-count">
+          本站总访问量 <span id="busuanzi_value_site_pv" /> 次 本站访客数 <span id="busuanzi_value_site_uv" /> 人次
+        </div>
+      </template> -->
+      <!-- <template #home-footer>123</template> -->
+    </DefaultTheme.Layout>
+  </n-config-provider>
 </template>
 
 <style>
