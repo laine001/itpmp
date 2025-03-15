@@ -47,3 +47,11 @@
 .VPDoc.has-aside .content-container {
   max-width: 100% !important;
 }
+
+.ai-box {
+  border-radius: 8px;
+  background-image: linear-gradient(120deg, #bbcefbd1 0%, #f7aeb094 100%);
+  margin: 15px 0;
+  padding: 15px;
+  color: var(--vp-custom-block-tip-text);
+}

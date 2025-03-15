@@ -11,15 +11,19 @@ export default [
     text: '🚩记录总结',
     items: [
       {
-        text: '✏️计算题相关概念',
+        text: '一些名词概念',
         link: '/summary/calc-concept'
       },
       {
-        text: '📝资料整理收录',
+        text: '132个工具与技术',
+        link: '/summary/all-tt'
+      },
+      {
+        text: '资料整理收录',
         link: '/summary/learn-data'
       },
       {
-        text: '🚚历年论文',
+        text: '历年论文',
         link: '/summary/thesis-record'
       }
     ]
