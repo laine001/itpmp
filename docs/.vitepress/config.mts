@@ -95,6 +95,8 @@ export default defineConfig({
                 noResultsText: '未找到相关结果',
                 resetButtonTitle: '清除查询条件',
                 footer: {
+                  // closeKeyAriaLabel: 'esa',
+                  closeText: '关闭',
                   selectText: '选择',
                   navigateText: '切换'
                 }

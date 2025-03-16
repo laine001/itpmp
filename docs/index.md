@@ -13,7 +13,7 @@ hero:
       text: ✨开始
       link: /about/itpmp
     - theme: alt
-      text: 🚀学习记录
+      text: 🚀导读
       link: /book/top-ten-management
 
 features:
