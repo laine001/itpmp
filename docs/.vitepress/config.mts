@@ -33,7 +33,7 @@ export default defineConfig({
     [
       'script',
       {
-        async: true,
+        async: 'true',
         src: 'https://www.googletagmanager.com/gtag/js?id=G-NVZ7WX3XRN'
       }
     ],
@@ -63,6 +63,10 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     logo: '/images/site/logo.svg',
+    footer: {
+      message: '巴拉巴拉哈哈哈',
+      copyright: '©xxx',
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav,
     sidebar,

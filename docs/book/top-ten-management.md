@@ -8,8 +8,13 @@ import TenManageTable from '../components/ten-manage-table/index.vue'
 
 # 10 大管理、49 个过程
 
-<n-back-top />
 <TenManageTable />
+
+## 
+
+<div class="ai-box">
+以下内容由ai生成
+</div>
 
 ## 一 **项目整合管理**
 
