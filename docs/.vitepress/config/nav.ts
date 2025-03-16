@@ -25,6 +25,10 @@ export default [
       {
         text: '历年论文',
         link: '/summary/thesis-record'
+      },
+      {
+        text: '绩效域',
+        link: '/summary/performance'
       }
     ]
   },
