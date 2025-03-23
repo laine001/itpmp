@@ -27,7 +27,7 @@ const sidebar = {
       items: [
         {
           text: "一些名词概念",
-          link: "/summary/calc-concept",
+          link: "/summary/concept",
         },
         {
           text: "132个工具与技术",
