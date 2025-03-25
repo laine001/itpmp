@@ -27,7 +27,7 @@ export default [
         link: '/summary/thesis-record'
       },
       {
-        text: '绩效域',
+        text: '项目绩效域',
         link: '/summary/performance'
       }
     ]
