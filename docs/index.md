@@ -27,7 +27,7 @@ features:
     linkText: 去看看
   - title: ⚡️ 记录总结
     details: 学习过程中遇到的需要特别记住的点/概念/公式，以及一些总结。
-    link: /summary/calc-concept
+    link: /summary/concept
     linkText: 去看看
 ---
 
