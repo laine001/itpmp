@@ -1,1 +1,0 @@
-import{_ as l,c as e,o as i,aA as r}from"./chunks/framework.B5199-QK.js";const p=JSON.parse('{"title":"项目成本管理","description":"","frontmatter":{},"headers":[],"relativePath":"book/cost.md","filePath":"book/cost.md"}'),t={name:"book/cost.md"};function o(h,a,n,d,s,c){return i(),e("div",null,a[0]||(a[0]=[r("",81)]))}const b=l(t,[["render",o]]);export{p as __pageData,b as default};
