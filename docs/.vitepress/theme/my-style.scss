@@ -49,6 +49,18 @@
   max-width: 100% !important;
 }
 
+.VPNav {
+  .content-body {
+    background-color: rgba($color: var(--vp-nav-bg-color), $alpha: 1.0) !important;
+    backdrop-filter: blur(20px);
+  }
+}
+
+.VPLocalNav {
+  background-color: rgba($color: var(--vp-nav-bg-color), $alpha: 1.0) !important;
+  backdrop-filter: blur(20px);
+}
+
 .ai-box {
   border-radius: 8px;
   background-image: linear-gradient(120deg, #bbcefbd1 0%, #f7aeb094 100%);
