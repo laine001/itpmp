@@ -78,3 +78,17 @@
   padding: 15px;
   color: var(--vp-custom-block-tip-text);
 }
+
+.home .divider {
+  display: none;
+}
+
+.VPNavBar.home {
+  background-color: rgba($color: #fff, $alpha: 0.8) !important;
+  backdrop-filter: blur(10px);
+
+  &.top {
+    background-color: transparent !important;
+    backdrop-filter: blur(0px);
+  }
+}
