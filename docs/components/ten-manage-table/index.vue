@@ -30,33 +30,69 @@
           <br />
           <a href="/book/integration#_4-管理项目知识">④管理项目知识</a>
         </td>
-        <td>⑤监控项目工作<br />⑥实施整体变更控制</td>
-        <td>⑦结束项目或阶段</td>
+        <td>
+          <a href="/book/integration#_5-监控项目工作">⑤监控项目工作</a>
+          <br />
+          <a href="/book/integration#_6-实施整体变更控制">⑥实施整体变更控制</a>
+        </td>
+        <td>
+          <a href="/book/integration#_7-结束项目或阶段">⑦结束项目或阶段</a>
+        </td>
       </tr>
       <tr>
         <td>范围管理</td>
         <td>-</td>
-        <td>①规划范围管理<br />②收集需求<br />③定义范围<br />④创建WBS</td>
+        <td>
+          <a href="/book/scope#_1-规划范围管理">①规划范围管理</a>
+          <br />
+          <a href="/book/scope#_2-收集需求">②收集需求</a>
+          <br />
+          <a href="/book/scope#_3-定义范围">③定义范围</a>
+          <br />
+          <a href="/book/scope#_4-创建wbs">④创建WBS</a>
+        </td>
         <td>-</td>
-        <td>⑤确认范围<br />⑥控制范围</td>
+        <td>
+          <a href="/book/scope#_5-确认范围">⑤确认范围</a>
+          <br />
+          <a href="/book/scope#_6-控制范围">⑥控制范围</a>
+        </td>
         <td>-</td>
       </tr>
       <tr>
         <td>进度管理</td>
         <td>-</td>
         <td>
-          ①规划进度管理<br />②定义活动<br />③排列活动顺序<br />④估算活动持续时间<br />⑤制定进度计划
+          <a href="/book/progress#_1-规划进度管理">①规划进度管理</a>
+          <br />
+          <a href="/book/progress#_2-定义活动">②定义活动</a>
+          <br />
+          <a href="/book/progress#_3-排列活动顺序">③排列活动顺序</a>
+          <br />
+          <a href="/book/progress#_4-估算活动持续时间">④估算活动持续时间</a>
+          <br />
+          <a href="/book/progress#_5-制定进度计划">⑤制定进度计划</a>
         </td>
         <td>-</td>
-        <td>⑥控制进度</td>
+        <td>
+          <a href="/book/progress#_6-控制进度">⑥控制进度</a>
+        </td>
         <td>-</td>
       </tr>
       <tr>
         <td>成本管理</td>
         <td>-</td>
-        <td>①规划成本管理<br />②估算成本<br />③制定预算</td>
+        <td>
+          <a href="/book/cost#_1-规划成本管理">①规划成本管理</a>
+          <br />
+          <a href="/book/cost#_2-估算成本">②估算成本</a>
+          <br />
+          <a href="/book/cost#_3-制定预算">③制定预算</a>
+        </td>
         <td>-</td>
-        <td>④控制成本</td>
+        <td>
+          <a href="/book/cost#_4-控制成本">④控制成本</a>
+        </td>
         <td>-</td>
       </tr>
       <tr>
