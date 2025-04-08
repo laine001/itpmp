@@ -9,7 +9,7 @@ import './style.css'
 import './my-style.scss'
 
 import * as pkg from 'naive-ui';
-const { NConfigProvider, NBackTop, NImage, NTooltip, NIcon } = pkg;
+const { NConfigProvider, NBackTop, NImage, NTooltip, NIcon, NMenu } = pkg;
 
 export default {
   extends: DefaultTheme,
@@ -22,6 +22,7 @@ export default {
     }
     app.component('n-image', NImage)
     app.component('n-icon', NIcon)
+    app.component('n-menu', NMenu)
     app.component('NBackTop', NBackTop)
     app.component('n-tooltip', NTooltip)
     app.component('NConfigProvider', NConfigProvider)

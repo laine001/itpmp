@@ -78,6 +78,7 @@ export default defineConfig({
       label: '页面导航',
       level: [2, 5]
     },
+    // outline: false,
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
