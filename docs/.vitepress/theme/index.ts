@@ -5,6 +5,7 @@ import busuanzi from 'busuanzi.pure.js'
 import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
 import MyTooltip from './components/my-tooltip/index.vue'
+// import OutlineCollapsePlugin from './components/custom-outline/outline-collapse.plugin'
 import './style.css'
 import './my-style.scss'
 
@@ -17,6 +18,9 @@ export default {
   enhanceApp({ app, router, siteData }) {
     if (inBrowser) {
       router.onAfterRouteChange = () => {
+        // setTimeout(() => {
+        //   OutlineCollapsePlugin()
+        // }, 0);
         busuanzi.fetch()
       }
     }
