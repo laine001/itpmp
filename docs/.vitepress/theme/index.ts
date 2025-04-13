@@ -1,10 +1,12 @@
 // https://vitepress.dev/guide/custom-theme
-import { h, defineComponent } from 'vue'
+// import { h, defineComponent, inject } from 'vue'
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import DefaultTheme from 'vitepress/theme'
-import Layout from './Layout.vue'
+// import Layout from './Layout.vue'
 import MyTooltip from './components/my-tooltip/index.vue'
+import { NaiveUIProvider } from './libs/navive-ui-vp'
+import { setup } from '@css-render/vue3-ssr'
 // import OutlineCollapsePlugin from './components/custom-outline/outline-collapse.plugin'
 import './style.css'
 import './my-style.scss'
@@ -14,8 +16,12 @@ const { NConfigProvider, NBackTop, NImage, NTooltip, NIcon, NMenu } = pkg;
 
 export default {
   extends: DefaultTheme,
-  Layout,
+  Layout: NaiveUIProvider,
   enhanceApp({ app, router, siteData }) {
+    if (import.meta.env.SSR) {
+      const { collect } = setup(app)
+      app.provide('css-render-collect', collect)
+    }
     if (inBrowser) {
       router.onAfterRouteChange = () => {
         // setTimeout(() => {
