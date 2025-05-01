@@ -22,6 +22,7 @@
     "@vicons/ionicons5": "^0.13.0",
     "busuanzi.pure.js": "^1.0.3",
     "canvas-confetti": "^1.9.3",
-    "naive-ui": "^2.41.0"
+    "naive-ui": "^2.41.0",
+    "vite": "^6.3.2"
   }
 }
