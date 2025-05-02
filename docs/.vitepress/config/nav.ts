@@ -15,6 +15,10 @@ export default [
         link: '/summary/concept'
       },
       {
+        text: '计算题相关',
+        link: '/summary/calc-concept'
+      },
+      {
         text: '132个工具与技术',
         link: '/summary/all-tt'
       },
