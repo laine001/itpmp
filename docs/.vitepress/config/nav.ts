@@ -11,7 +11,7 @@ export default [
     text: '🚩记录总结',
     items: [
       {
-        text: '一些名词概念',
+        text: '名词/常见图表',
         link: '/summary/concept'
       },
       {

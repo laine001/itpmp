@@ -9,10 +9,6 @@ const sidebar = {
           text: "知识域导读",
           link: "/book/top-ten-management",
         },
-        // {
-        //   text: "一些名词概念",
-        //   link: "/book/concept",
-        // },
       ],
     },
     {
@@ -26,7 +22,7 @@ const sidebar = {
       // collapsed: true,
       items: [
         {
-          text: "一些名词概念",
+          text: "名词/常见图表",
           link: "/summary/concept",
         },
         {

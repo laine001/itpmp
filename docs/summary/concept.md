@@ -1,8 +1,8 @@
 <script setup>
-import ProjectPlanFile from '../components/project-plan-file.vue'
+import ProjectPlanFile from '../components/project-plan-file/index.vue'
 </script>
 
-# 一些名词概念
+# 一些名词和图表
 
 ## 项目管理计划和项目文件
 
@@ -45,3 +45,7 @@ import ProjectPlanFile from '../components/project-plan-file.vue'
   6. 行业标准：包括与产品、生产、环境、质量和工艺相关的标准
   7. 财务考虑因素：包括汇率、利率、通货膨胀、税收和关税
   8. 物理环境因素：包括汇率、利率、通货膨胀、税收和关税
+
+## 需求跟踪矩阵
+需求跟踪矩阵是把产品需求从其来源连接到满足需求的可交付成果的一种表格。
+<n-image width="80%" src="/assets/需求跟踪矩阵.png"></n-image>
