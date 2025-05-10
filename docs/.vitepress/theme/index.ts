@@ -28,6 +28,11 @@ export default {
         //   OutlineCollapsePlugin()
         // }, 0);
         busuanzi.fetch()
+        if (window._hmt) {
+          const siteId = 'd0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0'
+          window._hmt.push(['_setAccount', '1a46a0f223c9af96b623437cd0065193'])
+          window._hmt.push(['_trackPageview', location.pathname + location.search])
+        }
       }
     }
     app.component('n-image', NImage)
