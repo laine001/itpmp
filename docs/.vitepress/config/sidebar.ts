@@ -53,11 +53,11 @@ const sidebar = {
       text: "",
       items: [
         {
-          text: "🌱关于本站",
+          text: "关于本站",
           link: "/about/site",
         },
         {
-          text: "🧐信息系统项目管理师",
+          text: "信息系统项目管理师",
           link: "/about/itpmp",
         },
       ],
