@@ -40,3 +40,5 @@ export const managementMenuList = [
     link: "/book/related",
   },
 ];
+
+

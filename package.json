@@ -15,7 +15,11 @@
   "license": "ISC",
   "devDependencies": {
     "@css-render/vue3-ssr": "^0.15.14",
+    "@vite-pwa/vitepress": "^1.0.0",
+    "@vitejs/plugin-basic-ssl": "^2.0.0",
+    "feed": "^5.0.1",
     "sass": "^1.85.0",
+    "sitemap-ts": "^1.9.0",
     "vitepress": "^1.6.3"
   },
   "dependencies": {

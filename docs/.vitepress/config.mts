@@ -4,8 +4,14 @@ import nav from './config/nav'
 
 const fileAndStyles: Record<string, string> = {}
 
+import { withPwa } from '@vite-pwa/vitepress'
+import { pwa } from './plugins/pwa'
+import { genFeed } from './plugins/feed'
+// import { generateSitemap } from 'sitemap-ts'
+
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withPwa(defineConfig({
+  pwa,
   title: "信息系统项目管理师",
   description: "信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP",
   head: [
@@ -79,8 +85,8 @@ export default defineConfig({
   themeConfig: {
     logo: '/images/site/logo.svg',
     footer: {
-      message: '巴拉巴拉哈哈哈',
-      copyright: '©xxx',
+      message: '- -',
+      copyright: 'Copyright (c) 2023-present, laine001. All rights reserved.',
     },
     // https://vitepress.dev/reference/default-theme-config
     nav,
@@ -122,9 +128,14 @@ export default defineConfig({
         }
       }
     },
-    // socialLinks: [
-    //   // { icon: 'github', link: 'https://github.com/laine001/itpmp' }
-    // ]
+    socialLinks: [
+      {
+        icon: {
+          svg: `<svg t="1748263018176" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2632" width="64" height="64"><path d="M256 810.666667a42.666667 42.666667 0 1 0 0-85.333334 42.666667 42.666667 0 0 0 0 85.333334z m0 85.333333a128 128 0 1 1 0-256 128 128 0 0 1 0 256z m553.429333 0C788.181333 529.408 494.592 235.818667 128 214.570667V128c424.149333 0 768 343.850667 768 768h-86.570667z m-213.845333 0C575.061333 647.253333 376.704 448.938667 128 428.416V341.333333c306.346667 0 554.666667 248.32 554.666667 554.666667h-87.082667z" fill="#8a8a8a" p-id="2633"></path></svg>`
+        },
+        link: 'https://itpmp.netlify.app/feed.xml'
+      }
+    ]
   },
   vite: {
     ssr: {
@@ -150,5 +161,11 @@ export default defineConfig({
     if (style) {
       return code.replace(/<\/head>/, `${style}</head>`)
     }
+  },
+  async buildEnd(config) {
+    // await generateSitemap({
+    //   hostname: 'https://itpmp.netlify.app'
+    // })
+    await genFeed(config)
   }
-})
+}))
