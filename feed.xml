@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.netlify.app</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Tue, 27 May 2025 08:20:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 May 2025 09:04:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -82,14 +82,14 @@
             <guid>itpmp.netlify.appbook/communication</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目沟通管理" tabindex="-1">项目沟通管理 <a class="header-anchor" href="#项目沟通管理" aria-label="Permalink to &quot;项目沟通管理&quot;">&ZeroWidthSpace;</a></h1>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
-<p>沟通是人们分享信息、思想和情感的过程。沟通的主旨在于互动双方建立彼此相互了解的 关系，相互回应，并且期待能经由沟通的行为与过程相互接纳并达成共识。所以沟通失败是很 多项目(尤其是 IT 项目)失败的重要原因。</p>
+<div class="tip custom-block"><p class="custom-block-title">概念</p>
+<p>沟通是人们分享信息、思想和情感的过程。沟通的主旨在于互动双方建立彼此相互了解的关系，相互回应，并且期待能经由沟通的行为与过程相互接纳并达成共识。所以沟通失败是很多项目(尤其是IT项目)失败的重要原因。</p>
 </div>
 <details class="details custom-block"><summary>本章目录</summary>
 <nav class="table-of-contents"><ul><li><a href="#管理基础">管理基础</a></li><li><a href="#敏捷与适应方法">敏捷与适应方法</a></li><li><a href="#_1-规划沟通管理">1. 规划沟通管理</a><ul><li><a href="#输入">输入</a></li><li><a href="#工具与技术">工具与技术</a></li><li><a href="#输出">输出</a></li></ul></li><li><a href="#_2-管理沟通">2. 管理沟通</a><ul><li><a href="#输入-1">输入</a></li><li><a href="#工具与技术-1">工具与技术</a></li><li><a href="#输出-1">输出</a></li></ul></li><li><a href="#_3-监督沟通">3. 监督沟通</a><ul><li><a href="#输入-2">输入</a></li><li><a href="#工具与技术-2">工具与技术</a></li><li><a href="#输出-2">输出</a></li></ul></li></ul></nav>
 </details>
-<p>与IT项目成功有关的最重要的四个因素是：主管层的支持、用户参与、有经验的项目经理和清晰的业务目标。所有这些因素都依赖于
-项目经理和团队具有良好的沟通能力，特别是与非IT人员的沟通。</p>
+<p>与IT项目成功有关的最重要的四个因素是：主管层的支持、用户参与、有经验的项目经理和清晰的业务目标。
+所有这些因素都依赖于项目经理和团队具有良好的沟通能力，特别是与非IT人员的沟通。</p>
 <p>项目沟通管理过程揭示了实现成功沟通所需的人员、观点、信息这三项要素之间的一种联络关系。
 项目沟通管理由两部分组成：一是制定策略，确保沟通对干系人行之有效；二是执行必要活动，以落实沟通策略。</p>
 <h2 id="管理基础" tabindex="-1">管理基础 <a class="header-anchor" href="#管理基础" aria-label="Permalink to &quot;管理基础&quot;">&ZeroWidthSpace;</a></h2>
@@ -104,7 +104,9 @@
 <li>媒体形式：图片、行动或借助其他媒介</li>
 <li>遣词造句：表达某种想法的词语往往不止一个，须留意各词语的含义会存在细微差异</li>
 </ul>
-<p>2、 沟通模型</p>
+<ol start="2">
+<li>沟通模型</li>
+</ol>
 <p>沟通模型的关键要素包括：</p>
 <ul>
 <li>编码：把思想或想法转化为他人能理解的语言</li>
@@ -134,17 +136,17 @@
 </ol>
 <p>有效的沟通活动和成果创建具有如下3个基本属性：</p>
 <ul>
-<li>沟通目的明确</li>
-<li>尽量了解沟通接收方，满足其需求及偏好</li>
-<li>监督并衡量沟通的效果。</li>
+<li><strong>沟通目的明确</strong></li>
+<li><strong>尽量了解沟通接收方，满足其需求及偏好</strong></li>
+<li><strong>监督并衡量沟通的效果</strong></li>
 </ul>
 <p>书面沟通的5C原则：</p>
 <ul>
-<li>正确的语法和拼写（Correctness）：语法不当或拼写错误会分散注意力，甚至可能扭曲信息含义，降低可信度。</li>
-<li>简洁的表述（Concise）：简洁且精心组织的信息能降低误解信息意图的可能性</li>
-<li>清晰的目的和表达（Clarity）：确保在信息中包含能满足受众需求与激发其兴趣的内容</li>
-<li>连贯的四维逻辑（Coherent）：写作思路连贯，在整个书面文件中使用诸如“引言”和“小结”的小标题。</li>
-<li>善用控制语句和惩戒（Controlling）：可能需要使用图表或小结来控制语句和思路的承接。</li>
+<li><code>正确的语法和拼写（Correctness）</code>：语法不当或拼写错误会分散注意力，甚至可能扭曲信息含义，降低可信度。</li>
+<li><code>简洁的表述（Concise）</code>：简洁且精心组织的信息能降低误解信息意图的可能性</li>
+<li><code>清晰的目的和表达（Clarity）</code>：确保在信息中包含能满足受众需求与激发其兴趣的内容</li>
+<li><code>连贯的四维逻辑（Coherent）</code>：写作思路连贯，在整个书面文件中使用诸如“引言”和“小结”的小标题。</li>
+<li><code>善用控制语句和惩戒（Controlling）</code>：可能需要使用图表或小结来控制语句和思路的承接。</li>
 </ul>
 <p>其他沟通技巧：
 除了5C原则，项目经理还需配合下列沟通技巧；</p>
@@ -155,10 +157,11 @@
 <li>强化技能。所有团队成员应强化以下技能：说服个人、团队或组织采取行动；激励和鼓励人们，或帮助人们重塑自信；指导人们改进绩效并取得期望 结果;通过磋商达成共识以减少审批或决策延误；解决冲突，防止破坏性影响等。</li>
 </ul>
 <h2 id="敏捷与适应方法" tabindex="-1">敏捷与适应方法 <a class="header-anchor" href="#敏捷与适应方法" aria-label="Permalink to &quot;敏捷与适应方法&quot;">&ZeroWidthSpace;</a></h2>
-<p>在模糊不定的项目环境中，必然需要对不断演变和出现的细节情况进行更频繁和快速地沟
-通。因此，应该尽量简化团队成员获取信息的通道，要经常进行团队检查，并让团队成员集中办公。此外，为了促进与高级管理层和干系人的沟通，还需要以透明的方式发布项目成果，并定期邀请干系人评审项目成果。</p>
+<p>在模糊不定的项目环境中，必然需要对不断演变和出现的细节情况进行更频繁和快速地沟通。
+因此，应该尽量简化团队成员获取信息的通道，要经常进行团队检查，并让团队成员集中办公。
+此外，为了促进与高级管理层和干系人的沟通，还需要以透明的方式发布项目成果，并定期邀请干系人评审项目成果。</p>
 <h2 id="_1-规划沟通管理" tabindex="-1">1. 规划沟通管理 <a class="header-anchor" href="#_1-规划沟通管理" aria-label="Permalink to &quot;1. 规划沟通管理&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>规划沟通管理是基于每个干系人或干系人群体的信息需求、可用的组织资产以及具体项目的需求，为项目沟通活动制定恰当的方法和计划的过程。</p>
 <p>本过程的主要作用：</p>
 <ul>
@@ -224,12 +227,12 @@
 <p>此沟通模型及其强化版有助于制定人对人或小组对小组的沟通策略和计划，但不能用于制定采用其他沟通成果（如电子邮件、广播信息和
 社交媒体）的沟通策略和计划。</p>
 <h4 id="沟通方法" tabindex="-1">沟通方法 <a class="header-anchor" href="#沟通方法" aria-label="Permalink to &quot;沟通方法&quot;">&ZeroWidthSpace;</a></h4>
-<p>项目干系人之间用千分享信息的沟通方法主要包括：</p>
+<p>项目干系人之间用于分享信息的沟通方法主要包括：</p>
 <ol>
-<li>互动沟通：在双方或多方之间进行的实时多向信息交换。它使用诸如会议、电话、即时信息、社交媒体和视频会议等沟通方式</li>
-<li>推式沟通：向需要接收信息的特定接收方发送或发布信息。这种方法可以确保信息的发送，但不能确保信息送达目标受众或被目标
+<li><code>互动沟通</code>：在双方或多方之间进行的实时多向信息交换。它使用诸如会议、电话、即时信息、社交媒体和视频会议等沟通方式</li>
+<li><code>推式沟通</code>：向需要接收信息的特定接收方发送或发布信息。这种方法可以确保信息的发送，但不能确保信息送达目标受众或被目标
 受众理解。在推式沟通中，可以用于沟通的有：信件、备忘录、报告、电子邮件、传真、语音邮件、博客和新闻稿。</li>
-<li>拉式沟通：适用于大量复杂信息或大量信息受众的情况。它要求接收方在遵守有关安全规定的前提之下自行访问相关内容。这种方法
+<li><code>拉式沟通</code>：适用于大量复杂信息或大量信息受众的情况。它要求接收方在遵守有关安全规定的前提之下自行访问相关内容。这种方法
 包括门户网站、组织内网、电子在线课程、经验教训数据库或知识库。</li>
 </ol>
 <p>可以采用如下方法来实现沟通管理计划所规定的主要的沟通需求：</p>
@@ -250,7 +253,7 @@
 <li>文化意识</li>
 </ul>
 <h4 id="数据表现" tabindex="-1">数据表现 <a class="header-anchor" href="#数据表现" aria-label="Permalink to &quot;数据表现&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千规划沟通管理过程的数据表现技术是<code>干系人参与度评估矩阵</code>。干系人参与度评估矩阵显示了个体干系人当前和期望参与度之间的差距。在本过程中，可进一步分析该评估矩阵， 以便为填补参与度差距而识别额外的沟通需求(除常规报告以外的)。</p>
+<p>适用于规划沟通管理过程的数据表现技术是<code>干系人参与度评估矩阵</code>。干系人参与度评估矩阵<strong>显示了个体干系人当前和期望参与度之间差距</strong>。在本过程中，可进一步分析该评估矩阵， 以便为填补参与度差距而识别额外的沟通需求(除常规报告以外的)。</p>
 <h4 id="会议" tabindex="-1">会议 <a class="header-anchor" href="#会议" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h3 id="输出" tabindex="-1">输出 <a class="header-anchor" href="#输出" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
@@ -278,7 +281,7 @@
 <h4 id="沟通文件-更新" tabindex="-1">沟通文件（更新） <a class="header-anchor" href="#沟通文件-更新" aria-label="Permalink to &quot;沟通文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_2-管理沟通" tabindex="-1">2. 管理沟通 <a class="header-anchor" href="#_2-管理沟通" aria-label="Permalink to &quot;2. 管理沟通&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>管理沟通是确保项目信息及时恰当地收集、生成、发布、存储、检索、管理、监督和最终处置的过程。</p>
 <p>本过程的主要作用是，促成项目团队与干系人之间的有效信息流动。需要在整个项目期间开展。</p>
 </div>
@@ -323,31 +326,52 @@
 <h4 id="沟通技能" tabindex="-1">沟通技能 <a class="header-anchor" href="#沟通技能" aria-label="Permalink to &quot;沟通技能&quot;">&ZeroWidthSpace;</a></h4>
 <p>适用于管理沟通过程的沟通技能主要包括：</p>
 <ul>
-<li>沟通胜任力</li>
-<li>反馈</li>
-<li>非口头技能</li>
-<li>演示</li>
+<li><code>沟通胜任力</code></li>
+<li><code>反馈</code></li>
+<li><code>非口头技能</code></li>
+<li><code>演示</code></li>
 </ul>
 <h4 id="项目管理信息系统" tabindex="-1">项目管理信息系统 <a class="header-anchor" href="#项目管理信息系统" aria-label="Permalink to &quot;项目管理信息系统&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>项目管理信息系统能够确保干系人及时便利地获取所需信息。</p>
 <h4 id="项目报告" tabindex="-1">项目报告 <a class="header-anchor" href="#项目报告" aria-label="Permalink to &quot;项目报告&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>项目报告发布是收集和发布项目信息的行为。项目信息应发布给众多干系人群体。应针对每种干系人来调整项目信息发布的适当层次、形式和细节。从简单的沟通到详尽的定制报告和演示，报告的形式各不相同。可以定期准备信息或基于例外情况准备。
+虽然工作绩效报告是监控项目工作过程的输出，但是本过程会编制临时报告、项目演示、博客，以及其他类型的信息。</p>
 <h4 id="人际关系与团队技能-1" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-1" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>适用于管理沟通过程的人际关系与团队技能主要包括:</p>
+<ul>
+<li><code>积极倾听</code>：包括告知己收到、澄清与确认信息、理解，以及消除妨碍理解的障碍</li>
+<li><code>冲突管理</code>：采用特定方式对冲突进行管理</li>
+<li><code>文化意识</code>：理解个人、群体和组织之间的差异，并据此调整项目的沟通策略</li>
+<li><code>会议管理</code>：采取步骤确保会议有效并高效地达到预期目标。规划会议时的一般步骤包括：
+<ol>
+<li>准备并发布会议议程(其中包含会议目标)</li>
+<li>确保会议在规定的时间开始和结束</li>
+<li>确保适当参与者受邀并出席</li>
+<li>切题</li>
+<li>处理会议中的期望、问题和冲突</li>
+<li>记录所有行动以及所分配的行动责任人</li>
+</ol>
+</li>
+<li><code>人际交往</code>：通过与他人互动交流信息，建立联系。人际交往有利于项目经理及其团队通过非正式组织解决问题，影响干系人的行动，
+以及提高干系人对项目工作和成果的支持，从而改善绩效。</li>
+<li><code>政策意识</code>：有助于项目经理在项目期间引导干系人参与，以保待干系人的支待。</li>
+</ul>
 <h4 id="会议-1" tabindex="-1">会议 <a class="header-anchor" href="#会议-1" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h3 id="输出-1" tabindex="-1">输出 <a class="header-anchor" href="#输出-1" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目沟通记录" tabindex="-1">项目沟通记录 <a class="header-anchor" href="#项目沟通记录" aria-label="Permalink to &quot;项目沟通记录&quot;">&ZeroWidthSpace;</a></h4>
-<p>项目沟通记录主要包括：绩效报告、可交付成果的状态、进度进展、
-产生的成本、演示，以及干系人需要的其他信息。</p>
+<p>项目沟通记录主要包括：绩效报告、可交付成果的状态、进度进展、产生的成本、演示，以及干系人需要的其他信息。</p>
 <h4 id="项目管理计划-更新-1" tabindex="-1">项目管理计划（更新） <a class="header-anchor" href="#项目管理计划-更新-1" aria-label="Permalink to &quot;项目管理计划（更新）&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<ul>
+<li>沟通管理计划</li>
+<li>干系人参与计划</li>
+</ul>
 <h4 id="项目文件-更新" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="组织过程资产-更新" tabindex="-1">组织过程资产（更新） <a class="header-anchor" href="#组织过程资产-更新" aria-label="Permalink to &quot;组织过程资产（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_3-监督沟通" tabindex="-1">3. 监督沟通 <a class="header-anchor" href="#_3-监督沟通" aria-label="Permalink to &quot;3. 监督沟通&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>监督沟通是确保满足项目及其干系人的信息需求的过程。</p>
 <p>本过程的主要作用是，按沟通管理计划和干系人参与计划的要求优化信息传递过程。需要在整个项目期间开展。</p>
 </div>
@@ -364,7 +388,7 @@
 <h4 id="项目文件-2" tabindex="-1">项目文件 <a class="header-anchor" href="#项目文件-2" aria-label="Permalink to &quot;项目文件&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="工作绩效数据" tabindex="-1">工作绩效数据 <a class="header-anchor" href="#工作绩效数据" aria-label="Permalink to &quot;工作绩效数据&quot;">&ZeroWidthSpace;</a></h4>
-<p>工作绩效数据包含关千已开展的沟通类型和数量的数据。</p>
+<p>工作绩效数据包含关于已开展的沟通类型和数量的数据。</p>
 <h4 id="事业环境因素-2" tabindex="-1">事业环境因素 <a class="header-anchor" href="#事业环境因素-2" aria-label="Permalink to &quot;事业环境因素&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="组织过程资产-2" tabindex="-1">组织过程资产 <a class="header-anchor" href="#组织过程资产-2" aria-label="Permalink to &quot;组织过程资产&quot;">&ZeroWidthSpace;</a></h4>
@@ -373,12 +397,13 @@
 <h4 id="专家判断-1" tabindex="-1">专家判断 <a class="header-anchor" href="#专家判断-1" aria-label="Permalink to &quot;专家判断&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="项目管理信息系统-1" tabindex="-1">项目管理信息系统 <a class="header-anchor" href="#项目管理信息系统-1" aria-label="Permalink to &quot;项目管理信息系统&quot;">&ZeroWidthSpace;</a></h4>
+<p>项目管理信息系统为项目经理提供一系列标准化工具，以根据沟通计划为内部和外部的干系人收集、储存与发布所需信息。</p>
 <h4 id="数据表现-1" tabindex="-1">数据表现 <a class="header-anchor" href="#数据表现-1" aria-label="Permalink to &quot;数据表现&quot;">&ZeroWidthSpace;</a></h4>
 <p>监督沟通时，适用的数据表现技术是干系人参与度评估矩阵。</p>
 <h4 id="人际关系与团队技能-2" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-2" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>适用于监督沟通过程的人际关系与团队技能主要包括观察和交谈。</p>
 <h4 id="会议-2" tabindex="-1">会议 <a class="header-anchor" href="#会议-2" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>面对面或虚拟会议适用于制定决策，回应干系人请求，与提供方、供应方及其他项目干系人讨论。</p>
 <h3 id="输出-2" tabindex="-1">输出 <a class="header-anchor" href="#输出-2" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="工作绩效信息" tabindex="-1">工作绩效信息 <a class="header-anchor" href="#工作绩效信息" aria-label="Permalink to &quot;工作绩效信息&quot;">&ZeroWidthSpace;</a></h4>
 <p>工作绩效信息包括：计划沟通的实际开展情况；对沟通的反馈，例如关于沟通效果的调查
@@ -388,7 +413,7 @@
 行干预。变更请求需要通过实施整体变更控制过程进行处理。此类变更请求可能导致：</p>
 <ol>
 <li>修正干系人的沟通要求，包括干系人对信息发布、内容或形式，以及发布方式的要求</li>
-<li>建立消除瓶颈的新程序等。</li>
+<li>建立消除瓶颈的新程序等</li>
 </ol>
 <h4 id="项目管理计划-更新-2" tabindex="-1">项目管理计划（更新） <a class="header-anchor" href="#项目管理计划-更新-2" aria-label="Permalink to &quot;项目管理计划（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
@@ -396,14 +421,14 @@
 <p>-</p>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="项目沟通管理" tabindex="-1">项目沟通管理 <a class="header-anchor" href="#项目沟通管理" aria-label="Permalink to &quot;项目沟通管理&quot;">&ZeroWidthSpace;</a></h1>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
-<p>沟通是人们分享信息、思想和情感的过程。沟通的主旨在于互动双方建立彼此相互了解的 关系，相互回应，并且期待能经由沟通的行为与过程相互接纳并达成共识。所以沟通失败是很 多项目(尤其是 IT 项目)失败的重要原因。</p>
+<div class="tip custom-block"><p class="custom-block-title">概念</p>
+<p>沟通是人们分享信息、思想和情感的过程。沟通的主旨在于互动双方建立彼此相互了解的关系，相互回应，并且期待能经由沟通的行为与过程相互接纳并达成共识。所以沟通失败是很多项目(尤其是IT项目)失败的重要原因。</p>
 </div>
 <details class="details custom-block"><summary>本章目录</summary>
 <nav class="table-of-contents"><ul><li><a href="#管理基础">管理基础</a></li><li><a href="#敏捷与适应方法">敏捷与适应方法</a></li><li><a href="#_1-规划沟通管理">1. 规划沟通管理</a><ul><li><a href="#输入">输入</a></li><li><a href="#工具与技术">工具与技术</a></li><li><a href="#输出">输出</a></li></ul></li><li><a href="#_2-管理沟通">2. 管理沟通</a><ul><li><a href="#输入-1">输入</a></li><li><a href="#工具与技术-1">工具与技术</a></li><li><a href="#输出-1">输出</a></li></ul></li><li><a href="#_3-监督沟通">3. 监督沟通</a><ul><li><a href="#输入-2">输入</a></li><li><a href="#工具与技术-2">工具与技术</a></li><li><a href="#输出-2">输出</a></li></ul></li></ul></nav>
 </details>
-<p>与IT项目成功有关的最重要的四个因素是：主管层的支持、用户参与、有经验的项目经理和清晰的业务目标。所有这些因素都依赖于
-项目经理和团队具有良好的沟通能力，特别是与非IT人员的沟通。</p>
+<p>与IT项目成功有关的最重要的四个因素是：主管层的支持、用户参与、有经验的项目经理和清晰的业务目标。
+所有这些因素都依赖于项目经理和团队具有良好的沟通能力，特别是与非IT人员的沟通。</p>
 <p>项目沟通管理过程揭示了实现成功沟通所需的人员、观点、信息这三项要素之间的一种联络关系。
 项目沟通管理由两部分组成：一是制定策略，确保沟通对干系人行之有效；二是执行必要活动，以落实沟通策略。</p>
 <h2 id="管理基础" tabindex="-1">管理基础 <a class="header-anchor" href="#管理基础" aria-label="Permalink to &quot;管理基础&quot;">&ZeroWidthSpace;</a></h2>
@@ -418,7 +443,9 @@
 <li>媒体形式：图片、行动或借助其他媒介</li>
 <li>遣词造句：表达某种想法的词语往往不止一个，须留意各词语的含义会存在细微差异</li>
 </ul>
-<p>2、 沟通模型</p>
+<ol start="2">
+<li>沟通模型</li>
+</ol>
 <p>沟通模型的关键要素包括：</p>
 <ul>
 <li>编码：把思想或想法转化为他人能理解的语言</li>
@@ -448,17 +475,17 @@
 </ol>
 <p>有效的沟通活动和成果创建具有如下3个基本属性：</p>
 <ul>
-<li>沟通目的明确</li>
-<li>尽量了解沟通接收方，满足其需求及偏好</li>
-<li>监督并衡量沟通的效果。</li>
+<li><strong>沟通目的明确</strong></li>
+<li><strong>尽量了解沟通接收方，满足其需求及偏好</strong></li>
+<li><strong>监督并衡量沟通的效果</strong></li>
 </ul>
 <p>书面沟通的5C原则：</p>
 <ul>
-<li>正确的语法和拼写（Correctness）：语法不当或拼写错误会分散注意力，甚至可能扭曲信息含义，降低可信度。</li>
-<li>简洁的表述（Concise）：简洁且精心组织的信息能降低误解信息意图的可能性</li>
-<li>清晰的目的和表达（Clarity）：确保在信息中包含能满足受众需求与激发其兴趣的内容</li>
-<li>连贯的四维逻辑（Coherent）：写作思路连贯，在整个书面文件中使用诸如“引言”和“小结”的小标题。</li>
-<li>善用控制语句和惩戒（Controlling）：可能需要使用图表或小结来控制语句和思路的承接。</li>
+<li><code>正确的语法和拼写（Correctness）</code>：语法不当或拼写错误会分散注意力，甚至可能扭曲信息含义，降低可信度。</li>
+<li><code>简洁的表述（Concise）</code>：简洁且精心组织的信息能降低误解信息意图的可能性</li>
+<li><code>清晰的目的和表达（Clarity）</code>：确保在信息中包含能满足受众需求与激发其兴趣的内容</li>
+<li><code>连贯的四维逻辑（Coherent）</code>：写作思路连贯，在整个书面文件中使用诸如“引言”和“小结”的小标题。</li>
+<li><code>善用控制语句和惩戒（Controlling）</code>：可能需要使用图表或小结来控制语句和思路的承接。</li>
 </ul>
 <p>其他沟通技巧：
 除了5C原则，项目经理还需配合下列沟通技巧；</p>
@@ -469,10 +496,11 @@
 <li>强化技能。所有团队成员应强化以下技能：说服个人、团队或组织采取行动；激励和鼓励人们，或帮助人们重塑自信；指导人们改进绩效并取得期望 结果;通过磋商达成共识以减少审批或决策延误；解决冲突，防止破坏性影响等。</li>
 </ul>
 <h2 id="敏捷与适应方法" tabindex="-1">敏捷与适应方法 <a class="header-anchor" href="#敏捷与适应方法" aria-label="Permalink to &quot;敏捷与适应方法&quot;">&ZeroWidthSpace;</a></h2>
-<p>在模糊不定的项目环境中，必然需要对不断演变和出现的细节情况进行更频繁和快速地沟
-通。因此，应该尽量简化团队成员获取信息的通道，要经常进行团队检查，并让团队成员集中办公。此外，为了促进与高级管理层和干系人的沟通，还需要以透明的方式发布项目成果，并定期邀请干系人评审项目成果。</p>
+<p>在模糊不定的项目环境中，必然需要对不断演变和出现的细节情况进行更频繁和快速地沟通。
+因此，应该尽量简化团队成员获取信息的通道，要经常进行团队检查，并让团队成员集中办公。
+此外，为了促进与高级管理层和干系人的沟通，还需要以透明的方式发布项目成果，并定期邀请干系人评审项目成果。</p>
 <h2 id="_1-规划沟通管理" tabindex="-1">1. 规划沟通管理 <a class="header-anchor" href="#_1-规划沟通管理" aria-label="Permalink to &quot;1. 规划沟通管理&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>规划沟通管理是基于每个干系人或干系人群体的信息需求、可用的组织资产以及具体项目的需求，为项目沟通活动制定恰当的方法和计划的过程。</p>
 <p>本过程的主要作用：</p>
 <ul>
@@ -538,12 +566,12 @@
 <p>此沟通模型及其强化版有助于制定人对人或小组对小组的沟通策略和计划，但不能用于制定采用其他沟通成果（如电子邮件、广播信息和
 社交媒体）的沟通策略和计划。</p>
 <h4 id="沟通方法" tabindex="-1">沟通方法 <a class="header-anchor" href="#沟通方法" aria-label="Permalink to &quot;沟通方法&quot;">&ZeroWidthSpace;</a></h4>
-<p>项目干系人之间用千分享信息的沟通方法主要包括：</p>
+<p>项目干系人之间用于分享信息的沟通方法主要包括：</p>
 <ol>
-<li>互动沟通：在双方或多方之间进行的实时多向信息交换。它使用诸如会议、电话、即时信息、社交媒体和视频会议等沟通方式</li>
-<li>推式沟通：向需要接收信息的特定接收方发送或发布信息。这种方法可以确保信息的发送，但不能确保信息送达目标受众或被目标
+<li><code>互动沟通</code>：在双方或多方之间进行的实时多向信息交换。它使用诸如会议、电话、即时信息、社交媒体和视频会议等沟通方式</li>
+<li><code>推式沟通</code>：向需要接收信息的特定接收方发送或发布信息。这种方法可以确保信息的发送，但不能确保信息送达目标受众或被目标
 受众理解。在推式沟通中，可以用于沟通的有：信件、备忘录、报告、电子邮件、传真、语音邮件、博客和新闻稿。</li>
-<li>拉式沟通：适用于大量复杂信息或大量信息受众的情况。它要求接收方在遵守有关安全规定的前提之下自行访问相关内容。这种方法
+<li><code>拉式沟通</code>：适用于大量复杂信息或大量信息受众的情况。它要求接收方在遵守有关安全规定的前提之下自行访问相关内容。这种方法
 包括门户网站、组织内网、电子在线课程、经验教训数据库或知识库。</li>
 </ol>
 <p>可以采用如下方法来实现沟通管理计划所规定的主要的沟通需求：</p>
@@ -564,7 +592,7 @@
 <li>文化意识</li>
 </ul>
 <h4 id="数据表现" tabindex="-1">数据表现 <a class="header-anchor" href="#数据表现" aria-label="Permalink to &quot;数据表现&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千规划沟通管理过程的数据表现技术是<code>干系人参与度评估矩阵</code>。干系人参与度评估矩阵显示了个体干系人当前和期望参与度之间的差距。在本过程中，可进一步分析该评估矩阵， 以便为填补参与度差距而识别额外的沟通需求(除常规报告以外的)。</p>
+<p>适用于规划沟通管理过程的数据表现技术是<code>干系人参与度评估矩阵</code>。干系人参与度评估矩阵<strong>显示了个体干系人当前和期望参与度之间差距</strong>。在本过程中，可进一步分析该评估矩阵， 以便为填补参与度差距而识别额外的沟通需求(除常规报告以外的)。</p>
 <h4 id="会议" tabindex="-1">会议 <a class="header-anchor" href="#会议" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h3 id="输出" tabindex="-1">输出 <a class="header-anchor" href="#输出" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
@@ -592,7 +620,7 @@
 <h4 id="沟通文件-更新" tabindex="-1">沟通文件（更新） <a class="header-anchor" href="#沟通文件-更新" aria-label="Permalink to &quot;沟通文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_2-管理沟通" tabindex="-1">2. 管理沟通 <a class="header-anchor" href="#_2-管理沟通" aria-label="Permalink to &quot;2. 管理沟通&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>管理沟通是确保项目信息及时恰当地收集、生成、发布、存储、检索、管理、监督和最终处置的过程。</p>
 <p>本过程的主要作用是，促成项目团队与干系人之间的有效信息流动。需要在整个项目期间开展。</p>
 </div>
@@ -637,31 +665,52 @@
 <h4 id="沟通技能" tabindex="-1">沟通技能 <a class="header-anchor" href="#沟通技能" aria-label="Permalink to &quot;沟通技能&quot;">&ZeroWidthSpace;</a></h4>
 <p>适用于管理沟通过程的沟通技能主要包括：</p>
 <ul>
-<li>沟通胜任力</li>
-<li>反馈</li>
-<li>非口头技能</li>
-<li>演示</li>
+<li><code>沟通胜任力</code></li>
+<li><code>反馈</code></li>
+<li><code>非口头技能</code></li>
+<li><code>演示</code></li>
 </ul>
 <h4 id="项目管理信息系统" tabindex="-1">项目管理信息系统 <a class="header-anchor" href="#项目管理信息系统" aria-label="Permalink to &quot;项目管理信息系统&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>项目管理信息系统能够确保干系人及时便利地获取所需信息。</p>
 <h4 id="项目报告" tabindex="-1">项目报告 <a class="header-anchor" href="#项目报告" aria-label="Permalink to &quot;项目报告&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>项目报告发布是收集和发布项目信息的行为。项目信息应发布给众多干系人群体。应针对每种干系人来调整项目信息发布的适当层次、形式和细节。从简单的沟通到详尽的定制报告和演示，报告的形式各不相同。可以定期准备信息或基于例外情况准备。
+虽然工作绩效报告是监控项目工作过程的输出，但是本过程会编制临时报告、项目演示、博客，以及其他类型的信息。</p>
 <h4 id="人际关系与团队技能-1" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-1" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>适用于管理沟通过程的人际关系与团队技能主要包括:</p>
+<ul>
+<li><code>积极倾听</code>：包括告知己收到、澄清与确认信息、理解，以及消除妨碍理解的障碍</li>
+<li><code>冲突管理</code>：采用特定方式对冲突进行管理</li>
+<li><code>文化意识</code>：理解个人、群体和组织之间的差异，并据此调整项目的沟通策略</li>
+<li><code>会议管理</code>：采取步骤确保会议有效并高效地达到预期目标。规划会议时的一般步骤包括：
+<ol>
+<li>准备并发布会议议程(其中包含会议目标)</li>
+<li>确保会议在规定的时间开始和结束</li>
+<li>确保适当参与者受邀并出席</li>
+<li>切题</li>
+<li>处理会议中的期望、问题和冲突</li>
+<li>记录所有行动以及所分配的行动责任人</li>
+</ol>
+</li>
+<li><code>人际交往</code>：通过与他人互动交流信息，建立联系。人际交往有利于项目经理及其团队通过非正式组织解决问题，影响干系人的行动，
+以及提高干系人对项目工作和成果的支持，从而改善绩效。</li>
+<li><code>政策意识</code>：有助于项目经理在项目期间引导干系人参与，以保待干系人的支待。</li>
+</ul>
 <h4 id="会议-1" tabindex="-1">会议 <a class="header-anchor" href="#会议-1" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h3 id="输出-1" tabindex="-1">输出 <a class="header-anchor" href="#输出-1" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目沟通记录" tabindex="-1">项目沟通记录 <a class="header-anchor" href="#项目沟通记录" aria-label="Permalink to &quot;项目沟通记录&quot;">&ZeroWidthSpace;</a></h4>
-<p>项目沟通记录主要包括：绩效报告、可交付成果的状态、进度进展、
-产生的成本、演示，以及干系人需要的其他信息。</p>
+<p>项目沟通记录主要包括：绩效报告、可交付成果的状态、进度进展、产生的成本、演示，以及干系人需要的其他信息。</p>
 <h4 id="项目管理计划-更新-1" tabindex="-1">项目管理计划（更新） <a class="header-anchor" href="#项目管理计划-更新-1" aria-label="Permalink to &quot;项目管理计划（更新）&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<ul>
+<li>沟通管理计划</li>
+<li>干系人参与计划</li>
+</ul>
 <h4 id="项目文件-更新" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="组织过程资产-更新" tabindex="-1">组织过程资产（更新） <a class="header-anchor" href="#组织过程资产-更新" aria-label="Permalink to &quot;组织过程资产（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_3-监督沟通" tabindex="-1">3. 监督沟通 <a class="header-anchor" href="#_3-监督沟通" aria-label="Permalink to &quot;3. 监督沟通&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>监督沟通是确保满足项目及其干系人的信息需求的过程。</p>
 <p>本过程的主要作用是，按沟通管理计划和干系人参与计划的要求优化信息传递过程。需要在整个项目期间开展。</p>
 </div>
@@ -678,7 +727,7 @@
 <h4 id="项目文件-2" tabindex="-1">项目文件 <a class="header-anchor" href="#项目文件-2" aria-label="Permalink to &quot;项目文件&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="工作绩效数据" tabindex="-1">工作绩效数据 <a class="header-anchor" href="#工作绩效数据" aria-label="Permalink to &quot;工作绩效数据&quot;">&ZeroWidthSpace;</a></h4>
-<p>工作绩效数据包含关千已开展的沟通类型和数量的数据。</p>
+<p>工作绩效数据包含关于已开展的沟通类型和数量的数据。</p>
 <h4 id="事业环境因素-2" tabindex="-1">事业环境因素 <a class="header-anchor" href="#事业环境因素-2" aria-label="Permalink to &quot;事业环境因素&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="组织过程资产-2" tabindex="-1">组织过程资产 <a class="header-anchor" href="#组织过程资产-2" aria-label="Permalink to &quot;组织过程资产&quot;">&ZeroWidthSpace;</a></h4>
@@ -687,12 +736,13 @@
 <h4 id="专家判断-1" tabindex="-1">专家判断 <a class="header-anchor" href="#专家判断-1" aria-label="Permalink to &quot;专家判断&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="项目管理信息系统-1" tabindex="-1">项目管理信息系统 <a class="header-anchor" href="#项目管理信息系统-1" aria-label="Permalink to &quot;项目管理信息系统&quot;">&ZeroWidthSpace;</a></h4>
+<p>项目管理信息系统为项目经理提供一系列标准化工具，以根据沟通计划为内部和外部的干系人收集、储存与发布所需信息。</p>
 <h4 id="数据表现-1" tabindex="-1">数据表现 <a class="header-anchor" href="#数据表现-1" aria-label="Permalink to &quot;数据表现&quot;">&ZeroWidthSpace;</a></h4>
 <p>监督沟通时，适用的数据表现技术是干系人参与度评估矩阵。</p>
 <h4 id="人际关系与团队技能-2" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-2" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>适用于监督沟通过程的人际关系与团队技能主要包括观察和交谈。</p>
 <h4 id="会议-2" tabindex="-1">会议 <a class="header-anchor" href="#会议-2" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>面对面或虚拟会议适用于制定决策，回应干系人请求，与提供方、供应方及其他项目干系人讨论。</p>
 <h3 id="输出-2" tabindex="-1">输出 <a class="header-anchor" href="#输出-2" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="工作绩效信息" tabindex="-1">工作绩效信息 <a class="header-anchor" href="#工作绩效信息" aria-label="Permalink to &quot;工作绩效信息&quot;">&ZeroWidthSpace;</a></h4>
 <p>工作绩效信息包括：计划沟通的实际开展情况；对沟通的反馈，例如关于沟通效果的调查
@@ -702,7 +752,7 @@
 行干预。变更请求需要通过实施整体变更控制过程进行处理。此类变更请求可能导致：</p>
 <ol>
 <li>修正干系人的沟通要求，包括干系人对信息发布、内容或形式，以及发布方式的要求</li>
-<li>建立消除瓶颈的新程序等。</li>
+<li>建立消除瓶颈的新程序等</li>
 </ol>
 <h4 id="项目管理计划-更新-2" tabindex="-1">项目管理计划（更新） <a class="header-anchor" href="#项目管理计划-更新-2" aria-label="Permalink to &quot;项目管理计划（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
