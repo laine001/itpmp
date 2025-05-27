@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.netlify.app</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Tue, 27 May 2025 07:34:16 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 May 2025 07:37:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -2450,7 +2450,7 @@ CCB的决定都应记录在案，并向干系人传达，以便其知晓并采�
             <guid>itpmp.netlify.appbook/progress</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目进度管理" tabindex="-1">项目进度管理 <a class="header-anchor" href="#项目进度管理" aria-label="Permalink to &quot;项目进度管理&quot;">&ZeroWidthSpace;</a></h1>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">概念</p>
 <p>项目进度管理是为了保证项目按时完成，对项目所需的各个过程进行管理，包括规划进度、
 定义活动、排列活动顺序、估算活动持续时间、制订项目进度计划和控制进度。</p>
 </div>
@@ -2461,8 +2461,11 @@ CCB的决定都应记录在案，并向干系人传达，以便其知晓并采�
 <p>项目进度计划提供了项目的详尽计划，说明项目如何以及何时交付项目范围中定义的产品、服务和成果，是一种用于沟通
 和管理干系人期望的工具，为绩效报告提供依据。</p>
 <p>项目管理团队编制进度计划的一般步骤为：</p>
-<p>首先选择进度计划方法，例如关键路径法；然后将项目特定数据，如活动、计划日期、持续时间、资源、依赖关系和
-制约因素等输入进度计划编制工具，创建项目进度模型；最后根据进度模型形成项目进度计划。</p>
+<ol>
+<li>首先选择进度计划方法，例如关键路径法；</li>
+<li>然后将项目特定数据，如活动、计划日期、持续时间、资源、依赖关系和制约因素等输入进度计划编制工具，创建项目进度模型；</li>
+<li>最后根据进度模型形成项目进度计划。</li>
+</ol>
 <h2 id="裁剪考虑因素" tabindex="-1">裁剪考虑因素 <a class="header-anchor" href="#裁剪考虑因素" aria-label="Permalink to &quot;裁剪考虑因素&quot;">&ZeroWidthSpace;</a></h2>
 <ul>
 <li>生命周期方法：</li>
@@ -2471,7 +2474,7 @@ CCB的决定都应记录在案，并向干系人传达，以便其知晓并采�
 <li>技术支持：</li>
 </ul>
 <h2 id="_1-规划进度管理" tabindex="-1">1.规划进度管理 <a class="header-anchor" href="#_1-规划进度管理" aria-label="Permalink to &quot;1.规划进度管理&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>规划进度管理是为规划、编制、管理、执行和控制项目进度而制定政策、程序和文档的过程。</p>
 <p>主要作用是为如何在整个项目期间管理项目进度提供指南和方向。本过程<code>仅开展一次</code>或<code>仅在项目的预定义点开展</code>。</p>
 </div>
@@ -2511,7 +2514,7 @@ CCB的决定都应记录在案，并向干系人传达，以便其知晓并采�
 <li>报告格式：</li>
 </ul>
 <h2 id="_2-定义活动" tabindex="-1">2.定义活动 <a class="header-anchor" href="#_2-定义活动" aria-label="Permalink to &quot;2.定义活动&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>定义活动是识别和记录为完成项目可交付成果而采取的具体行动的过程。</p>
 <p>主要作用是，将工作包分解为进度活动，作为项目工作进行进度估算、规划、执行、监督和控制的基础。需要在<code>整个项目期间开展</code></p>
 </div>
@@ -2548,9 +2551,11 @@ WBS中的每个工作包都需分解成活动。</p>
 <h4 id="项目管理计划-更新" tabindex="-1">项目管理计划（更新） <a class="header-anchor" href="#项目管理计划-更新" aria-label="Permalink to &quot;项目管理计划（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_3-排列活动顺序" tabindex="-1">3.排列活动顺序 <a class="header-anchor" href="#_3-排列活动顺序" aria-label="Permalink to &quot;3.排列活动顺序&quot;">&ZeroWidthSpace;</a></h2>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>排列活动顺序是识别和记录项目活动之间关系的过程。</p>
 <p>本过程主要作用是定义工作之间的逻辑顺序，以便在既定的所有项目制约因素下获得最高的效率。
 本过程需要在<code>整个项目期间开展</code>。</p>
+</div>
 <p>除了首尾两项，每项活动都至少有一项紧前活动和一项紧后活动，并且逻辑关系适当。</p>
 <h3 id="输入-2" tabindex="-1">输入 <a class="header-anchor" href="#输入-2" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-2" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-2" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
@@ -2608,7 +2613,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_4-估算活动持续时间" tabindex="-1">4.估算活动持续时间 <a class="header-anchor" href="#_4-估算活动持续时间" aria-label="Permalink to &quot;4.估算活动持续时间&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>估算活动持续时间是根据资源估算的结果，估算完成单项活动所需工作时段数的过程。</p>
 <p>本过程的主要作用是确定完成每个活动所需花费的时间量。本过程需要在<code>整个项目期间开展</code>。</p>
 </div>
@@ -2659,7 +2664,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>自下而上估算是一种估算项目持续时间或成本的方法，通过从下到上逐层汇总WBS组成部分的估算而得到项目估算</p>
 <h4 id="数据分析-1" tabindex="-1">数据分析 <a class="header-anchor" href="#数据分析-1" aria-label="Permalink to &quot;数据分析&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
-<li>备选方案分析：备选方案分析用千比较不同的资源能力或技能水平、进度压缩技术、不同工具(手动和自动)，以及关千资源的创建、租赁和购买决策</li>
+<li>备选方案分析：备选方案分析用于比较不同的资源能力或技能水平、进度压缩技术、不同工具(手动和自动)，以及关于资源的创建、租赁和购买决策</li>
 <li>储备分析：储备分析用于确定项目所需的应急储备量和管理储备。
 <ul>
 <li>应急储备：是包含在进度基准中的一段持续时间，应急储备与已知-未知风险相关</li>
@@ -2679,7 +2684,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新-1" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新-1" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_5-制定进度计划" tabindex="-1">5.制定进度计划 <a class="header-anchor" href="#_5-制定进度计划" aria-label="Permalink to &quot;5.制定进度计划&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>制定进度计划是分析活动顺序、持续时间、资源需求和进度制约因素，创建进度模型，从而落实项目执行和监控的过程。</p>
 <p>本过程的主要作用是为完成项目活动而制定具有计划日期的进度模型。需要在<code>整个项目期间开展</code>。</p>
 </div>
@@ -2769,7 +2774,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <ul>
 <li><code>赶工</code>：是通过增加资源，<code>以最小的成本代价来压缩进度工期</code>的一种技术。赶工的例子包括:批准加班、增加额外资源或支付加急费用来加快关键路径
 上的活动。赶工只适用于那些通过增加资源就能缩短持续时间的且位于关键路径上的活动。但赶工并非总是切实可行的，因它可能导致风险和/或成本的增加。</li>
-<li><code>快速跟进</code>：是一种进度压缩技术，将正常情况下按顺序进行的活动或阶段<code>改为至少是部分并行开展</code>。例如，在大楼的建筑图纸尚未全部完成前就开始建地基。快速跟进可能造 成返工和风险增加，所以它只适用千能够通过并行活动来缩短关键路径上的项目工期的情况。若进度加快而使用提前量，通常会增加相关活动之间的协调工作，并增加质量风险。
+<li><code>快速跟进</code>：是一种进度压缩技术，将正常情况下按顺序进行的活动或阶段<code>改为至少是部分并行开展</code>。例如，在大楼的建筑图纸尚未全部完成前就开始建地基。快速跟进可能造 成返工和风险增加，所以它只适用于能够通过并行活动来缩短关键路径上的项目工期的情况。若进度加快而使用提前量，通常会增加相关活动之间的协调工作，并增加质量风险。
 快速跟进还有可能增加项目成本。</li>
 </ul>
 <h4 id="计划评审技术" tabindex="-1">计划评审技术 <a class="header-anchor" href="#计划评审技术" aria-label="Permalink to &quot;计划评审技术&quot;">&ZeroWidthSpace;</a></h4>
@@ -2810,7 +2815,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新-2" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新-2" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_6-控制进度" tabindex="-1">6.控制进度 <a class="header-anchor" href="#_6-控制进度" aria-label="Permalink to &quot;6.控制进度&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>控制进度是监督项目状态，以更新项目进度和管理进度基准变更的过程。</p>
 <p>本过程的主要作用是在整个项目期间保持对进度基准的维护。本过程在整个项目期间开展。</p>
 </div>
@@ -2841,7 +2846,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>假设情景分析：基于项目风险管理过程的输出，对各种不同的情景进行评估，促使进度模型符合项目管理计划和批准的基准。</li>
 </ul>
 <h4 id="关键路径法-1" tabindex="-1">关键路径法 <a class="header-anchor" href="#关键路径法-1" aria-label="Permalink to &quot;关键路径法&quot;">&ZeroWidthSpace;</a></h4>
-<p>检查关键路径的进展情况有助千确定项目进度状态。
+<p>检查关键路径的进展情况有助于确定项目进度状态。
 关键路径上的偏差将对项目的结束日期产生直接影响。评估次关键路径上的活动的进展情况，有助于识别进度风险。</p>
 <h4 id="项目管理信息系统-2" tabindex="-1">项目管理信息系统 <a class="header-anchor" href="#项目管理信息系统-2" aria-label="Permalink to &quot;项目管理信息系统&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
@@ -2865,7 +2870,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>-</p>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="项目进度管理" tabindex="-1">项目进度管理 <a class="header-anchor" href="#项目进度管理" aria-label="Permalink to &quot;项目进度管理&quot;">&ZeroWidthSpace;</a></h1>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">概念</p>
 <p>项目进度管理是为了保证项目按时完成，对项目所需的各个过程进行管理，包括规划进度、
 定义活动、排列活动顺序、估算活动持续时间、制订项目进度计划和控制进度。</p>
 </div>
@@ -2876,8 +2881,11 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>项目进度计划提供了项目的详尽计划，说明项目如何以及何时交付项目范围中定义的产品、服务和成果，是一种用于沟通
 和管理干系人期望的工具，为绩效报告提供依据。</p>
 <p>项目管理团队编制进度计划的一般步骤为：</p>
-<p>首先选择进度计划方法，例如关键路径法；然后将项目特定数据，如活动、计划日期、持续时间、资源、依赖关系和
-制约因素等输入进度计划编制工具，创建项目进度模型；最后根据进度模型形成项目进度计划。</p>
+<ol>
+<li>首先选择进度计划方法，例如关键路径法；</li>
+<li>然后将项目特定数据，如活动、计划日期、持续时间、资源、依赖关系和制约因素等输入进度计划编制工具，创建项目进度模型；</li>
+<li>最后根据进度模型形成项目进度计划。</li>
+</ol>
 <h2 id="裁剪考虑因素" tabindex="-1">裁剪考虑因素 <a class="header-anchor" href="#裁剪考虑因素" aria-label="Permalink to &quot;裁剪考虑因素&quot;">&ZeroWidthSpace;</a></h2>
 <ul>
 <li>生命周期方法：</li>
@@ -2886,7 +2894,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>技术支持：</li>
 </ul>
 <h2 id="_1-规划进度管理" tabindex="-1">1.规划进度管理 <a class="header-anchor" href="#_1-规划进度管理" aria-label="Permalink to &quot;1.规划进度管理&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>规划进度管理是为规划、编制、管理、执行和控制项目进度而制定政策、程序和文档的过程。</p>
 <p>主要作用是为如何在整个项目期间管理项目进度提供指南和方向。本过程<code>仅开展一次</code>或<code>仅在项目的预定义点开展</code>。</p>
 </div>
@@ -2926,7 +2934,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>报告格式：</li>
 </ul>
 <h2 id="_2-定义活动" tabindex="-1">2.定义活动 <a class="header-anchor" href="#_2-定义活动" aria-label="Permalink to &quot;2.定义活动&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>定义活动是识别和记录为完成项目可交付成果而采取的具体行动的过程。</p>
 <p>主要作用是，将工作包分解为进度活动，作为项目工作进行进度估算、规划、执行、监督和控制的基础。需要在<code>整个项目期间开展</code></p>
 </div>
@@ -2963,9 +2971,11 @@ WBS中的每个工作包都需分解成活动。</p>
 <h4 id="项目管理计划-更新" tabindex="-1">项目管理计划（更新） <a class="header-anchor" href="#项目管理计划-更新" aria-label="Permalink to &quot;项目管理计划（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_3-排列活动顺序" tabindex="-1">3.排列活动顺序 <a class="header-anchor" href="#_3-排列活动顺序" aria-label="Permalink to &quot;3.排列活动顺序&quot;">&ZeroWidthSpace;</a></h2>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>排列活动顺序是识别和记录项目活动之间关系的过程。</p>
 <p>本过程主要作用是定义工作之间的逻辑顺序，以便在既定的所有项目制约因素下获得最高的效率。
 本过程需要在<code>整个项目期间开展</code>。</p>
+</div>
 <p>除了首尾两项，每项活动都至少有一项紧前活动和一项紧后活动，并且逻辑关系适当。</p>
 <h3 id="输入-2" tabindex="-1">输入 <a class="header-anchor" href="#输入-2" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-2" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-2" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
@@ -3023,7 +3033,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_4-估算活动持续时间" tabindex="-1">4.估算活动持续时间 <a class="header-anchor" href="#_4-估算活动持续时间" aria-label="Permalink to &quot;4.估算活动持续时间&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>估算活动持续时间是根据资源估算的结果，估算完成单项活动所需工作时段数的过程。</p>
 <p>本过程的主要作用是确定完成每个活动所需花费的时间量。本过程需要在<code>整个项目期间开展</code>。</p>
 </div>
@@ -3074,7 +3084,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>自下而上估算是一种估算项目持续时间或成本的方法，通过从下到上逐层汇总WBS组成部分的估算而得到项目估算</p>
 <h4 id="数据分析-1" tabindex="-1">数据分析 <a class="header-anchor" href="#数据分析-1" aria-label="Permalink to &quot;数据分析&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
-<li>备选方案分析：备选方案分析用千比较不同的资源能力或技能水平、进度压缩技术、不同工具(手动和自动)，以及关千资源的创建、租赁和购买决策</li>
+<li>备选方案分析：备选方案分析用于比较不同的资源能力或技能水平、进度压缩技术、不同工具(手动和自动)，以及关于资源的创建、租赁和购买决策</li>
 <li>储备分析：储备分析用于确定项目所需的应急储备量和管理储备。
 <ul>
 <li>应急储备：是包含在进度基准中的一段持续时间，应急储备与已知-未知风险相关</li>
@@ -3094,7 +3104,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新-1" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新-1" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_5-制定进度计划" tabindex="-1">5.制定进度计划 <a class="header-anchor" href="#_5-制定进度计划" aria-label="Permalink to &quot;5.制定进度计划&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>制定进度计划是分析活动顺序、持续时间、资源需求和进度制约因素，创建进度模型，从而落实项目执行和监控的过程。</p>
 <p>本过程的主要作用是为完成项目活动而制定具有计划日期的进度模型。需要在<code>整个项目期间开展</code>。</p>
 </div>
@@ -3184,7 +3194,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <ul>
 <li><code>赶工</code>：是通过增加资源，<code>以最小的成本代价来压缩进度工期</code>的一种技术。赶工的例子包括:批准加班、增加额外资源或支付加急费用来加快关键路径
 上的活动。赶工只适用于那些通过增加资源就能缩短持续时间的且位于关键路径上的活动。但赶工并非总是切实可行的，因它可能导致风险和/或成本的增加。</li>
-<li><code>快速跟进</code>：是一种进度压缩技术，将正常情况下按顺序进行的活动或阶段<code>改为至少是部分并行开展</code>。例如，在大楼的建筑图纸尚未全部完成前就开始建地基。快速跟进可能造 成返工和风险增加，所以它只适用千能够通过并行活动来缩短关键路径上的项目工期的情况。若进度加快而使用提前量，通常会增加相关活动之间的协调工作，并增加质量风险。
+<li><code>快速跟进</code>：是一种进度压缩技术，将正常情况下按顺序进行的活动或阶段<code>改为至少是部分并行开展</code>。例如，在大楼的建筑图纸尚未全部完成前就开始建地基。快速跟进可能造 成返工和风险增加，所以它只适用于能够通过并行活动来缩短关键路径上的项目工期的情况。若进度加快而使用提前量，通常会增加相关活动之间的协调工作，并增加质量风险。
 快速跟进还有可能增加项目成本。</li>
 </ul>
 <h4 id="计划评审技术" tabindex="-1">计划评审技术 <a class="header-anchor" href="#计划评审技术" aria-label="Permalink to &quot;计划评审技术&quot;">&ZeroWidthSpace;</a></h4>
@@ -3225,7 +3235,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新-2" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新-2" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_6-控制进度" tabindex="-1">6.控制进度 <a class="header-anchor" href="#_6-控制进度" aria-label="Permalink to &quot;6.控制进度&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>控制进度是监督项目状态，以更新项目进度和管理进度基准变更的过程。</p>
 <p>本过程的主要作用是在整个项目期间保持对进度基准的维护。本过程在整个项目期间开展。</p>
 </div>
@@ -3256,7 +3266,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>假设情景分析：基于项目风险管理过程的输出，对各种不同的情景进行评估，促使进度模型符合项目管理计划和批准的基准。</li>
 </ul>
 <h4 id="关键路径法-1" tabindex="-1">关键路径法 <a class="header-anchor" href="#关键路径法-1" aria-label="Permalink to &quot;关键路径法&quot;">&ZeroWidthSpace;</a></h4>
-<p>检查关键路径的进展情况有助千确定项目进度状态。
+<p>检查关键路径的进展情况有助于确定项目进度状态。
 关键路径上的偏差将对项目的结束日期产生直接影响。评估次关键路径上的活动的进展情况，有助于识别进度风险。</p>
 <h4 id="项目管理信息系统-2" tabindex="-1">项目管理信息系统 <a class="header-anchor" href="#项目管理信息系统-2" aria-label="Permalink to &quot;项目管理信息系统&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
