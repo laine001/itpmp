@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.netlify.app</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Thu, 29 May 2025 01:08:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 May 2025 01:12:43 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -4876,7 +4876,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
             <guid>itpmp.netlify.appbook/related</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目干系人管理" tabindex="-1">项目干系人管理 <a class="header-anchor" href="#项目干系人管理" aria-label="Permalink to &quot;项目干系人管理&quot;">&ZeroWidthSpace;</a></h1>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">概念</p>
 <p>项目干系人管理包括识别能够影响项目或会受项目影响的人员、团体或组织。分析干系人对项目的期望和影响，制定管理策略有效调动干系人参与项目决策和执行。
 项目干系人管理过程能够支持团队的工作。</p>
 </div>
@@ -4900,7 +4900,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>沟通技术</li>
 </ul>
 <h2 id="_1-识别干系人" tabindex="-1">1. 识别干系人 <a class="header-anchor" href="#_1-识别干系人" aria-label="Permalink to &quot;1. 识别干系人&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>识别干系人是定期识别项目干系人，分析和记录他们的利益、参与度、相互依赖性、影响力对项目成功的
 潜在影响的过程。主要作用是，是项目团队能够建立对每个干系人或干系人群体的适度关注。</p>
 <p>本过程应根据需要<code>在整个项目期间定期开展</code>。</p>
@@ -4953,7 +4953,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li><code>干系人立方体</code>：上述方格模型的改良形式。有助于沟通策略的制定。</li>
 <li><code>凸显模型</code>：通过评估干系人的<code>权力</code>（职权级别或对项目成果的影响能力）、<code>紧迫性</code>（因时间约束或干系人对项目成果有重大利益诉求而导致需立即加以关注）和<code>合法性</code>（参与的适当性），对干系人进行分类。这种凸显模型适用于复杂的干系人大型群体，或在干系
 人群体内部存在复杂的关系网络。凸显模型可用于确定已识别干系人的相对重要性。</li>
-<li><code>影响方向</code>：可以根据干系人对项目工作或项目团队本身的影响方向，对千系人进行分
+<li><code>影响方向</code>：可以根据干系人对项目工作或项目团队本身的影响方向，对干系人进行分
 类。可以把干系人分类为：<code>向上</code>、<code>向下</code>、<code>向外</code>、<code>横向</code>。</li>
 <li><code>优先级排序</code>：如果项目有大晕干系人、干系人群体的成员频繁变化、干系人和项目团队
 之间或干系人群体内部的关系复杂，则有必要对干系人进行优先级排序。</li>
@@ -4974,7 +4974,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_2-规划干系人参与" tabindex="-1">2. 规划干系人参与 <a class="header-anchor" href="#_2-规划干系人参与" aria-label="Permalink to &quot;2. 规划干系人参与&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>根据干系人的需求、期望、利益和对项目的潜在影响，制定项目干系人参与项目的方法的过程。主要作用是，提供与干系人进行有效互动的可行计划。</p>
 <p>应根据需要再整个项目期间<code>定期开展</code>。</p>
 </div>
@@ -5003,7 +5003,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="数据收集-1" tabindex="-1">数据收集 <a class="header-anchor" href="#数据收集-1" aria-label="Permalink to &quot;数据收集&quot;">&ZeroWidthSpace;</a></h4>
 <p>适用于规划干系人参与过程的数据收集技术是<code>标杆对照</code>。将干系人分析的结果与其他被视为具备引领级的组织或项目的信息进行比较。</p>
 <h4 id="数据分析-1" tabindex="-1">数据分析 <a class="header-anchor" href="#数据分析-1" aria-label="Permalink to &quot;数据分析&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千规划干系人参与过程的数据分析技术主要包括：</p>
+<p>适用于规划干系人参与过程的数据分析技术主要包括：</p>
 <ul>
 <li>假设条件和制约因素分析：可能需要分析当前的假设条件和制约因素，以<code>合理剪裁干系人参与策略</code></li>
 <li>根本原因分析：开展根本原因分析，识别是什么根本原因导致了干系人对项目的某种支持水平，以便<code>选择适当策略来改进其参与水平</code>。</li>
@@ -5013,7 +5013,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="数据表现-1" tabindex="-1">数据表现 <a class="header-anchor" href="#数据表现-1" aria-label="Permalink to &quot;数据表现&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
 <li>
-<p>思维导图：用千对千系人信息、相互关系以及他们与组织的关系进行可视化整理</p>
+<p>思维导图：用于对干系人信息、相互关系以及他们与组织的关系进行可视化整理</p>
 </li>
 <li>
 <p><code>干系人参与度评估矩阵</code>：用于将干系人当前参与水平与期望参与水平进行比较。对干系人参与水平进行分类的方式之一。干系人参与水平可分为：</p>
@@ -5033,7 +5033,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 该计划制定了<code>干系人有效参与和执行项目决策的策略和行动</code>。干系人参与计划可以是<code>正式的或非正式的，非常详细的或高度概括的</code>，这基于项目的需要和干系人的期望。</p>
 <p>干系人参与计划主要包括调动干系人个人或群体参与的<code>特定策略或方法</code>。</p>
 <h2 id="_3-管理干系人参与" tabindex="-1">3. 管理干系人参与 <a class="header-anchor" href="#_3-管理干系人参与" aria-label="Permalink to &quot;3. 管理干系人参与&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>管理干系人参与是通过与干系人进行沟通协作，以满足其需求与期望、处理问题，并促进干系人合理参与的过程。主要作用：尽可能的提高干系人的支持度，并降低干系人的抵制程度。</p>
 <p>本过程需要在整个项目期间开展。</p>
 </div>
@@ -5069,15 +5069,15 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="人际关系与团队技能" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
 <li>冲突管理：项目经理应确保及时解决冲突</li>
-<li><code>文化意识</code>：有助千项目经理和团队通过考虑<code>文化差异</code>和干系人需求，来实现有效沟通</li>
-<li>谈判：用千获得支待或达成关于支持项目工作或成果的协议，并解决团队内部或团队与其他干系人之间的冲突</li>
+<li><code>文化意识</code>：有助于项目经理和团队通过考虑<code>文化差异</code>和干系人需求，来实现有效沟通</li>
+<li>谈判：用于获得支待或达成关于支持项目工作或成果的协议，并解决团队内部或团队与其他干系人之间的冲突</li>
 <li>观察和交谈：通过观察和交谈，及时了解项目团队成员和其他干系入的工作和态度</li>
 <li><code>政策意识</code>：通过了解项目内外的<code>权力关系</code>，建立政策意识。</li>
 </ul>
 <h4 id="基本规则" tabindex="-1">基本规则 <a class="header-anchor" href="#基本规则" aria-label="Permalink to &quot;基本规则&quot;">&ZeroWidthSpace;</a></h4>
 <p>根据团队章程中定义的基本规则，明确项目团队成员和其他干系人引导干系人参与的行为。</p>
 <h4 id="会议-1" tabindex="-1">会议 <a class="header-anchor" href="#会议-1" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
-<p>会议用千讨论和处理与干系人参与有关的问题或关注点。在本过程中需要召开的会议类型
+<p>会议用于讨论和处理与干系人参与有关的问题或关注点。在本过程中需要召开的会议类型
 主要包括决策、问题解决、经验教训和回顾总结、项目开工会、迭代规划和状态更新会议</p>
 <h3 id="输出-2" tabindex="-1">输出 <a class="header-anchor" href="#输出-2" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="变更请求-1" tabindex="-1">变更请求 <a class="header-anchor" href="#变更请求-1" aria-label="Permalink to &quot;变更请求&quot;">&ZeroWidthSpace;</a></h4>
@@ -5087,7 +5087,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>-</p>
 <h4 id="项目文件-更新-1" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新-1" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <h2 id="_4-监督干系人参与" tabindex="-1">4.监督干系人参与 <a class="header-anchor" href="#_4-监督干系人参与" aria-label="Permalink to &quot;4.监督干系人参与&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>监督干系人参与是监督项目干系人的关系，并通过修订参与策略和计划来引导干系人合理参与项目的过程。
 主要作用是，随着项目进展和环境变化，维持或提升干系人参与活动的效率和效果。</p>
 <p>本过程需要在整个项目期间开展。</p>
@@ -5129,7 +5129,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 出最适当的选项</li>
 </ul>
 <h4 id="数据表现-2" tabindex="-1">数据表现 <a class="header-anchor" href="#数据表现-2" aria-label="Permalink to &quot;数据表现&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千监督干系人参与过程的数据表现技术主要是<code>干系人参与度评估矩阵</code>。</p>
+<p>适用于监督干系人参与过程的数据表现技术主要是<code>干系人参与度评估矩阵</code>。</p>
 <h4 id="沟通技能-1" tabindex="-1">沟通技能 <a class="header-anchor" href="#沟通技能-1" aria-label="Permalink to &quot;沟通技能&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
 <li>反馈：用于确保发送给干系人的信息被接收和理解。</li>
@@ -5138,10 +5138,10 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="人际关系与团队技能-1" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-1" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
 <li>积极倾听：通过积极倾听，减少理解错误和沟通错误。</li>
-<li>文化意识：文化意识和文化敏感性有助千项目经理分析干系人和团队成员的文化差异和文化需求，并对沟通进行规划。</li>
+<li>文化意识：文化意识和文化敏感性有助于项目经理分析干系人和团队成员的文化差异和文化需求，并对沟通进行规划。</li>
 <li>领导力：成功的干系人参与，需要强有力的领导技能，以传递愿景并激励干系人支持项目工作和成果。</li>
 <li>人际交往：通过人际交往了解关于干系人参与水平。</li>
-<li>政策意识：政策意识有助千理解组织战略，理解谁能行使权力和施加影响，以及培养与
+<li>政策意识：政策意识有助于理解组织战略，理解谁能行使权力和施加影响，以及培养与
 这些干系人沟通的能力。</li>
 </ul>
 <h4 id="会议-2" tabindex="-1">会议 <a class="header-anchor" href="#会议-2" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
@@ -5156,10 +5156,16 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目管理计划-更新-2" tabindex="-1">项目管理计划（更新） <a class="header-anchor" href="#项目管理计划-更新-2" aria-label="Permalink to &quot;项目管理计划（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="项目文件-更新-2" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新-2" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>可能在监督干系人参与过程更新的项目文件主要包括：</p>
+<ul>
+<li>问题日志：更新与干系人态度有关的信息</li>
+<li>经验教训登记册：记录本过程遇到的挑战及应对方法和如何调动干系人参与的方法</li>
+<li>风险登记册：记录和更新干系入风险应对措施</li>
+<li>干系人登记册：记录和更新在监督干系人参与中得到的信息</li>
+</ul>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="项目干系人管理" tabindex="-1">项目干系人管理 <a class="header-anchor" href="#项目干系人管理" aria-label="Permalink to &quot;项目干系人管理&quot;">&ZeroWidthSpace;</a></h1>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">概念</p>
 <p>项目干系人管理包括识别能够影响项目或会受项目影响的人员、团体或组织。分析干系人对项目的期望和影响，制定管理策略有效调动干系人参与项目决策和执行。
 项目干系人管理过程能够支持团队的工作。</p>
 </div>
@@ -5183,7 +5189,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>沟通技术</li>
 </ul>
 <h2 id="_1-识别干系人" tabindex="-1">1. 识别干系人 <a class="header-anchor" href="#_1-识别干系人" aria-label="Permalink to &quot;1. 识别干系人&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>识别干系人是定期识别项目干系人，分析和记录他们的利益、参与度、相互依赖性、影响力对项目成功的
 潜在影响的过程。主要作用是，是项目团队能够建立对每个干系人或干系人群体的适度关注。</p>
 <p>本过程应根据需要<code>在整个项目期间定期开展</code>。</p>
@@ -5236,7 +5242,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li><code>干系人立方体</code>：上述方格模型的改良形式。有助于沟通策略的制定。</li>
 <li><code>凸显模型</code>：通过评估干系人的<code>权力</code>（职权级别或对项目成果的影响能力）、<code>紧迫性</code>（因时间约束或干系人对项目成果有重大利益诉求而导致需立即加以关注）和<code>合法性</code>（参与的适当性），对干系人进行分类。这种凸显模型适用于复杂的干系人大型群体，或在干系
 人群体内部存在复杂的关系网络。凸显模型可用于确定已识别干系人的相对重要性。</li>
-<li><code>影响方向</code>：可以根据干系人对项目工作或项目团队本身的影响方向，对千系人进行分
+<li><code>影响方向</code>：可以根据干系人对项目工作或项目团队本身的影响方向，对干系人进行分
 类。可以把干系人分类为：<code>向上</code>、<code>向下</code>、<code>向外</code>、<code>横向</code>。</li>
 <li><code>优先级排序</code>：如果项目有大晕干系人、干系人群体的成员频繁变化、干系人和项目团队
 之间或干系人群体内部的关系复杂，则有必要对干系人进行优先级排序。</li>
@@ -5257,7 +5263,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_2-规划干系人参与" tabindex="-1">2. 规划干系人参与 <a class="header-anchor" href="#_2-规划干系人参与" aria-label="Permalink to &quot;2. 规划干系人参与&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>根据干系人的需求、期望、利益和对项目的潜在影响，制定项目干系人参与项目的方法的过程。主要作用是，提供与干系人进行有效互动的可行计划。</p>
 <p>应根据需要再整个项目期间<code>定期开展</code>。</p>
 </div>
@@ -5286,7 +5292,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="数据收集-1" tabindex="-1">数据收集 <a class="header-anchor" href="#数据收集-1" aria-label="Permalink to &quot;数据收集&quot;">&ZeroWidthSpace;</a></h4>
 <p>适用于规划干系人参与过程的数据收集技术是<code>标杆对照</code>。将干系人分析的结果与其他被视为具备引领级的组织或项目的信息进行比较。</p>
 <h4 id="数据分析-1" tabindex="-1">数据分析 <a class="header-anchor" href="#数据分析-1" aria-label="Permalink to &quot;数据分析&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千规划干系人参与过程的数据分析技术主要包括：</p>
+<p>适用于规划干系人参与过程的数据分析技术主要包括：</p>
 <ul>
 <li>假设条件和制约因素分析：可能需要分析当前的假设条件和制约因素，以<code>合理剪裁干系人参与策略</code></li>
 <li>根本原因分析：开展根本原因分析，识别是什么根本原因导致了干系人对项目的某种支持水平，以便<code>选择适当策略来改进其参与水平</code>。</li>
@@ -5296,7 +5302,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="数据表现-1" tabindex="-1">数据表现 <a class="header-anchor" href="#数据表现-1" aria-label="Permalink to &quot;数据表现&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
 <li>
-<p>思维导图：用千对千系人信息、相互关系以及他们与组织的关系进行可视化整理</p>
+<p>思维导图：用于对干系人信息、相互关系以及他们与组织的关系进行可视化整理</p>
 </li>
 <li>
 <p><code>干系人参与度评估矩阵</code>：用于将干系人当前参与水平与期望参与水平进行比较。对干系人参与水平进行分类的方式之一。干系人参与水平可分为：</p>
@@ -5316,7 +5322,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 该计划制定了<code>干系人有效参与和执行项目决策的策略和行动</code>。干系人参与计划可以是<code>正式的或非正式的，非常详细的或高度概括的</code>，这基于项目的需要和干系人的期望。</p>
 <p>干系人参与计划主要包括调动干系人个人或群体参与的<code>特定策略或方法</code>。</p>
 <h2 id="_3-管理干系人参与" tabindex="-1">3. 管理干系人参与 <a class="header-anchor" href="#_3-管理干系人参与" aria-label="Permalink to &quot;3. 管理干系人参与&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>管理干系人参与是通过与干系人进行沟通协作，以满足其需求与期望、处理问题，并促进干系人合理参与的过程。主要作用：尽可能的提高干系人的支持度，并降低干系人的抵制程度。</p>
 <p>本过程需要在整个项目期间开展。</p>
 </div>
@@ -5352,15 +5358,15 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="人际关系与团队技能" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
 <li>冲突管理：项目经理应确保及时解决冲突</li>
-<li><code>文化意识</code>：有助千项目经理和团队通过考虑<code>文化差异</code>和干系人需求，来实现有效沟通</li>
-<li>谈判：用千获得支待或达成关于支持项目工作或成果的协议，并解决团队内部或团队与其他干系人之间的冲突</li>
+<li><code>文化意识</code>：有助于项目经理和团队通过考虑<code>文化差异</code>和干系人需求，来实现有效沟通</li>
+<li>谈判：用于获得支待或达成关于支持项目工作或成果的协议，并解决团队内部或团队与其他干系人之间的冲突</li>
 <li>观察和交谈：通过观察和交谈，及时了解项目团队成员和其他干系入的工作和态度</li>
 <li><code>政策意识</code>：通过了解项目内外的<code>权力关系</code>，建立政策意识。</li>
 </ul>
 <h4 id="基本规则" tabindex="-1">基本规则 <a class="header-anchor" href="#基本规则" aria-label="Permalink to &quot;基本规则&quot;">&ZeroWidthSpace;</a></h4>
 <p>根据团队章程中定义的基本规则，明确项目团队成员和其他干系人引导干系人参与的行为。</p>
 <h4 id="会议-1" tabindex="-1">会议 <a class="header-anchor" href="#会议-1" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
-<p>会议用千讨论和处理与干系人参与有关的问题或关注点。在本过程中需要召开的会议类型
+<p>会议用于讨论和处理与干系人参与有关的问题或关注点。在本过程中需要召开的会议类型
 主要包括决策、问题解决、经验教训和回顾总结、项目开工会、迭代规划和状态更新会议</p>
 <h3 id="输出-2" tabindex="-1">输出 <a class="header-anchor" href="#输出-2" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="变更请求-1" tabindex="-1">变更请求 <a class="header-anchor" href="#变更请求-1" aria-label="Permalink to &quot;变更请求&quot;">&ZeroWidthSpace;</a></h4>
@@ -5370,7 +5376,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>-</p>
 <h4 id="项目文件-更新-1" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新-1" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <h2 id="_4-监督干系人参与" tabindex="-1">4.监督干系人参与 <a class="header-anchor" href="#_4-监督干系人参与" aria-label="Permalink to &quot;4.监督干系人参与&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>监督干系人参与是监督项目干系人的关系，并通过修订参与策略和计划来引导干系人合理参与项目的过程。
 主要作用是，随着项目进展和环境变化，维持或提升干系人参与活动的效率和效果。</p>
 <p>本过程需要在整个项目期间开展。</p>
@@ -5412,7 +5418,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 出最适当的选项</li>
 </ul>
 <h4 id="数据表现-2" tabindex="-1">数据表现 <a class="header-anchor" href="#数据表现-2" aria-label="Permalink to &quot;数据表现&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千监督干系人参与过程的数据表现技术主要是<code>干系人参与度评估矩阵</code>。</p>
+<p>适用于监督干系人参与过程的数据表现技术主要是<code>干系人参与度评估矩阵</code>。</p>
 <h4 id="沟通技能-1" tabindex="-1">沟通技能 <a class="header-anchor" href="#沟通技能-1" aria-label="Permalink to &quot;沟通技能&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
 <li>反馈：用于确保发送给干系人的信息被接收和理解。</li>
@@ -5421,10 +5427,10 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="人际关系与团队技能-1" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-1" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
 <li>积极倾听：通过积极倾听，减少理解错误和沟通错误。</li>
-<li>文化意识：文化意识和文化敏感性有助千项目经理分析干系人和团队成员的文化差异和文化需求，并对沟通进行规划。</li>
+<li>文化意识：文化意识和文化敏感性有助于项目经理分析干系人和团队成员的文化差异和文化需求，并对沟通进行规划。</li>
 <li>领导力：成功的干系人参与，需要强有力的领导技能，以传递愿景并激励干系人支持项目工作和成果。</li>
 <li>人际交往：通过人际交往了解关于干系人参与水平。</li>
-<li>政策意识：政策意识有助千理解组织战略，理解谁能行使权力和施加影响，以及培养与
+<li>政策意识：政策意识有助于理解组织战略，理解谁能行使权力和施加影响，以及培养与
 这些干系人沟通的能力。</li>
 </ul>
 <h4 id="会议-2" tabindex="-1">会议 <a class="header-anchor" href="#会议-2" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
@@ -5439,7 +5445,13 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目管理计划-更新-2" tabindex="-1">项目管理计划（更新） <a class="header-anchor" href="#项目管理计划-更新-2" aria-label="Permalink to &quot;项目管理计划（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="项目文件-更新-2" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新-2" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>可能在监督干系人参与过程更新的项目文件主要包括：</p>
+<ul>
+<li>问题日志：更新与干系人态度有关的信息</li>
+<li>经验教训登记册：记录本过程遇到的挑战及应对方法和如何调动干系人参与的方法</li>
+<li>风险登记册：记录和更新干系入风险应对措施</li>
+<li>干系人登记册：记录和更新在监督干系人参与中得到的信息</li>
+</ul>
 ]]></content:encoded>
         </item>
         <item>
