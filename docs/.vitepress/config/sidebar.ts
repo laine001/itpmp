@@ -1,4 +1,4 @@
-import { managementMenuList } from './const'
+import { managementMenuList, performanceDomainList } from './const'
 
 const sidebar = {
   "/book/": [
@@ -14,6 +14,16 @@ const sidebar = {
     {
       text: "10大管理",
       items: managementMenuList,
+    },
+    {
+      text: "绩效域",
+      // collapsed: true,
+      items: [
+        {
+          text: "8大绩效域",
+          link: "/book/performance",
+        },
+      ],
     },
   ],
   "/summary/": [

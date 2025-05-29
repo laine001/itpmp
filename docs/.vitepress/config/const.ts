@@ -41,4 +41,19 @@ export const managementMenuList = [
   },
 ];
 
+export const performanceDomainList = [
+  {
+    text: "8大绩效域",
+    link: "/book/performance",
+  },
+  {
+    text: "干系人绩效域",
+    link: "/book/performance-related",
+  },
+  {
+    text: "团队绩效域",
+    link: "/book/performance-team",
+  },
+]
+
 
