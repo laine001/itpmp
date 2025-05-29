@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.netlify.app</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Thu, 29 May 2025 00:54:11 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 May 2025 01:01:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -6532,7 +6532,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
             <guid>itpmp.netlify.appbook/risk</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目风险管理" tabindex="-1">项目风险管理 <a class="header-anchor" href="#项目风险管理" aria-label="Permalink to &quot;项目风险管理&quot;">&ZeroWidthSpace;</a></h1>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">概念</p>
 <p>项目风险是一种不确定的事件或条件，一旦发生，会对项目目标产生某种正面或负面的影响。
 项目风险既包括对项目目标的威胁，也包括促进项目目标的机会。
 已知风险是那些已经经过识别和分析的风险，对于已知风险，对其进行规划，寻找应对方案是可行的；
@@ -6541,7 +6541,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <details class="details custom-block"><summary>本章目录</summary>
 <nav class="table-of-contents"><ul><li><a href="#管理基础">管理基础</a></li><li><a href="#裁剪考虑因素">裁剪考虑因素</a></li><li><a href="#_1-规划风险管理">1.规划风险管理</a><ul><li><a href="#输入">输入</a></li><li><a href="#工具与技术">工具与技术</a></li><li><a href="#输出">输出</a></li></ul></li><li><a href="#_2-识别风险">2.识别风险</a><ul><li><a href="#输入-1">输入</a></li><li><a href="#工具和技术">工具和技术</a></li><li><a href="#输出-1">输出</a></li></ul></li><li><a href="#_3-实施定性风险分析">3.实施定性风险分析</a><ul><li><a href="#输入-2">输入</a></li><li><a href="#工具与技术-1">工具与技术</a></li><li><a href="#输出-2">输出</a></li></ul></li><li><a href="#_4-实施定量风险分析">4.实施定量风险分析</a><ul><li><a href="#输入-3">输入</a></li><li><a href="#工具与技术-2">工具与技术</a></li><li><a href="#输出-3">输出</a></li></ul></li><li><a href="#_5-规划风险应对">5.规划风险应对</a><ul><li><a href="#输入-4">输入</a></li><li><a href="#工具与技术-3">工具与技术</a></li><li><a href="#输出-4">输出</a></li></ul></li><li><a href="#_6-实施风险应对">6.实施风险应对</a><ul><li><a href="#输入-5">输入</a></li><li><a href="#工具与技术-4">工具与技术</a></li><li><a href="#输出-5">输出</a></li></ul></li><li><a href="#_7-监督风险">7.监督风险</a><ul><li><a href="#输入-6">输入</a></li><li><a href="#工具与技术-5">工具与技术</a></li><li><a href="#输出-6">输出</a></li></ul></li></ul></nav>
 </details>
-<p>风险会随着项目的进展而变化，不确定性也会着项目进展而逐渐减少。最大的不确定性存在千项目的早期。项
+<p>风险会随着项目的进展而变化，不确定性也会着项目进展而逐渐减少。最大的不确定性存在于项目的早期。项
 目的各种风险中，进度拖延往往是成本超支、现金流出以及其他损失的主要原因。</p>
 <p>项目风险管理的目的在于降低风险不利影响，提高项目成功的可能性。</p>
 <h2 id="管理基础" tabindex="-1">管理基础 <a class="header-anchor" href="#管理基础" aria-label="Permalink to &quot;管理基础&quot;">&ZeroWidthSpace;</a></h2>
@@ -6596,9 +6596,11 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 </li>
 </ol>
 <h2 id="_1-规划风险管理" tabindex="-1">1.规划风险管理 <a class="header-anchor" href="#_1-规划风险管理" aria-label="Permalink to &quot;1.规划风险管理&quot;">&ZeroWidthSpace;</a></h2>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>定义如何实施项目风险管理活动。</p>
 <p>主要作用：确保风险管理的水平、方法和可见度与项目风险程度相匹配，与对组织和其他干系人的重要程度相匹配。</p>
 <p>规划风险管理过程在项目<code>立项阶段就应开始</code>，并在项目<code>早期完成</code>，在项目生命周期的后期，可能有必要重新开展本过程。</p>
+</div>
 <h3 id="输入" tabindex="-1">输入 <a class="header-anchor" href="#输入" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目章程" tabindex="-1">项目章程 <a class="header-anchor" href="#项目章程" aria-label="Permalink to &quot;项目章程&quot;">&ZeroWidthSpace;</a></h4>
 <p>项目章程记录了项目的总体描述和边界、总体的需求和风险。</p>
@@ -6634,15 +6636,16 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li><code>跟踪</code>：确定将如何记录风险活动，以及如何审计风险的管理过程。</li>
 </ol>
 <h2 id="_2-识别风险" tabindex="-1">2.识别风险 <a class="header-anchor" href="#_2-识别风险" aria-label="Permalink to &quot;2.识别风险&quot;">&ZeroWidthSpace;</a></h2>
-<p>识别单个项目风险，以及整体项目风险的来源，并记录风险特征，（应在<code>整个项目期间开展</code>）。主要作用：</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
+<p>识别风险是识别单个项目风险以及整体项目风险的来源，并记录风险特征的过程。主要作用：</p>
 <ol>
 <li>记录现有的单个项目风险，以及整体项目风险的来源</li>
-<li>汇总相关信息，以便项目团队能够恰当地应对已识别的风险</li>
+<li>汇总相关信息，以便项目团队能够恰当地应对已识别的风险。</li>
 </ol>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<p>应在<code>整个项目期间开展</code></p>
+</div>
 <p>识别风险时，要同时考虑单个项目分线以及整体项目风险的来源。风险识别活动的参与者可能包括：项目经理、项目团队成员、项目风险专家(若已制定)、客户项目团队外部的主题专家、运营经理、干系人和组织内的风险管理专家。虽然这些通常是风险识别活动的关键参与者，但应鼓励所有项目干系人参与项目风险的识别工作。</p>
 <p>应采用统一的风险描述格式来描述和记录项目风险，以确保每一项风险都被清楚、明确地理解，从而为有效的分析和风险应对措施制定提供支持。</p>
-</div>
 <h3 id="输入-1" tabindex="-1">输入 <a class="header-anchor" href="#输入-1" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-1" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-1" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
 <ol>
@@ -6716,7 +6719,10 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>假设日志、问题日志、经验教训登记表的更新</p>
 <h2 id="_3-实施定性风险分析" tabindex="-1">3.实施定性风险分析 <a class="header-anchor" href="#_3-实施定性风险分析" aria-label="Permalink to &quot;3.实施定性风险分析&quot;">&ZeroWidthSpace;</a></h2>
-<p>通过评估单个项目风险发生的概率和影响以及特征，对风险进行优先级排序，从而为后续分析或行动提供基础。主要作用是重点关注高优先级的风险。<code>整个项目期间开展</code>。</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
+<p>通过评估单个项目风险发生的概率和影响以及特征，对风险进行优先级排序，从而为后续分析或行动提供基础。主要作用是重点关注高优先级的风险。</p>
+<p><code>整个项目期间开展</code>。</p>
+</div>
 <p>根据风险管理计划的规定，在整个项目生命周期中要定期开展实施定性风险过程，在敏捷或适应型开发环境中，实施定性风险分析过程通常要在每次迭代开始前进行。</p>
 <h3 id="输入-2" tabindex="-1">输入 <a class="header-anchor" href="#输入-2" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-2" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-2" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
@@ -6762,11 +6768,15 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-3" tabindex="-1">项目文件 <a class="header-anchor" href="#项目文件-3" aria-label="Permalink to &quot;项目文件&quot;">&ZeroWidthSpace;</a></h4>
 <p>假设日志、问题日志、风险登记册和风险报告的更新</p>
 <h2 id="_4-实施定量风险分析" tabindex="-1">4.实施定量风险分析 <a class="header-anchor" href="#_4-实施定量风险分析" aria-label="Permalink to &quot;4.实施定量风险分析&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>实施定量风险分析是就已识别的单个项目风险和不确定性的其他来源对整体项目目标的影
 响进行定量分析的过程。</p>
-<p>本过程的作用是：1.量化整体项目风险最大可能性 2.提供额外的定量风险信息，以支持风险应对规划。
-本过程并非每个项目必需，但如果采用，它会在整个项目期间持续开展</p>
+<p>本过程的作用是：</p>
+<ol>
+<li>量化整体项目风险最大可能性</li>
+<li>提供额外的定量风险信息，以支持风险应对规划。</li>
+</ol>
+<p>本过程并非每个项目必需，但如果采用，它会在整个项目期间持续开展</p>
 </div>
 <h3 id="输入-3" tabindex="-1">输入 <a class="header-anchor" href="#输入-3" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-3" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-3" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
@@ -6813,7 +6823,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>风险应对建议</li>
 </ol>
 <h2 id="_5-规划风险应对" tabindex="-1">5.规划风险应对 <a class="header-anchor" href="#_5-规划风险应对" aria-label="Permalink to &quot;5.规划风险应对&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>规划风险的应对措施是为了应对项目风险，而制定可选方案、选择应对策略并商定应对行动的过程。</p>
 <p>本过程的主要作用：1.制定应对整体项目风险和单个项目风险的适当方法；2.分配资源，并根据需要将相关活动添加进项目文件和项目管理计划中。</p>
 <p>本过程需要在整个项目期间开展</p>
@@ -6837,8 +6847,8 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>风险报告：项目整体风险最大可能风险的当前级别，会影响风险应对策略的选择。风险
 报告也可能按优先级顺序列出了单个项目风险，并对单个项目风险的分布情况进行了更
 多分析；这些信息都会影响风险应对策略的选择。</li>
-<li>资源日历：确定了潜在的资源何时可用千风险应对。</li>
-<li>项目团队派工单：列明了可用千风险应对的人力资源。</li>
+<li>资源日历：确定了潜在的资源何时可用于风险应对。</li>
+<li>项目团队派工单：列明了可用于风险应对的人力资源。</li>
 <li>项目进度计划：用于确定如何同时规划风险应对活动和其他项目活动。</li>
 <li>经验教训登记册：查看关于项目早期的风险应对的经验教训，确定类似的应对是否适用于项目后期。</li>
 </ul>
@@ -6881,7 +6891,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="应急应对策略" tabindex="-1">应急应对策略 <a class="header-anchor" href="#应急应对策略" aria-label="Permalink to &quot;应急应对策略&quot;">&ZeroWidthSpace;</a></h4>
 <p>可以设计一些仅在特定事件发生时才采用的应对措施。</p>
 <h4 id="整体项目风险应对策略" tabindex="-1">整体项目风险应对策略 <a class="header-anchor" href="#整体项目风险应对策略" aria-label="Permalink to &quot;整体项目风险应对策略&quot;">&ZeroWidthSpace;</a></h4>
-<p>风险应对措施的规划和实施不应只针对单个项目风险，还应针对整体的项目风险。用千应
+<p>风险应对措施的规划和实施不应只针对单个项目风险，还应针对整体的项目风险。用于应
 对单个项目风险的策略也适用于整体项目风险：</p>
 <ol>
 <li>规避</li>
@@ -6898,7 +6908,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 </ul>
 <h4 id="决策" tabindex="-1">决策 <a class="header-anchor" href="#决策" aria-label="Permalink to &quot;决策&quot;">&ZeroWidthSpace;</a></h4>
 <p>适用于规划风险应对的决策技术是多标准决策分析，列入考虑范围的风险应对策略可能是
-一种或多种。决策技术有助千对多种风险应对策略进行优先级排序。</p>
+一种或多种。决策技术有助于对多种风险应对策略进行优先级排序。</p>
 <h3 id="输出-4" tabindex="-1">输出 <a class="header-anchor" href="#输出-4" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="变更请求" tabindex="-1">变更请求 <a class="header-anchor" href="#变更请求" aria-label="Permalink to &quot;变更请求&quot;">&ZeroWidthSpace;</a></h4>
 <p>规划风险应对后，可能会就成本基准和进度基准，或项目管理计划的其他组件提出变更请
@@ -6943,7 +6953,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="专家判断-5" tabindex="-1">专家判断 <a class="header-anchor" href="#专家判断-5" aria-label="Permalink to &quot;专家判断&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="人际关系与团队技能-4" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-4" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千本过程的人际关系与团队技能是影响力。有些风险应对措施可能由项目团队以外的
+<p>适用于本过程的人际关系与团队技能是影响力。有些风险应对措施可能由项目团队以外的
 人员执行，或由存在其他竞争性需求的人员执行。</p>
 <h4 id="项目管理信息系统" tabindex="-1">项目管理信息系统 <a class="header-anchor" href="#项目管理信息系统" aria-label="Permalink to &quot;项目管理信息系统&quot;">&ZeroWidthSpace;</a></h4>
 <p>项目管理信息系统可能包括进度、资源和成本软件，用于确保把商定的风险应对计划及其
@@ -6998,7 +7008,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>储备分析</li>
 </ul>
 <h4 id="审计" tabindex="-1">审计 <a class="header-anchor" href="#审计" aria-label="Permalink to &quot;审计&quot;">&ZeroWidthSpace;</a></h4>
-<p>风险审计是一种审计类型，可用千评估风险管理过程的有效性。项目经理负责确保按项
+<p>风险审计是一种审计类型，可用于评估风险管理过程的有效性。项目经理负责确保按项
 目风险管理计划所规定的频率开展风险审计。风险审计可以在日常项目审查会和风险审查会
 上开展，团队也可以召开专门的风险审计会。在实施审计前，应明确定义风险审计的程序和
 目标。</p>
@@ -7019,7 +7029,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>-</p>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="项目风险管理" tabindex="-1">项目风险管理 <a class="header-anchor" href="#项目风险管理" aria-label="Permalink to &quot;项目风险管理&quot;">&ZeroWidthSpace;</a></h1>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">概念</p>
 <p>项目风险是一种不确定的事件或条件，一旦发生，会对项目目标产生某种正面或负面的影响。
 项目风险既包括对项目目标的威胁，也包括促进项目目标的机会。
 已知风险是那些已经经过识别和分析的风险，对于已知风险，对其进行规划，寻找应对方案是可行的；
@@ -7028,7 +7038,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <details class="details custom-block"><summary>本章目录</summary>
 <nav class="table-of-contents"><ul><li><a href="#管理基础">管理基础</a></li><li><a href="#裁剪考虑因素">裁剪考虑因素</a></li><li><a href="#_1-规划风险管理">1.规划风险管理</a><ul><li><a href="#输入">输入</a></li><li><a href="#工具与技术">工具与技术</a></li><li><a href="#输出">输出</a></li></ul></li><li><a href="#_2-识别风险">2.识别风险</a><ul><li><a href="#输入-1">输入</a></li><li><a href="#工具和技术">工具和技术</a></li><li><a href="#输出-1">输出</a></li></ul></li><li><a href="#_3-实施定性风险分析">3.实施定性风险分析</a><ul><li><a href="#输入-2">输入</a></li><li><a href="#工具与技术-1">工具与技术</a></li><li><a href="#输出-2">输出</a></li></ul></li><li><a href="#_4-实施定量风险分析">4.实施定量风险分析</a><ul><li><a href="#输入-3">输入</a></li><li><a href="#工具与技术-2">工具与技术</a></li><li><a href="#输出-3">输出</a></li></ul></li><li><a href="#_5-规划风险应对">5.规划风险应对</a><ul><li><a href="#输入-4">输入</a></li><li><a href="#工具与技术-3">工具与技术</a></li><li><a href="#输出-4">输出</a></li></ul></li><li><a href="#_6-实施风险应对">6.实施风险应对</a><ul><li><a href="#输入-5">输入</a></li><li><a href="#工具与技术-4">工具与技术</a></li><li><a href="#输出-5">输出</a></li></ul></li><li><a href="#_7-监督风险">7.监督风险</a><ul><li><a href="#输入-6">输入</a></li><li><a href="#工具与技术-5">工具与技术</a></li><li><a href="#输出-6">输出</a></li></ul></li></ul></nav>
 </details>
-<p>风险会随着项目的进展而变化，不确定性也会着项目进展而逐渐减少。最大的不确定性存在千项目的早期。项
+<p>风险会随着项目的进展而变化，不确定性也会着项目进展而逐渐减少。最大的不确定性存在于项目的早期。项
 目的各种风险中，进度拖延往往是成本超支、现金流出以及其他损失的主要原因。</p>
 <p>项目风险管理的目的在于降低风险不利影响，提高项目成功的可能性。</p>
 <h2 id="管理基础" tabindex="-1">管理基础 <a class="header-anchor" href="#管理基础" aria-label="Permalink to &quot;管理基础&quot;">&ZeroWidthSpace;</a></h2>
@@ -7083,9 +7093,11 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 </li>
 </ol>
 <h2 id="_1-规划风险管理" tabindex="-1">1.规划风险管理 <a class="header-anchor" href="#_1-规划风险管理" aria-label="Permalink to &quot;1.规划风险管理&quot;">&ZeroWidthSpace;</a></h2>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>定义如何实施项目风险管理活动。</p>
 <p>主要作用：确保风险管理的水平、方法和可见度与项目风险程度相匹配，与对组织和其他干系人的重要程度相匹配。</p>
 <p>规划风险管理过程在项目<code>立项阶段就应开始</code>，并在项目<code>早期完成</code>，在项目生命周期的后期，可能有必要重新开展本过程。</p>
+</div>
 <h3 id="输入" tabindex="-1">输入 <a class="header-anchor" href="#输入" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目章程" tabindex="-1">项目章程 <a class="header-anchor" href="#项目章程" aria-label="Permalink to &quot;项目章程&quot;">&ZeroWidthSpace;</a></h4>
 <p>项目章程记录了项目的总体描述和边界、总体的需求和风险。</p>
@@ -7121,15 +7133,16 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li><code>跟踪</code>：确定将如何记录风险活动，以及如何审计风险的管理过程。</li>
 </ol>
 <h2 id="_2-识别风险" tabindex="-1">2.识别风险 <a class="header-anchor" href="#_2-识别风险" aria-label="Permalink to &quot;2.识别风险&quot;">&ZeroWidthSpace;</a></h2>
-<p>识别单个项目风险，以及整体项目风险的来源，并记录风险特征，（应在<code>整个项目期间开展</code>）。主要作用：</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
+<p>识别风险是识别单个项目风险以及整体项目风险的来源，并记录风险特征的过程。主要作用：</p>
 <ol>
 <li>记录现有的单个项目风险，以及整体项目风险的来源</li>
-<li>汇总相关信息，以便项目团队能够恰当地应对已识别的风险</li>
+<li>汇总相关信息，以便项目团队能够恰当地应对已识别的风险。</li>
 </ol>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<p>应在<code>整个项目期间开展</code></p>
+</div>
 <p>识别风险时，要同时考虑单个项目分线以及整体项目风险的来源。风险识别活动的参与者可能包括：项目经理、项目团队成员、项目风险专家(若已制定)、客户项目团队外部的主题专家、运营经理、干系人和组织内的风险管理专家。虽然这些通常是风险识别活动的关键参与者，但应鼓励所有项目干系人参与项目风险的识别工作。</p>
 <p>应采用统一的风险描述格式来描述和记录项目风险，以确保每一项风险都被清楚、明确地理解，从而为有效的分析和风险应对措施制定提供支持。</p>
-</div>
 <h3 id="输入-1" tabindex="-1">输入 <a class="header-anchor" href="#输入-1" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-1" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-1" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
 <ol>
@@ -7203,7 +7216,10 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新" tabindex="-1">项目文件（更新） <a class="header-anchor" href="#项目文件-更新" aria-label="Permalink to &quot;项目文件（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>假设日志、问题日志、经验教训登记表的更新</p>
 <h2 id="_3-实施定性风险分析" tabindex="-1">3.实施定性风险分析 <a class="header-anchor" href="#_3-实施定性风险分析" aria-label="Permalink to &quot;3.实施定性风险分析&quot;">&ZeroWidthSpace;</a></h2>
-<p>通过评估单个项目风险发生的概率和影响以及特征，对风险进行优先级排序，从而为后续分析或行动提供基础。主要作用是重点关注高优先级的风险。<code>整个项目期间开展</code>。</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
+<p>通过评估单个项目风险发生的概率和影响以及特征，对风险进行优先级排序，从而为后续分析或行动提供基础。主要作用是重点关注高优先级的风险。</p>
+<p><code>整个项目期间开展</code>。</p>
+</div>
 <p>根据风险管理计划的规定，在整个项目生命周期中要定期开展实施定性风险过程，在敏捷或适应型开发环境中，实施定性风险分析过程通常要在每次迭代开始前进行。</p>
 <h3 id="输入-2" tabindex="-1">输入 <a class="header-anchor" href="#输入-2" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-2" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-2" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
@@ -7249,11 +7265,15 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-3" tabindex="-1">项目文件 <a class="header-anchor" href="#项目文件-3" aria-label="Permalink to &quot;项目文件&quot;">&ZeroWidthSpace;</a></h4>
 <p>假设日志、问题日志、风险登记册和风险报告的更新</p>
 <h2 id="_4-实施定量风险分析" tabindex="-1">4.实施定量风险分析 <a class="header-anchor" href="#_4-实施定量风险分析" aria-label="Permalink to &quot;4.实施定量风险分析&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>实施定量风险分析是就已识别的单个项目风险和不确定性的其他来源对整体项目目标的影
 响进行定量分析的过程。</p>
-<p>本过程的作用是：1.量化整体项目风险最大可能性 2.提供额外的定量风险信息，以支持风险应对规划。
-本过程并非每个项目必需，但如果采用，它会在整个项目期间持续开展</p>
+<p>本过程的作用是：</p>
+<ol>
+<li>量化整体项目风险最大可能性</li>
+<li>提供额外的定量风险信息，以支持风险应对规划。</li>
+</ol>
+<p>本过程并非每个项目必需，但如果采用，它会在整个项目期间持续开展</p>
 </div>
 <h3 id="输入-3" tabindex="-1">输入 <a class="header-anchor" href="#输入-3" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-3" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-3" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
@@ -7300,7 +7320,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>风险应对建议</li>
 </ol>
 <h2 id="_5-规划风险应对" tabindex="-1">5.规划风险应对 <a class="header-anchor" href="#_5-规划风险应对" aria-label="Permalink to &quot;5.规划风险应对&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>规划风险的应对措施是为了应对项目风险，而制定可选方案、选择应对策略并商定应对行动的过程。</p>
 <p>本过程的主要作用：1.制定应对整体项目风险和单个项目风险的适当方法；2.分配资源，并根据需要将相关活动添加进项目文件和项目管理计划中。</p>
 <p>本过程需要在整个项目期间开展</p>
@@ -7324,8 +7344,8 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>风险报告：项目整体风险最大可能风险的当前级别，会影响风险应对策略的选择。风险
 报告也可能按优先级顺序列出了单个项目风险，并对单个项目风险的分布情况进行了更
 多分析；这些信息都会影响风险应对策略的选择。</li>
-<li>资源日历：确定了潜在的资源何时可用千风险应对。</li>
-<li>项目团队派工单：列明了可用千风险应对的人力资源。</li>
+<li>资源日历：确定了潜在的资源何时可用于风险应对。</li>
+<li>项目团队派工单：列明了可用于风险应对的人力资源。</li>
 <li>项目进度计划：用于确定如何同时规划风险应对活动和其他项目活动。</li>
 <li>经验教训登记册：查看关于项目早期的风险应对的经验教训，确定类似的应对是否适用于项目后期。</li>
 </ul>
@@ -7368,7 +7388,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="应急应对策略" tabindex="-1">应急应对策略 <a class="header-anchor" href="#应急应对策略" aria-label="Permalink to &quot;应急应对策略&quot;">&ZeroWidthSpace;</a></h4>
 <p>可以设计一些仅在特定事件发生时才采用的应对措施。</p>
 <h4 id="整体项目风险应对策略" tabindex="-1">整体项目风险应对策略 <a class="header-anchor" href="#整体项目风险应对策略" aria-label="Permalink to &quot;整体项目风险应对策略&quot;">&ZeroWidthSpace;</a></h4>
-<p>风险应对措施的规划和实施不应只针对单个项目风险，还应针对整体的项目风险。用千应
+<p>风险应对措施的规划和实施不应只针对单个项目风险，还应针对整体的项目风险。用于应
 对单个项目风险的策略也适用于整体项目风险：</p>
 <ol>
 <li>规避</li>
@@ -7385,7 +7405,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 </ul>
 <h4 id="决策" tabindex="-1">决策 <a class="header-anchor" href="#决策" aria-label="Permalink to &quot;决策&quot;">&ZeroWidthSpace;</a></h4>
 <p>适用于规划风险应对的决策技术是多标准决策分析，列入考虑范围的风险应对策略可能是
-一种或多种。决策技术有助千对多种风险应对策略进行优先级排序。</p>
+一种或多种。决策技术有助于对多种风险应对策略进行优先级排序。</p>
 <h3 id="输出-4" tabindex="-1">输出 <a class="header-anchor" href="#输出-4" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="变更请求" tabindex="-1">变更请求 <a class="header-anchor" href="#变更请求" aria-label="Permalink to &quot;变更请求&quot;">&ZeroWidthSpace;</a></h4>
 <p>规划风险应对后，可能会就成本基准和进度基准，或项目管理计划的其他组件提出变更请
@@ -7430,7 +7450,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="专家判断-5" tabindex="-1">专家判断 <a class="header-anchor" href="#专家判断-5" aria-label="Permalink to &quot;专家判断&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="人际关系与团队技能-4" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-4" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千本过程的人际关系与团队技能是影响力。有些风险应对措施可能由项目团队以外的
+<p>适用于本过程的人际关系与团队技能是影响力。有些风险应对措施可能由项目团队以外的
 人员执行，或由存在其他竞争性需求的人员执行。</p>
 <h4 id="项目管理信息系统" tabindex="-1">项目管理信息系统 <a class="header-anchor" href="#项目管理信息系统" aria-label="Permalink to &quot;项目管理信息系统&quot;">&ZeroWidthSpace;</a></h4>
 <p>项目管理信息系统可能包括进度、资源和成本软件，用于确保把商定的风险应对计划及其
@@ -7485,7 +7505,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>储备分析</li>
 </ul>
 <h4 id="审计" tabindex="-1">审计 <a class="header-anchor" href="#审计" aria-label="Permalink to &quot;审计&quot;">&ZeroWidthSpace;</a></h4>
-<p>风险审计是一种审计类型，可用千评估风险管理过程的有效性。项目经理负责确保按项
+<p>风险审计是一种审计类型，可用于评估风险管理过程的有效性。项目经理负责确保按项
 目风险管理计划所规定的频率开展风险审计。风险审计可以在日常项目审查会和风险审查会
 上开展，团队也可以召开专门的风险审计会。在实施审计前，应明确定义风险审计的程序和
 目标。</p>
