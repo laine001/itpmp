@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.netlify.app</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Thu, 29 May 2025 01:01:13 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 May 2025 01:08:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -3358,13 +3358,19 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
             <guid>itpmp.netlify.appbook/purchase</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目采购管理" tabindex="-1">项目采购管理 <a class="header-anchor" href="#项目采购管理" aria-label="Permalink to &quot;项目采购管理&quot;">&ZeroWidthSpace;</a></h1>
+<p>项目采购管理包括从项目团队外部采购或获取所需产品、服务或成果的各个过程。</p>
 <details class="details custom-block"><summary>本章目录</summary>
 <nav class="table-of-contents"><ul><li><a href="#管理基础">管理基础</a></li><li><a href="#_1-规划采购管理">1.规划采购管理</a><ul><li><a href="#输入">输入</a></li><li><a href="#工具与技术">工具与技术</a></li><li><a href="#输出">输出</a></li></ul></li><li><a href="#_2-实施采购">2.实施采购</a><ul><li><a href="#输入-1">输入</a></li><li><a href="#工具与技术-1">工具与技术</a></li><li><a href="#输出-1">输出</a></li></ul></li><li><a href="#_3-控制采购">3.控制采购</a><ul><li><a href="#输入-2">输入</a></li><li><a href="#工具与技术-2">工具与技术</a></li><li><a href="#输出-2">输出</a></li></ul></li><li><a href="#项目合同管理">项目合同管理</a><ul><li><a href="#合同的类型">合同的类型</a></li><li><a href="#合同的内容">合同的内容</a></li><li><a href="#合同的管理过程">合同的管理过程</a></li></ul></li></ul></nav>
 </details>
 <h2 id="管理基础" tabindex="-1">管理基础 <a class="header-anchor" href="#管理基础" aria-label="Permalink to &quot;管理基础&quot;">&ZeroWidthSpace;</a></h2>
-<p>项目采购管理过程设计用协议来描述买卖双方的关系。协议可以很简单，如以特定人单价购买所需的工时，也可以很复杂，如多年的国际施工合同。因应用领域不同，协议可以是合同、服务水平协议（SLA）、谅解备忘录、协议备忘录（MOA）或订购单。</p>
+<div class="info custom-block"><p class="custom-block-title">协议/采购合同</p>
+<p>项目采购管理过程涉及用协议来描述买卖双方的关系。协议可以很简单，如以特定人单价购买所需的工时，也可以很复杂，如多年的国际施工合同。因应用领域不同，协议可以是合同、服务水平协议（SLA）、谅解备忘录、协议备忘录（MOA）或订购单。</p>
+</div>
+<p>在复杂项目中，可能需要同时或先后管理多个合同。这种情况下，不同合同的生命周期可在项目生命周期的任何阶段开始与结束。
+买卖方关系是采购组织与外部组织之间的关系，可存在于项目的许多层次上。</p>
+<p>因应用领域不同，卖方可以是承包商、供货商、服务提供商或供应商;买方可能为最终产品的所有人、分包商、收购机构、服务需求者或购买方。</p>
 <h2 id="_1-规划采购管理" tabindex="-1">1.规划采购管理 <a class="header-anchor" href="#_1-规划采购管理" aria-label="Permalink to &quot;1.规划采购管理&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>规划采购管理是记录项目采购决策，明确采购方法，及识别潜在卖方的过程。主要作用是确定是否从项目外部获取货物和服务，如果是则还要确定将在什么时间、以什么方式获取什么货物和服务。货物和服务可从执行组织的其他部分采购，或者从外部渠道采购。</p>
 </div>
 <p>本过程<code>仅开展一次</code>或项目的预定义点开展。</p>
@@ -3454,7 +3460,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>最低成本：适用于<code>标准化或常规采购</code>。此类采购有成熟的实践与标准，有明确的预期成果，可以用不同的成本来取得。</li>
 <li>仅凭资源：适用于<code>采购价值相对较小</code>，不值得花时间和成本开展完整选择过程的情况。</li>
 <li>基于质量或技术方案得分：邀请一些组织提交建议书，同时列明技术和成本详情，如果建议书可接受，再邀请进行合同谈判。</li>
-<li>基于质量和成本：在基于质量和成本的方法中，成本也是用千选择卖方的一个考虑因 素。一般而言，如果项目的风险和(或)不确定性较高，相对千成本而言，质量就应该 是一个关键因素。</li>
+<li>基于质量和成本：在基于质量和成本的方法中，成本也是用于选择卖方的一个考虑因 素。一般而言，如果项目的风险和(或)不确定性较高，相对于成本而言，质量就应该 是一个关键因素。</li>
 <li>唯一来源：<code>无竞争</code>，仅在有<code>适当理由</code>时采用。</li>
 <li>固定预算：在建议邀请书中向受邀的卖方披露可用预算，然后在此预算内选择技术建议书得分最高的卖方。</li>
 </ul>
@@ -3501,7 +3507,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <ul>
 <li><code>信息邀请书（RFI）</code>：如果需要卖方提供关于拟采购货物和服务的更多信息，就使用信息邀请书</li>
 <li><code>报价邀请书（RFQ）</code>：如果需要供应商提供关于将如何满足需求和(或)将需要多少成本的更多信息，就使用报价邀请书</li>
-<li><code>建议邀请书（RFP）</code>：如果项目中出现问题且解决办法难以确定，就使用建议邀请书。这是最正式的&quot;邀请书“文件，需要遵守与内容、时间表，以及卖方应答有关的严格的 采购规则。买方拟定的采购文件不仅应便千潜在卖方做出准确、完整的应答，还要便千 买方对卖方应答进行评价。采购文件会包括规定的应答格式、相关的采购工作说明书，以及所需的合同条款。</li>
+<li><code>建议邀请书（RFP）</code>：如果项目中出现问题且解决办法难以确定，就使用建议邀请书。这是最正式的&quot;邀请书“文件，需要遵守与内容、时间表，以及卖方应答有关的严格的 采购规则。买方拟定的采购文件不仅应便于潜在卖方做出准确、完整的应答，还要便于 买方对卖方应答进行评价。采购文件会包括规定的应答格式、相关的采购工作说明书，以及所需的合同条款。</li>
 </ul>
 <h4 id="自制或外购决策" tabindex="-1">自制或外购决策 <a class="header-anchor" href="#自制或外购决策" aria-label="Permalink to &quot;自制或外购决策&quot;">&ZeroWidthSpace;</a></h4>
 <h4 id="独立成本估算" tabindex="-1">独立成本估算 <a class="header-anchor" href="#独立成本估算" aria-label="Permalink to &quot;独立成本估算&quot;">&ZeroWidthSpace;</a></h4>
@@ -3511,7 +3517,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="组织过程资产-更新" tabindex="-1">组织过程资产（更新） <a class="header-anchor" href="#组织过程资产-更新" aria-label="Permalink to &quot;组织过程资产（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_2-实施采购" tabindex="-1">2.实施采购 <a class="header-anchor" href="#_2-实施采购" aria-label="Permalink to &quot;2.实施采购&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>实施采购是获取卖方应答、选择卖方并授予合同的过程。主要作用：选定合格卖方并签署关于货物或服务交付的法律协议。
 本过程的最后成果是签订的协议，包括正式合同。需要在<code>整个项目期间定期开展</code>。</p>
 </div>
@@ -3541,7 +3547,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="投标人会议" tabindex="-1">投标人会议 <a class="header-anchor" href="#投标人会议" aria-label="Permalink to &quot;投标人会议&quot;">&ZeroWidthSpace;</a></h4>
 <p>投标人会议(又称承包商会议、供应商会议或投标前会议)是在<code>卖方提交建议书之前</code>，在 买方和潜在卖方之间召开的会议，其目的是确保所有潜在投标人对采购要求都有清楚且一致的 理解，并确保没有任何投标人会得到特别优待。</p>
 <h4 id="数据分析-1" tabindex="-1">数据分析 <a class="header-anchor" href="#数据分析-1" aria-label="Permalink to &quot;数据分析&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千实施采购过程的数据分析技术主要包括建议书评估</p>
+<p>适用于实施采购过程的数据分析技术主要包括建议书评估</p>
 <h4 id="人际关系与团队技能" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
 <p>谈判应由采购团队中拥有合同签署职权的成员主导。项目经理和项目管理团队的其他成员 可以参加谈判并提供必要的协助。</p>
 <h3 id="输出-1" tabindex="-1">输出 <a class="header-anchor" href="#输出-1" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
@@ -3572,7 +3578,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="组织过程资产-更新-1" tabindex="-1">组织过程资产（更新） <a class="header-anchor" href="#组织过程资产-更新-1" aria-label="Permalink to &quot;组织过程资产（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_3-控制采购" tabindex="-1">3.控制采购 <a class="header-anchor" href="#_3-控制采购" aria-label="Permalink to &quot;3.控制采购&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>控制采购是管理采购关系、监督合同绩效、实施必要的变更和纠偏，以及关闭合同的过程。主要作用：确保买卖双方履行法律协议，满足项目需求。</p>
 <p>应根据需要在<code>整个项目期间</code>开展。</p>
 </div>
@@ -3638,7 +3644,14 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新-2" tabindex="-1">项目文件(更新) <a class="header-anchor" href="#项目文件-更新-2" aria-label="Permalink to &quot;项目文件(更新)&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="组织过程资产-更新-2" tabindex="-1">组织过程资产(更新) <a class="header-anchor" href="#组织过程资产-更新-2" aria-label="Permalink to &quot;组织过程资产(更新)&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>作为控制采购过程的结果，需要更新的组织过程资产主要包括：</p>
+<ul>
+<li>支付计划和请求</li>
+<li>卖方绩效评估文件</li>
+<li>预审合格卖方清单更新</li>
+<li>经验教训知识库</li>
+<li>采购档案</li>
+</ul>
 <h2 id="项目合同管理" tabindex="-1">项目合同管理 <a class="header-anchor" href="#项目合同管理" aria-label="Permalink to &quot;项目合同管理&quot;">&ZeroWidthSpace;</a></h2>
 <h3 id="合同的类型" tabindex="-1">合同的类型 <a class="header-anchor" href="#合同的类型" aria-label="Permalink to &quot;合同的类型&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目范围划分" tabindex="-1">项目范围划分 <a class="header-anchor" href="#项目范围划分" aria-label="Permalink to &quot;项目范围划分&quot;">&ZeroWidthSpace;</a></h4>
@@ -3673,6 +3686,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h3 id="合同的内容" tabindex="-1">合同的内容 <a class="header-anchor" href="#合同的内容" aria-label="Permalink to &quot;合同的内容&quot;">&ZeroWidthSpace;</a></h3>
 <p>项目合同的具体条款由当事人各方自行约定</p>
 <h3 id="合同的管理过程" tabindex="-1">合同的管理过程 <a class="header-anchor" href="#合同的管理过程" aria-label="Permalink to &quot;合同的管理过程&quot;">&ZeroWidthSpace;</a></h3>
+<p>合同管理包括：合同的签订管理、合同的履行管理、合同的变更管理、合同的档案管理和合同违约索赔管理。</p>
 <h4 id="合同的签订管理" tabindex="-1">合同的签订管理 <a class="header-anchor" href="#合同的签订管理" aria-label="Permalink to &quot;合同的签订管理&quot;">&ZeroWidthSpace;</a></h4>
 <p>在合同签订之前，应当做好以下3项工作:</p>
 <ul>
@@ -3700,7 +3714,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>按照惯例，这两种解决方法通常是相互排斥的，即如果约定了仲裁且约定了仲裁裁决的终局性，就不能向法院诉讼。仲裁是当事人自愿约定的，通常也会约定仲裁裁决具有终局的约束力。</p>
 <p>在解决合同争议的方法中，其优先顺序为<code>谈判(协商)</code> -&gt; <code>调解</code> -&gt; <code>仲裁</code> -&gt; <code>诉讼</code></p>
 <h4 id="合同的变更管理" tabindex="-1">合同的变更管理 <a class="header-anchor" href="#合同的变更管理" aria-label="Permalink to &quot;合同的变更管理&quot;">&ZeroWidthSpace;</a></h4>
-<p>合同变更指由千一定的法律事实而改变合同的内容的法律行为，具有的特征：</p>
+<p>合同变更指由于一定的法律事实而改变合同的内容的法律行为，具有的特征：</p>
 <ul>
 <li>项目合同的双方当事人必须协商一致</li>
 <li>改变了合同的内容</li>
@@ -3709,7 +3723,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>一般具备以下条件才可以变更合同：</p>
 <ul>
 <li>双方当事人协商，并且不因此而损坏国家和社会利益;</li>
-<li>由千不可抗拒力导致合同义务不能执行</li>
+<li>由于不可抗拒力导致合同义务不能执行</li>
 <li>由于另一方在合同约定的期限内没有履行合同，并且在被允许的推迟履行期限内仍未履行。</li>
 </ul>
 <p>项目合同的变更给另一方当事方造成损失的，除依法可以免责的以外，应由责任方负责赔偿</p>
@@ -3745,19 +3759,25 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>主导语言原则：如果合同存在两种语言的文本，必须约定哪一种语言是主导语言。当两者不一致时，应该以主导语言文本为准</li>
 <li>适用法律原则：合同中应该规定以哪个国家的法律作为合同的适用法律，合同的解释必须根据适用法律进行</li>
 <li>整体解释原则： 合同是一个整体，不能割断其中的内在联系。如果合同中没有其他特别规定，在出现含糊或矛盾时可以按惯例进行解释。
-一般来说，特殊条件优先于一般条件，具体规定优先于笼统规定，手写条文优先千印刷条文，单价优先千总价，价格的文字表达优先千阿拉伯数字表达，技术规范优先于图纸</li>
-<li>公平诚信原则：在解释合同时应公平合理，兼顾双方当事人的利益。如果按整体解释原则进行解释后仍含糊不清，则可按不利千合同起草一方(一般为买方)的原则进行解释。
+一般来说，特殊条件优先于一般条件，具体规定优先于笼统规定，手写条文优先于印刷条文，单价优先于总价，价格的文字表达优先于阿拉伯数字表达，技术规范优先于图纸</li>
+<li>公平诚信原则：在解释合同时应公平合理，兼顾双方当事人的利益。如果按整体解释原则进行解释后仍含糊不清，则可按不利于合同起草一方(一般为买方)的原则进行解释。
 在这种情况下，可以理解为买方故意使用了这种有歧义的词句，因此应该承担相应的责任。</li>
 </ul>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="项目采购管理" tabindex="-1">项目采购管理 <a class="header-anchor" href="#项目采购管理" aria-label="Permalink to &quot;项目采购管理&quot;">&ZeroWidthSpace;</a></h1>
+<p>项目采购管理包括从项目团队外部采购或获取所需产品、服务或成果的各个过程。</p>
 <details class="details custom-block"><summary>本章目录</summary>
 <nav class="table-of-contents"><ul><li><a href="#管理基础">管理基础</a></li><li><a href="#_1-规划采购管理">1.规划采购管理</a><ul><li><a href="#输入">输入</a></li><li><a href="#工具与技术">工具与技术</a></li><li><a href="#输出">输出</a></li></ul></li><li><a href="#_2-实施采购">2.实施采购</a><ul><li><a href="#输入-1">输入</a></li><li><a href="#工具与技术-1">工具与技术</a></li><li><a href="#输出-1">输出</a></li></ul></li><li><a href="#_3-控制采购">3.控制采购</a><ul><li><a href="#输入-2">输入</a></li><li><a href="#工具与技术-2">工具与技术</a></li><li><a href="#输出-2">输出</a></li></ul></li><li><a href="#项目合同管理">项目合同管理</a><ul><li><a href="#合同的类型">合同的类型</a></li><li><a href="#合同的内容">合同的内容</a></li><li><a href="#合同的管理过程">合同的管理过程</a></li></ul></li></ul></nav>
 </details>
 <h2 id="管理基础" tabindex="-1">管理基础 <a class="header-anchor" href="#管理基础" aria-label="Permalink to &quot;管理基础&quot;">&ZeroWidthSpace;</a></h2>
-<p>项目采购管理过程设计用协议来描述买卖双方的关系。协议可以很简单，如以特定人单价购买所需的工时，也可以很复杂，如多年的国际施工合同。因应用领域不同，协议可以是合同、服务水平协议（SLA）、谅解备忘录、协议备忘录（MOA）或订购单。</p>
+<div class="info custom-block"><p class="custom-block-title">协议/采购合同</p>
+<p>项目采购管理过程涉及用协议来描述买卖双方的关系。协议可以很简单，如以特定人单价购买所需的工时，也可以很复杂，如多年的国际施工合同。因应用领域不同，协议可以是合同、服务水平协议（SLA）、谅解备忘录、协议备忘录（MOA）或订购单。</p>
+</div>
+<p>在复杂项目中，可能需要同时或先后管理多个合同。这种情况下，不同合同的生命周期可在项目生命周期的任何阶段开始与结束。
+买卖方关系是采购组织与外部组织之间的关系，可存在于项目的许多层次上。</p>
+<p>因应用领域不同，卖方可以是承包商、供货商、服务提供商或供应商;买方可能为最终产品的所有人、分包商、收购机构、服务需求者或购买方。</p>
 <h2 id="_1-规划采购管理" tabindex="-1">1.规划采购管理 <a class="header-anchor" href="#_1-规划采购管理" aria-label="Permalink to &quot;1.规划采购管理&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>规划采购管理是记录项目采购决策，明确采购方法，及识别潜在卖方的过程。主要作用是确定是否从项目外部获取货物和服务，如果是则还要确定将在什么时间、以什么方式获取什么货物和服务。货物和服务可从执行组织的其他部分采购，或者从外部渠道采购。</p>
 </div>
 <p>本过程<code>仅开展一次</code>或项目的预定义点开展。</p>
@@ -3847,7 +3867,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>最低成本：适用于<code>标准化或常规采购</code>。此类采购有成熟的实践与标准，有明确的预期成果，可以用不同的成本来取得。</li>
 <li>仅凭资源：适用于<code>采购价值相对较小</code>，不值得花时间和成本开展完整选择过程的情况。</li>
 <li>基于质量或技术方案得分：邀请一些组织提交建议书，同时列明技术和成本详情，如果建议书可接受，再邀请进行合同谈判。</li>
-<li>基于质量和成本：在基于质量和成本的方法中，成本也是用千选择卖方的一个考虑因 素。一般而言，如果项目的风险和(或)不确定性较高，相对千成本而言，质量就应该 是一个关键因素。</li>
+<li>基于质量和成本：在基于质量和成本的方法中，成本也是用于选择卖方的一个考虑因 素。一般而言，如果项目的风险和(或)不确定性较高，相对于成本而言，质量就应该 是一个关键因素。</li>
 <li>唯一来源：<code>无竞争</code>，仅在有<code>适当理由</code>时采用。</li>
 <li>固定预算：在建议邀请书中向受邀的卖方披露可用预算，然后在此预算内选择技术建议书得分最高的卖方。</li>
 </ul>
@@ -3894,7 +3914,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <ul>
 <li><code>信息邀请书（RFI）</code>：如果需要卖方提供关于拟采购货物和服务的更多信息，就使用信息邀请书</li>
 <li><code>报价邀请书（RFQ）</code>：如果需要供应商提供关于将如何满足需求和(或)将需要多少成本的更多信息，就使用报价邀请书</li>
-<li><code>建议邀请书（RFP）</code>：如果项目中出现问题且解决办法难以确定，就使用建议邀请书。这是最正式的&quot;邀请书“文件，需要遵守与内容、时间表，以及卖方应答有关的严格的 采购规则。买方拟定的采购文件不仅应便千潜在卖方做出准确、完整的应答，还要便千 买方对卖方应答进行评价。采购文件会包括规定的应答格式、相关的采购工作说明书，以及所需的合同条款。</li>
+<li><code>建议邀请书（RFP）</code>：如果项目中出现问题且解决办法难以确定，就使用建议邀请书。这是最正式的&quot;邀请书“文件，需要遵守与内容、时间表，以及卖方应答有关的严格的 采购规则。买方拟定的采购文件不仅应便于潜在卖方做出准确、完整的应答，还要便于 买方对卖方应答进行评价。采购文件会包括规定的应答格式、相关的采购工作说明书，以及所需的合同条款。</li>
 </ul>
 <h4 id="自制或外购决策" tabindex="-1">自制或外购决策 <a class="header-anchor" href="#自制或外购决策" aria-label="Permalink to &quot;自制或外购决策&quot;">&ZeroWidthSpace;</a></h4>
 <h4 id="独立成本估算" tabindex="-1">独立成本估算 <a class="header-anchor" href="#独立成本估算" aria-label="Permalink to &quot;独立成本估算&quot;">&ZeroWidthSpace;</a></h4>
@@ -3904,7 +3924,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="组织过程资产-更新" tabindex="-1">组织过程资产（更新） <a class="header-anchor" href="#组织过程资产-更新" aria-label="Permalink to &quot;组织过程资产（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_2-实施采购" tabindex="-1">2.实施采购 <a class="header-anchor" href="#_2-实施采购" aria-label="Permalink to &quot;2.实施采购&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>实施采购是获取卖方应答、选择卖方并授予合同的过程。主要作用：选定合格卖方并签署关于货物或服务交付的法律协议。
 本过程的最后成果是签订的协议，包括正式合同。需要在<code>整个项目期间定期开展</code>。</p>
 </div>
@@ -3934,7 +3954,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="投标人会议" tabindex="-1">投标人会议 <a class="header-anchor" href="#投标人会议" aria-label="Permalink to &quot;投标人会议&quot;">&ZeroWidthSpace;</a></h4>
 <p>投标人会议(又称承包商会议、供应商会议或投标前会议)是在<code>卖方提交建议书之前</code>，在 买方和潜在卖方之间召开的会议，其目的是确保所有潜在投标人对采购要求都有清楚且一致的 理解，并确保没有任何投标人会得到特别优待。</p>
 <h4 id="数据分析-1" tabindex="-1">数据分析 <a class="header-anchor" href="#数据分析-1" aria-label="Permalink to &quot;数据分析&quot;">&ZeroWidthSpace;</a></h4>
-<p>适用千实施采购过程的数据分析技术主要包括建议书评估</p>
+<p>适用于实施采购过程的数据分析技术主要包括建议书评估</p>
 <h4 id="人际关系与团队技能" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
 <p>谈判应由采购团队中拥有合同签署职权的成员主导。项目经理和项目管理团队的其他成员 可以参加谈判并提供必要的协助。</p>
 <h3 id="输出-1" tabindex="-1">输出 <a class="header-anchor" href="#输出-1" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
@@ -3965,7 +3985,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="组织过程资产-更新-1" tabindex="-1">组织过程资产（更新） <a class="header-anchor" href="#组织过程资产-更新-1" aria-label="Permalink to &quot;组织过程资产（更新）&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h2 id="_3-控制采购" tabindex="-1">3.控制采购 <a class="header-anchor" href="#_3-控制采购" aria-label="Permalink to &quot;3.控制采购&quot;">&ZeroWidthSpace;</a></h2>
-<div class="tip custom-block"><p class="custom-block-title">TIP</p>
+<div class="tip custom-block"><p class="custom-block-title">定义及作用</p>
 <p>控制采购是管理采购关系、监督合同绩效、实施必要的变更和纠偏，以及关闭合同的过程。主要作用：确保买卖双方履行法律协议，满足项目需求。</p>
 <p>应根据需要在<code>整个项目期间</code>开展。</p>
 </div>
@@ -4031,7 +4051,14 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h4 id="项目文件-更新-2" tabindex="-1">项目文件(更新) <a class="header-anchor" href="#项目文件-更新-2" aria-label="Permalink to &quot;项目文件(更新)&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="组织过程资产-更新-2" tabindex="-1">组织过程资产(更新) <a class="header-anchor" href="#组织过程资产-更新-2" aria-label="Permalink to &quot;组织过程资产(更新)&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>作为控制采购过程的结果，需要更新的组织过程资产主要包括：</p>
+<ul>
+<li>支付计划和请求</li>
+<li>卖方绩效评估文件</li>
+<li>预审合格卖方清单更新</li>
+<li>经验教训知识库</li>
+<li>采购档案</li>
+</ul>
 <h2 id="项目合同管理" tabindex="-1">项目合同管理 <a class="header-anchor" href="#项目合同管理" aria-label="Permalink to &quot;项目合同管理&quot;">&ZeroWidthSpace;</a></h2>
 <h3 id="合同的类型" tabindex="-1">合同的类型 <a class="header-anchor" href="#合同的类型" aria-label="Permalink to &quot;合同的类型&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目范围划分" tabindex="-1">项目范围划分 <a class="header-anchor" href="#项目范围划分" aria-label="Permalink to &quot;项目范围划分&quot;">&ZeroWidthSpace;</a></h4>
@@ -4066,6 +4093,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <h3 id="合同的内容" tabindex="-1">合同的内容 <a class="header-anchor" href="#合同的内容" aria-label="Permalink to &quot;合同的内容&quot;">&ZeroWidthSpace;</a></h3>
 <p>项目合同的具体条款由当事人各方自行约定</p>
 <h3 id="合同的管理过程" tabindex="-1">合同的管理过程 <a class="header-anchor" href="#合同的管理过程" aria-label="Permalink to &quot;合同的管理过程&quot;">&ZeroWidthSpace;</a></h3>
+<p>合同管理包括：合同的签订管理、合同的履行管理、合同的变更管理、合同的档案管理和合同违约索赔管理。</p>
 <h4 id="合同的签订管理" tabindex="-1">合同的签订管理 <a class="header-anchor" href="#合同的签订管理" aria-label="Permalink to &quot;合同的签订管理&quot;">&ZeroWidthSpace;</a></h4>
 <p>在合同签订之前，应当做好以下3项工作:</p>
 <ul>
@@ -4093,7 +4121,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>按照惯例，这两种解决方法通常是相互排斥的，即如果约定了仲裁且约定了仲裁裁决的终局性，就不能向法院诉讼。仲裁是当事人自愿约定的，通常也会约定仲裁裁决具有终局的约束力。</p>
 <p>在解决合同争议的方法中，其优先顺序为<code>谈判(协商)</code> -&gt; <code>调解</code> -&gt; <code>仲裁</code> -&gt; <code>诉讼</code></p>
 <h4 id="合同的变更管理" tabindex="-1">合同的变更管理 <a class="header-anchor" href="#合同的变更管理" aria-label="Permalink to &quot;合同的变更管理&quot;">&ZeroWidthSpace;</a></h4>
-<p>合同变更指由千一定的法律事实而改变合同的内容的法律行为，具有的特征：</p>
+<p>合同变更指由于一定的法律事实而改变合同的内容的法律行为，具有的特征：</p>
 <ul>
 <li>项目合同的双方当事人必须协商一致</li>
 <li>改变了合同的内容</li>
@@ -4102,7 +4130,7 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <p>一般具备以下条件才可以变更合同：</p>
 <ul>
 <li>双方当事人协商，并且不因此而损坏国家和社会利益;</li>
-<li>由千不可抗拒力导致合同义务不能执行</li>
+<li>由于不可抗拒力导致合同义务不能执行</li>
 <li>由于另一方在合同约定的期限内没有履行合同，并且在被允许的推迟履行期限内仍未履行。</li>
 </ul>
 <p>项目合同的变更给另一方当事方造成损失的，除依法可以免责的以外，应由责任方负责赔偿</p>
@@ -4138,8 +4166,8 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
 <li>主导语言原则：如果合同存在两种语言的文本，必须约定哪一种语言是主导语言。当两者不一致时，应该以主导语言文本为准</li>
 <li>适用法律原则：合同中应该规定以哪个国家的法律作为合同的适用法律，合同的解释必须根据适用法律进行</li>
 <li>整体解释原则： 合同是一个整体，不能割断其中的内在联系。如果合同中没有其他特别规定，在出现含糊或矛盾时可以按惯例进行解释。
-一般来说，特殊条件优先于一般条件，具体规定优先于笼统规定，手写条文优先千印刷条文，单价优先千总价，价格的文字表达优先千阿拉伯数字表达，技术规范优先于图纸</li>
-<li>公平诚信原则：在解释合同时应公平合理，兼顾双方当事人的利益。如果按整体解释原则进行解释后仍含糊不清，则可按不利千合同起草一方(一般为买方)的原则进行解释。
+一般来说，特殊条件优先于一般条件，具体规定优先于笼统规定，手写条文优先于印刷条文，单价优先于总价，价格的文字表达优先于阿拉伯数字表达，技术规范优先于图纸</li>
+<li>公平诚信原则：在解释合同时应公平合理，兼顾双方当事人的利益。如果按整体解释原则进行解释后仍含糊不清，则可按不利于合同起草一方(一般为买方)的原则进行解释。
 在这种情况下，可以理解为买方故意使用了这种有歧义的词句，因此应该承担相应的责任。</li>
 </ul>
 ]]></content:encoded>
