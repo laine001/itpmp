@@ -11,17 +11,16 @@ const getDaysFromNow = (dateString) => {
   const now = new Date();
   const diffTime = Math.abs(now - date);
   const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-  if (diffDays >= 31) {
-    const diffMonths = Math.ceil(diffDays / 30);
-    return diffMonths + '个月前';
-  }
   if (diffDays >= 365) {
     const diffYears = Math.ceil(diffDays / 365);
     return diffYears + '年前';
   }
+  if (diffDays >= 31) {
+    const diffMonths = Math.ceil(diffDays / 30);
+    return diffMonths + '个月前';
+  }
   return `${diffDays}天前`;
 }
-console.log(getDaysFromNow(lastUpdateTime), 'getDaysFromNow')
 const props = defineProps({
   readTime: {
     type: Number,
