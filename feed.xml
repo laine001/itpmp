@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.netlify.app</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Sat, 31 May 2025 02:01:40 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 May 2025 10:11:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -2906,13 +2906,13 @@ CCB的决定都应记录在案，并向干系人传达，以便其知晓并采�
             <description><![CDATA[<h1 id="八大绩效域" tabindex="-1">八大绩效域 <a class="header-anchor" href="#八大绩效域" aria-label="Permalink to &quot;八大绩效域&quot;">&ZeroWidthSpace;</a></h1>
 <p>价值驱动的项目管理知识体系关注价值的实现，包含了项目管理原则、绩效域、项目生命周期、过程组、 10大知识领域和价值交付系统。
 在整个生命周期过程中，项目管理者需要始终坚持项目管理原则，通过涵盖10大知识领域的项目管理过程组对项目进行管理，同时需要密切关注<strong>干系人、团队、开发方法和生命周期、规划、项目工作、交付、测量、不确定性</strong>这8个于绩效密切相关的因素，我们称之为绩效域。</p>
-<div class="info custom-block"><p class="custom-block-title">INFO</p>
+<div class="info custom-block"><p class="custom-block-title">🚨</p>
 <p>系统内的每个绩效域相互作用、相互关联和相互依赖，并协调一致、共同运作，支撑项目目标和价值的实现。</p>
 <p>这些绩效域相互重叠和关联，并在项目中同时开展，我们不能把某一个绩效域当作一个孤立的工作进行处理。在实际项目进行过程中，
 每个绩效域中开展的活动是由组织的背景、项目、可交付物、项目团队、干系人和其他因素确定的，它们之间并没有特定的执行顺序和权重。</p>
 </div>
 <details class="details custom-block"><summary>本章目录</summary>
-<nav class="table-of-contents"><ul><li><a href="#一、干系人绩效域">一、干系人绩效域</a><ul><li><a href="#绩效要点">绩效要点</a></li><li><a href="#与其他绩效域的相互作用">与其他绩效域的相互作用</a></li><li><a href="#预期目标和执行效果检查">预期目标和执行效果检查</a></li></ul></li><li><a href="#二、团队绩效域">二、团队绩效域</a><ul><li><a href="#绩效要点-1">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-1">与其他绩效域的相互作用</a></li><li><a href="#预期目标和执行效果检查-1">预期目标和执行效果检查</a></li></ul></li><li><a href="#三、开发方法和生命周期绩效域">三、开发方法和生命周期绩效域</a><ul><li><a href="#绩效要点-2">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-2">与其他绩效域的相互作用</a></li><li><a href="#执行效果检查">执行效果检查</a></li></ul></li><li><a href="#四、规划绩效域">四、规划绩效域</a><ul><li><a href="#绩效要点-3">绩效要点</a></li></ul></li></ul></nav>
+<nav class="table-of-contents"><ul><li><a href="#一、干系人绩效域">一、干系人绩效域</a><ul><li><a href="#绩效要点">绩效要点</a></li><li><a href="#与其他绩效域的相互作用">与其他绩效域的相互作用</a></li><li><a href="#预期目标和执行效果检查">预期目标和执行效果检查</a></li></ul></li><li><a href="#二、团队绩效域">二、团队绩效域</a><ul><li><a href="#绩效要点-1">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-1">与其他绩效域的相互作用</a></li><li><a href="#预期目标和执行效果检查-1">预期目标和执行效果检查</a></li></ul></li><li><a href="#三、开发方法和生命周期绩效域">三、开发方法和生命周期绩效域</a><ul><li><a href="#绩效要点-2">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-2">与其他绩效域的相互作用</a></li><li><a href="#执行效果检查">执行效果检查</a></li></ul></li><li><a href="#四、规划绩效域">四、规划绩效域</a><ul><li><a href="#绩效要点-3">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-3">与其他绩效域的相互作用</a></li><li><a href="#执行效果检查-1">执行效果检查</a></li></ul></li><li><a href="#五、项目工作绩效域">五、项目工作绩效域</a></li></ul></nav>
 </details>
 <h2 id="一、干系人绩效域" tabindex="-1">一、干系人绩效域 <a class="header-anchor" href="#一、干系人绩效域" aria-label="Permalink to &quot;一、干系人绩效域&quot;">&ZeroWidthSpace;</a></h2>
 <p>干系人绩效域涉及与干系人相关的活动和职能。在项目整个生命周期中，有效执行本绩效域可以实现的目标主要包括：</p>
@@ -3115,24 +3115,94 @@ CCB的决定都应记录在案，并向干系人传达，以便其知晓并采�
 <p>为了有效执行规划绩效域，项目经理需要重点关注：规划的影响因素、项目估算、项目团队组成和结构规划、沟通规划、实物资源规划、采购规划、变更规划、度量指标和一致性。</p>
 <h3 id="绩效要点-3" tabindex="-1">绩效要点 <a class="header-anchor" href="#绩效要点-3" aria-label="Permalink to &quot;绩效要点&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="_1-规划的影响因素" tabindex="-1">1. 规划的影响因素 <a class="header-anchor" href="#_1-规划的影响因素" aria-label="Permalink to &quot;1. 规划的影响因素&quot;">&ZeroWidthSpace;</a></h4>
+<ul>
+<li>开发方法
+<ul>
+<li>采用预测型开发方法，在项目生命周期早期进行规划或组织，这种情况下，大部分规划都是预先进行的。</li>
+<li>预先进行高层级规划，随后使用原型方法进行设计，在项目团队和干系入对设计表示同意后，项目团队再完成更详细的规划。</li>
+<li>项目团队实施迭代的适应型方法，一些规划会提前进行，以便制订发布计划，而进一步的规划会在每个迭代开始时进行。</li>
+</ul>
+</li>
+<li>项目可交付物</li>
+<li>组织需求</li>
+<li>市场条件</li>
+<li>法律或法规限制</li>
+</ul>
 <h4 id="_2-项目估算" tabindex="-1">2. 项目估算 <a class="header-anchor" href="#_2-项目估算" aria-label="Permalink to &quot;2. 项目估算&quot;">&ZeroWidthSpace;</a></h4>
+<p>影响估算的4个方面的因素包括：区间、准确度、精确度、信心</p>
 <h4 id="_3-项目团队组成和结构规划" tabindex="-1">3. 项目团队组成和结构规划 <a class="header-anchor" href="#_3-项目团队组成和结构规划" aria-label="Permalink to &quot;3. 项目团队组成和结构规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>规划项目团队的组成和结构时，首先要确定完成项目工作所需的技能组合，包括技能、熟练程度和类似项目的经验。</p>
 <h4 id="_4-沟通规划" tabindex="-1">4. 沟通规划 <a class="header-anchor" href="#_4-沟通规划" aria-label="Permalink to &quot;4. 沟通规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>沟通是争取干系人有效参与的最重要的因素，对沟通进行规划时，需要与干系人绩效域进行关联，包括干系入识别、分析、优先级排序和参与的内容。</p>
 <h4 id="_5-实物资源规划" tabindex="-1">5. 实物资源规划 <a class="header-anchor" href="#_5-实物资源规划" aria-label="Permalink to &quot;5. 实物资源规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>实物资源指人力资源以外的任何资源，包括材料、设备、软件、测试环境、许可证等。规划实物资源需要对资源的交付、移动、存储和处置进行规划，包括对实物资源的流动轨迹进行跟踪。需要大量实物材料的项目，会从战略角度思考和规划实物资源从订单到交付再到使用全
+过程的时间安排，同时需要考虑批量订购的存储成本、全球物流、可待续性，将实物资产与项目的其余部分进行整合管理。</p>
 <h4 id="_6-采购规划" tabindex="-1">6. 采购规划 <a class="header-anchor" href="#_6-采购规划" aria-label="Permalink to &quot;6. 采购规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>采购可以在项目期间的任何时候进行，预先规划有助千明确目标，确保采购过程顺利进行。</p>
 <h4 id="_7-变更规划" tabindex="-1">7. 变更规划 <a class="header-anchor" href="#_7-变更规划" aria-label="Permalink to &quot;7. 变更规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>项目期间会发生很多变更，有些变更是因发生风险事件或项目环境变化而导致的，有些则
+是基于对需求的深入了解之后提出的，还有些变更则是由千客户或其他原因造成的。</p>
 <h4 id="_8-度量指标和一致性" tabindex="-1">8. 度量指标和一致性 <a class="header-anchor" href="#_8-度量指标和一致性" aria-label="Permalink to &quot;8. 度量指标和一致性&quot;">&ZeroWidthSpace;</a></h4>
+<ul>
+<li>度量指标。项目进行过程中，规划、交付和度量工作之间存在自然的联系，这种联系就是度量指标。确定度量指标、基准和临界值，以及确定测试和评估方法及流程是规划绩效域的重要工作。度量目标的原则是<strong>只测量重要的东西</strong>。</li>
+<li>一致性。要保证规划和实际的一致性。</li>
+</ul>
+<h3 id="与其他绩效域的相互作用-3" tabindex="-1">与其他绩效域的相互作用 <a class="header-anchor" href="#与其他绩效域的相互作用-3" aria-label="Permalink to &quot;与其他绩效域的相互作用&quot;">&ZeroWidthSpace;</a></h3>
+<p>项目团队和干系人将制定度量指标，并将绩效与计划进行比较</p>
+<h3 id="执行效果检查-1" tabindex="-1">执行效果检查 <a class="header-anchor" href="#执行效果检查-1" aria-label="Permalink to &quot;执行效果检查&quot;">&ZeroWidthSpace;</a></h3>
+<table tabindex="0">
+<thead>
+<tr>
+<th>预期目标</th>
+<th>指标及检查方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>项目以有条理、协调一致的方式推进</code></td>
+<td><strong>绩效偏差</strong>：对照项目基准和其他度量指标对项目结果进行绩效审查表明项目正在按计划进行，绩效偏差处于临界值范围内</td>
+</tr>
+<tr>
+<td><code>应用系统的方法交付项目成果</code></td>
+<td><strong>规划的整体性</strong>：</td>
+</tr>
+<tr>
+<td><code>对演变情况进行详细说明</code></td>
+<td><strong>规划的整体性</strong>：</td>
+</tr>
+<tr>
+<td><code>规划投入的时间成本是适当的</code></td>
+<td><strong>规划的充分性</strong>：</td>
+</tr>
+<tr>
+<td><code>可以根据新出现的和不断变化的需求进行调整</code></td>
+<td><strong>可适应变化</strong>：</td>
+</tr>
+</tbody>
+</table>
+<h2 id="五、项目工作绩效域" tabindex="-1">五、项目工作绩效域 <a class="header-anchor" href="#五、项目工作绩效域" aria-label="Permalink to &quot;五、项目工作绩效域&quot;">&ZeroWidthSpace;</a></h2>
+<p>项目工作绩效域涉及项目工作相关的活动和职能。项目工作可使项目团队保持专注，并使项目活动顺利进行。
+在项目整个生命周期过程中，有效执行本绩效域可以实现预期目标，主要包含：</p>
+<ul>
+<li>高效且有效的项目绩效</li>
+<li>适合项目和环境的项目过程</li>
+<li>干系人适当的沟通和参与</li>
+<li>对实物资源进行了有效管理</li>
+<li>对采购进行了有效管理</li>
+<li>有效处理了变更</li>
+<li>通过持续学习和过程改进提高了团队能力</li>
+</ul>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="八大绩效域" tabindex="-1">八大绩效域 <a class="header-anchor" href="#八大绩效域" aria-label="Permalink to &quot;八大绩效域&quot;">&ZeroWidthSpace;</a></h1>
 <p>价值驱动的项目管理知识体系关注价值的实现，包含了项目管理原则、绩效域、项目生命周期、过程组、 10大知识领域和价值交付系统。
 在整个生命周期过程中，项目管理者需要始终坚持项目管理原则，通过涵盖10大知识领域的项目管理过程组对项目进行管理，同时需要密切关注<strong>干系人、团队、开发方法和生命周期、规划、项目工作、交付、测量、不确定性</strong>这8个于绩效密切相关的因素，我们称之为绩效域。</p>
-<div class="info custom-block"><p class="custom-block-title">INFO</p>
+<div class="info custom-block"><p class="custom-block-title">🚨</p>
 <p>系统内的每个绩效域相互作用、相互关联和相互依赖，并协调一致、共同运作，支撑项目目标和价值的实现。</p>
 <p>这些绩效域相互重叠和关联，并在项目中同时开展，我们不能把某一个绩效域当作一个孤立的工作进行处理。在实际项目进行过程中，
 每个绩效域中开展的活动是由组织的背景、项目、可交付物、项目团队、干系人和其他因素确定的，它们之间并没有特定的执行顺序和权重。</p>
 </div>
 <details class="details custom-block"><summary>本章目录</summary>
-<nav class="table-of-contents"><ul><li><a href="#一、干系人绩效域">一、干系人绩效域</a><ul><li><a href="#绩效要点">绩效要点</a></li><li><a href="#与其他绩效域的相互作用">与其他绩效域的相互作用</a></li><li><a href="#预期目标和执行效果检查">预期目标和执行效果检查</a></li></ul></li><li><a href="#二、团队绩效域">二、团队绩效域</a><ul><li><a href="#绩效要点-1">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-1">与其他绩效域的相互作用</a></li><li><a href="#预期目标和执行效果检查-1">预期目标和执行效果检查</a></li></ul></li><li><a href="#三、开发方法和生命周期绩效域">三、开发方法和生命周期绩效域</a><ul><li><a href="#绩效要点-2">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-2">与其他绩效域的相互作用</a></li><li><a href="#执行效果检查">执行效果检查</a></li></ul></li><li><a href="#四、规划绩效域">四、规划绩效域</a><ul><li><a href="#绩效要点-3">绩效要点</a></li></ul></li></ul></nav>
+<nav class="table-of-contents"><ul><li><a href="#一、干系人绩效域">一、干系人绩效域</a><ul><li><a href="#绩效要点">绩效要点</a></li><li><a href="#与其他绩效域的相互作用">与其他绩效域的相互作用</a></li><li><a href="#预期目标和执行效果检查">预期目标和执行效果检查</a></li></ul></li><li><a href="#二、团队绩效域">二、团队绩效域</a><ul><li><a href="#绩效要点-1">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-1">与其他绩效域的相互作用</a></li><li><a href="#预期目标和执行效果检查-1">预期目标和执行效果检查</a></li></ul></li><li><a href="#三、开发方法和生命周期绩效域">三、开发方法和生命周期绩效域</a><ul><li><a href="#绩效要点-2">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-2">与其他绩效域的相互作用</a></li><li><a href="#执行效果检查">执行效果检查</a></li></ul></li><li><a href="#四、规划绩效域">四、规划绩效域</a><ul><li><a href="#绩效要点-3">绩效要点</a></li><li><a href="#与其他绩效域的相互作用-3">与其他绩效域的相互作用</a></li><li><a href="#执行效果检查-1">执行效果检查</a></li></ul></li><li><a href="#五、项目工作绩效域">五、项目工作绩效域</a></li></ul></nav>
 </details>
 <h2 id="一、干系人绩效域" tabindex="-1">一、干系人绩效域 <a class="header-anchor" href="#一、干系人绩效域" aria-label="Permalink to &quot;一、干系人绩效域&quot;">&ZeroWidthSpace;</a></h2>
 <p>干系人绩效域涉及与干系人相关的活动和职能。在项目整个生命周期中，有效执行本绩效域可以实现的目标主要包括：</p>
@@ -3335,13 +3405,83 @@ CCB的决定都应记录在案，并向干系人传达，以便其知晓并采�
 <p>为了有效执行规划绩效域，项目经理需要重点关注：规划的影响因素、项目估算、项目团队组成和结构规划、沟通规划、实物资源规划、采购规划、变更规划、度量指标和一致性。</p>
 <h3 id="绩效要点-3" tabindex="-1">绩效要点 <a class="header-anchor" href="#绩效要点-3" aria-label="Permalink to &quot;绩效要点&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="_1-规划的影响因素" tabindex="-1">1. 规划的影响因素 <a class="header-anchor" href="#_1-规划的影响因素" aria-label="Permalink to &quot;1. 规划的影响因素&quot;">&ZeroWidthSpace;</a></h4>
+<ul>
+<li>开发方法
+<ul>
+<li>采用预测型开发方法，在项目生命周期早期进行规划或组织，这种情况下，大部分规划都是预先进行的。</li>
+<li>预先进行高层级规划，随后使用原型方法进行设计，在项目团队和干系入对设计表示同意后，项目团队再完成更详细的规划。</li>
+<li>项目团队实施迭代的适应型方法，一些规划会提前进行，以便制订发布计划，而进一步的规划会在每个迭代开始时进行。</li>
+</ul>
+</li>
+<li>项目可交付物</li>
+<li>组织需求</li>
+<li>市场条件</li>
+<li>法律或法规限制</li>
+</ul>
 <h4 id="_2-项目估算" tabindex="-1">2. 项目估算 <a class="header-anchor" href="#_2-项目估算" aria-label="Permalink to &quot;2. 项目估算&quot;">&ZeroWidthSpace;</a></h4>
+<p>影响估算的4个方面的因素包括：区间、准确度、精确度、信心</p>
 <h4 id="_3-项目团队组成和结构规划" tabindex="-1">3. 项目团队组成和结构规划 <a class="header-anchor" href="#_3-项目团队组成和结构规划" aria-label="Permalink to &quot;3. 项目团队组成和结构规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>规划项目团队的组成和结构时，首先要确定完成项目工作所需的技能组合，包括技能、熟练程度和类似项目的经验。</p>
 <h4 id="_4-沟通规划" tabindex="-1">4. 沟通规划 <a class="header-anchor" href="#_4-沟通规划" aria-label="Permalink to &quot;4. 沟通规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>沟通是争取干系人有效参与的最重要的因素，对沟通进行规划时，需要与干系人绩效域进行关联，包括干系入识别、分析、优先级排序和参与的内容。</p>
 <h4 id="_5-实物资源规划" tabindex="-1">5. 实物资源规划 <a class="header-anchor" href="#_5-实物资源规划" aria-label="Permalink to &quot;5. 实物资源规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>实物资源指人力资源以外的任何资源，包括材料、设备、软件、测试环境、许可证等。规划实物资源需要对资源的交付、移动、存储和处置进行规划，包括对实物资源的流动轨迹进行跟踪。需要大量实物材料的项目，会从战略角度思考和规划实物资源从订单到交付再到使用全
+过程的时间安排，同时需要考虑批量订购的存储成本、全球物流、可待续性，将实物资产与项目的其余部分进行整合管理。</p>
 <h4 id="_6-采购规划" tabindex="-1">6. 采购规划 <a class="header-anchor" href="#_6-采购规划" aria-label="Permalink to &quot;6. 采购规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>采购可以在项目期间的任何时候进行，预先规划有助千明确目标，确保采购过程顺利进行。</p>
 <h4 id="_7-变更规划" tabindex="-1">7. 变更规划 <a class="header-anchor" href="#_7-变更规划" aria-label="Permalink to &quot;7. 变更规划&quot;">&ZeroWidthSpace;</a></h4>
+<p>项目期间会发生很多变更，有些变更是因发生风险事件或项目环境变化而导致的，有些则
+是基于对需求的深入了解之后提出的，还有些变更则是由千客户或其他原因造成的。</p>
 <h4 id="_8-度量指标和一致性" tabindex="-1">8. 度量指标和一致性 <a class="header-anchor" href="#_8-度量指标和一致性" aria-label="Permalink to &quot;8. 度量指标和一致性&quot;">&ZeroWidthSpace;</a></h4>
+<ul>
+<li>度量指标。项目进行过程中，规划、交付和度量工作之间存在自然的联系，这种联系就是度量指标。确定度量指标、基准和临界值，以及确定测试和评估方法及流程是规划绩效域的重要工作。度量目标的原则是<strong>只测量重要的东西</strong>。</li>
+<li>一致性。要保证规划和实际的一致性。</li>
+</ul>
+<h3 id="与其他绩效域的相互作用-3" tabindex="-1">与其他绩效域的相互作用 <a class="header-anchor" href="#与其他绩效域的相互作用-3" aria-label="Permalink to &quot;与其他绩效域的相互作用&quot;">&ZeroWidthSpace;</a></h3>
+<p>项目团队和干系人将制定度量指标，并将绩效与计划进行比较</p>
+<h3 id="执行效果检查-1" tabindex="-1">执行效果检查 <a class="header-anchor" href="#执行效果检查-1" aria-label="Permalink to &quot;执行效果检查&quot;">&ZeroWidthSpace;</a></h3>
+<table tabindex="0">
+<thead>
+<tr>
+<th>预期目标</th>
+<th>指标及检查方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>项目以有条理、协调一致的方式推进</code></td>
+<td><strong>绩效偏差</strong>：对照项目基准和其他度量指标对项目结果进行绩效审查表明项目正在按计划进行，绩效偏差处于临界值范围内</td>
+</tr>
+<tr>
+<td><code>应用系统的方法交付项目成果</code></td>
+<td><strong>规划的整体性</strong>：</td>
+</tr>
+<tr>
+<td><code>对演变情况进行详细说明</code></td>
+<td><strong>规划的整体性</strong>：</td>
+</tr>
+<tr>
+<td><code>规划投入的时间成本是适当的</code></td>
+<td><strong>规划的充分性</strong>：</td>
+</tr>
+<tr>
+<td><code>可以根据新出现的和不断变化的需求进行调整</code></td>
+<td><strong>可适应变化</strong>：</td>
+</tr>
+</tbody>
+</table>
+<h2 id="五、项目工作绩效域" tabindex="-1">五、项目工作绩效域 <a class="header-anchor" href="#五、项目工作绩效域" aria-label="Permalink to &quot;五、项目工作绩效域&quot;">&ZeroWidthSpace;</a></h2>
+<p>项目工作绩效域涉及项目工作相关的活动和职能。项目工作可使项目团队保持专注，并使项目活动顺利进行。
+在项目整个生命周期过程中，有效执行本绩效域可以实现预期目标，主要包含：</p>
+<ul>
+<li>高效且有效的项目绩效</li>
+<li>适合项目和环境的项目过程</li>
+<li>干系人适当的沟通和参与</li>
+<li>对实物资源进行了有效管理</li>
+<li>对采购进行了有效管理</li>
+<li>有效处理了变更</li>
+<li>通过持续学习和过程改进提高了团队能力</li>
+</ul>
 ]]></content:encoded>
         </item>
         <item>
@@ -11492,17 +11632,17 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
             <guid>itpmp.netlify.appsummary/concept</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="一些名词和图表" tabindex="-1">一些名词和图表 <a class="header-anchor" href="#一些名词和图表" aria-label="Permalink to &quot;一些名词和图表&quot;">&ZeroWidthSpace;</a></h1>
-<div class="warning custom-block"><p class="custom-block-title">WARNING</p>
+<div class="warning custom-block"><p class="custom-block-title">🐢</p>
 <p>龟速收集中</p>
 </div>
 <h2 id="项目管理计划和项目文件" tabindex="-1">项目管理计划和项目文件 <a class="header-anchor" href="#项目管理计划和项目文件" aria-label="Permalink to &quot;项目管理计划和项目文件&quot;">&ZeroWidthSpace;</a></h2>
 <details class="details custom-block"><summary>⚡️记忆协助 口诀</summary>
 <p>10大过程子计划、3个基准加绩效、周期方法和审查、配置变更丢不了</p>
 </details>
-<ProjectPlanFile /><h2 id="组织过程资产和事业环境因素" tabindex="-1">组织过程资产和事业环境因素 <a class="header-anchor" href="#组织过程资产和事业环境因素" aria-label="Permalink to &quot;组织过程资产和事业环境因素&quot;">&ZeroWidthSpace;</a></h2>
-<!-- <div class="ai-box">
-本概念由ai生成
-</div> -->
+<ProjectPlanFile /><h2 id="需求跟踪矩阵" tabindex="-1">需求跟踪矩阵 <a class="header-anchor" href="#需求跟踪矩阵" aria-label="Permalink to &quot;需求跟踪矩阵&quot;">&ZeroWidthSpace;</a></h2>
+<p>需求跟踪矩阵是把产品需求从其来源连接到满足需求的可交付成果的一种表格。</p>
+<n-image width="80%" src="/assets/需求跟踪矩阵.png"></n-image><h2 id="权利利益方格" tabindex="-1">权利利益方格 <a class="header-anchor" href="#权利利益方格" aria-label="Permalink to &quot;权利利益方格&quot;">&ZeroWidthSpace;</a></h2>
+<n-image width="80%" src="/assets/权利利益方格.png"></n-image><h2 id="组织过程资产和事业环境因素" tabindex="-1">组织过程资产和事业环境因素 <a class="header-anchor" href="#组织过程资产和事业环境因素" aria-label="Permalink to &quot;组织过程资产和事业环境因素&quot;">&ZeroWidthSpace;</a></h2>
 <h3 id="组织过程资产" tabindex="-1">组织过程资产 <a class="header-anchor" href="#组织过程资产" aria-label="Permalink to &quot;组织过程资产&quot;">&ZeroWidthSpace;</a></h3>
 <p>组织过程资产是组织在项目管理过程中积累的流程、程序、知识库和文档，是项目团队可以直接利用的内部资源。这些资产是组织内部可控制和更新的资源，旨在提高项目管理的效率和效果</p>
 <ol>
@@ -11538,21 +11678,19 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
 </ol>
 </li>
 </ul>
-<h2 id="需求跟踪矩阵" tabindex="-1">需求跟踪矩阵 <a class="header-anchor" href="#需求跟踪矩阵" aria-label="Permalink to &quot;需求跟踪矩阵&quot;">&ZeroWidthSpace;</a></h2>
-<p>需求跟踪矩阵是把产品需求从其来源连接到满足需求的可交付成果的一种表格。</p>
-<n-image width="80%" src="/assets/需求跟踪矩阵.png"></n-image>]]></description>
+]]></description>
             <content:encoded><![CDATA[<h1 id="一些名词和图表" tabindex="-1">一些名词和图表 <a class="header-anchor" href="#一些名词和图表" aria-label="Permalink to &quot;一些名词和图表&quot;">&ZeroWidthSpace;</a></h1>
-<div class="warning custom-block"><p class="custom-block-title">WARNING</p>
+<div class="warning custom-block"><p class="custom-block-title">🐢</p>
 <p>龟速收集中</p>
 </div>
 <h2 id="项目管理计划和项目文件" tabindex="-1">项目管理计划和项目文件 <a class="header-anchor" href="#项目管理计划和项目文件" aria-label="Permalink to &quot;项目管理计划和项目文件&quot;">&ZeroWidthSpace;</a></h2>
 <details class="details custom-block"><summary>⚡️记忆协助 口诀</summary>
 <p>10大过程子计划、3个基准加绩效、周期方法和审查、配置变更丢不了</p>
 </details>
-<ProjectPlanFile /><h2 id="组织过程资产和事业环境因素" tabindex="-1">组织过程资产和事业环境因素 <a class="header-anchor" href="#组织过程资产和事业环境因素" aria-label="Permalink to &quot;组织过程资产和事业环境因素&quot;">&ZeroWidthSpace;</a></h2>
-<!-- <div class="ai-box">
-本概念由ai生成
-</div> -->
+<ProjectPlanFile /><h2 id="需求跟踪矩阵" tabindex="-1">需求跟踪矩阵 <a class="header-anchor" href="#需求跟踪矩阵" aria-label="Permalink to &quot;需求跟踪矩阵&quot;">&ZeroWidthSpace;</a></h2>
+<p>需求跟踪矩阵是把产品需求从其来源连接到满足需求的可交付成果的一种表格。</p>
+<n-image width="80%" src="/assets/需求跟踪矩阵.png"></n-image><h2 id="权利利益方格" tabindex="-1">权利利益方格 <a class="header-anchor" href="#权利利益方格" aria-label="Permalink to &quot;权利利益方格&quot;">&ZeroWidthSpace;</a></h2>
+<n-image width="80%" src="/assets/权利利益方格.png"></n-image><h2 id="组织过程资产和事业环境因素" tabindex="-1">组织过程资产和事业环境因素 <a class="header-anchor" href="#组织过程资产和事业环境因素" aria-label="Permalink to &quot;组织过程资产和事业环境因素&quot;">&ZeroWidthSpace;</a></h2>
 <h3 id="组织过程资产" tabindex="-1">组织过程资产 <a class="header-anchor" href="#组织过程资产" aria-label="Permalink to &quot;组织过程资产&quot;">&ZeroWidthSpace;</a></h3>
 <p>组织过程资产是组织在项目管理过程中积累的流程、程序、知识库和文档，是项目团队可以直接利用的内部资源。这些资产是组织内部可控制和更新的资源，旨在提高项目管理的效率和效果</p>
 <ol>
@@ -11588,9 +11726,7 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
 </ol>
 </li>
 </ul>
-<h2 id="需求跟踪矩阵" tabindex="-1">需求跟踪矩阵 <a class="header-anchor" href="#需求跟踪矩阵" aria-label="Permalink to &quot;需求跟踪矩阵&quot;">&ZeroWidthSpace;</a></h2>
-<p>需求跟踪矩阵是把产品需求从其来源连接到满足需求的可交付成果的一种表格。</p>
-<n-image width="80%" src="/assets/需求跟踪矩阵.png"></n-image>]]></content:encoded>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[备考资料 ]]></title>
