@@ -20,6 +20,7 @@
     "feed": "^5.0.1",
     "sass": "^1.85.0",
     "sitemap-ts": "^1.9.0",
+    "unplugin-vue-components": "^28.7.0",
     "vitepress": "^1.6.3"
   },
   "dependencies": {

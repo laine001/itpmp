@@ -7,7 +7,7 @@ const sidebar = {
       items: [
         {
           text: "知识域导读",
-          link: "/book/top-ten-management",
+          link: "/book/guide",
         },
       ],
     },

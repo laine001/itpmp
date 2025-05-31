@@ -4,9 +4,13 @@ import ProjectPlanFile from '../components/project-plan-file/index.vue'
 
 # 一些名词和图表
 
+::: warning
+龟速收集中
+:::
+
 ## 项目管理计划和项目文件
 
-::: details 记忆协助 口诀
+::: details ⚡️记忆协助 口诀
 10大过程子计划、3个基准加绩效、周期方法和审查、配置变更丢不了
 :::
 <ProjectPlanFile />

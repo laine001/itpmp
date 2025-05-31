@@ -259,7 +259,7 @@
 
 <n-image src="/assets/cost.png"></n-image>
 
-::: details 记忆协助
+::: details ⚡️记忆协助
 - 项目预算 = 管理储备 + 成本基准
 - 成本基准 = 应急储备 + 工作包的成本估算
 :::

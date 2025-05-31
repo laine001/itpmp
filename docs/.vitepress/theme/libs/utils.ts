@@ -1,4 +1,3 @@
-import type { PageInfo } from '../types'
 
 export const getWords = (content: string): RegExpMatchArray | null =>
   // \u00C0-\u024F are Latin Supplement letters, maybe used in language like french
@@ -24,7 +23,7 @@ export const getReadingTime = (
   content: string,
   cnWordPerMinute = 350,
   enwordPerMinute = 160,
-): PageInfo => {
+) => {
   const count = getWordNumber(content || '')
   const words = count >= 1000 ? `${Math.round(count / 100) / 10}k` : count
 

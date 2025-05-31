@@ -91,6 +91,9 @@ export default withPwa(defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav,
     sidebar,
+    lastUpdated: {
+      text: '最后更新于',
+    },
     docFooter: {
       prev: '上一页',
       next: '下一页'
