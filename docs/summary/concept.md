@@ -4,7 +4,7 @@ import ProjectPlanFile from '../components/project-plan-file/index.vue'
 
 # 一些名词和图表
 
-::: warning
+::: warning 🐢
 龟速收集中
 :::
 
@@ -15,11 +15,14 @@ import ProjectPlanFile from '../components/project-plan-file/index.vue'
 :::
 <ProjectPlanFile />
 
+## 需求跟踪矩阵
+需求跟踪矩阵是把产品需求从其来源连接到满足需求的可交付成果的一种表格。
+<n-image width="80%" src="/assets/需求跟踪矩阵.png"></n-image>
+
+## 权利利益方格
+<n-image width="80%" src="/assets/权利利益方格.png"></n-image>
 
 ## 组织过程资产和事业环境因素
-<!-- <div class="ai-box">
-本概念由ai生成
-</div> -->
 
 ### 组织过程资产
 组织过程资产是组织在项目管理过程中积累的流程、程序、知识库和文档，是项目团队可以直接利用的内部资源。这些资产是组织内部可控制和更新的资源，旨在提高项目管理的效率和效果
@@ -49,7 +52,3 @@ import ProjectPlanFile from '../components/project-plan-file/index.vue'
   6. 行业标准：包括与产品、生产、环境、质量和工艺相关的标准
   7. 财务考虑因素：包括汇率、利率、通货膨胀、税收和关税
   8. 物理环境因素：包括汇率、利率、通货膨胀、税收和关税
-
-## 需求跟踪矩阵
-需求跟踪矩阵是把产品需求从其来源连接到满足需求的可交付成果的一种表格。
-<n-image width="80%" src="/assets/需求跟踪矩阵.png"></n-image>

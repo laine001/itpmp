@@ -48,7 +48,7 @@ export async function genFeed(config: SiteConfig) {
       content: html,
       author: [
         {
-          name: frontmatter?.author || 'Choi Yang',
+          name: frontmatter?.author || 'Laine',
           link: frontmatter?.author
             ? github_link
             : undefined,
