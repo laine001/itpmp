@@ -60,6 +60,9 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
           <span id="busuanzi_value_site_uv" /> 人次
         </div>
       </template>
+      <template #not-found>
+        <NotFound />
+      </template>
       <!-- <template #aside-outline-before>
         <CustomOutline />
       </template> -->
