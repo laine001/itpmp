@@ -19,11 +19,11 @@ hero:
 features:
   - title: 🔥 十大知识领域
     details: 整理十大管理中的重点、各个过程和输入、工具技术、输出，助你速查知识点
-    link: /book/top-ten-management
+    link: /book/guide
     linkText: 去看看
   - title: ✨ 八大绩效域
     details: 各绩效域的重点提取，助你快速理解绩效域
-    link: /book/top-ten-management
+    link: /book/performance
     linkText: 去看看
   - title: 🎨 资料收录
     details: 收集一些关于高级信息系统项目管理师的资料，例如教材、工具书/图片/表格，助你随时随地阅读学习
@@ -39,7 +39,7 @@ features:
     linkText: 去看看
   - title: 🎉 论文相关
     details: 记录历年论文主题，提供部分论文模板
-    link: /summary/concept
+    link: /summary/thesis-record
     linkText: 去看看
 ---
 
