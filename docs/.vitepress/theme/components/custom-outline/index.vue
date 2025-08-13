@@ -31,7 +31,7 @@
                 :class="{ expanded: expandedKeys.has(header.anchor) }" @click="handleToggle(header.anchor)"
                 :aria-expanded="expandedKeys.has(header.anchor)"
                 :aria-label="expandedKeys.has(header.anchor) ? '折叠' : '展开'">
-                <svg class="toggle-icon" viewBox="0 0 24 24" width="12" height="12">
+                <svg class="toggle-icon" viewBox="0 0 24 24" width="16" height="16">
                   <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="currentColor" />
                 </svg>
               </button>
@@ -445,7 +445,7 @@ onUnmounted(() => {
 }
 
 .control-btn {
-  padding: 2px 6px;
+  padding: 0 10px;
   font-size: 12px;
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg);

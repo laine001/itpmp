@@ -98,11 +98,11 @@ export default withPwa(defineConfig({
       prev: '上一页',
       next: '下一页'
     },
-    outline: {
-      label: '页面导航',
-      level: [2, 5]
-    },
-    // outline: false,
+    // outline: {
+    //   label: '页面导航',
+    //   level: [2, 5]
+    // },
+    outline: false,
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',

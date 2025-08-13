@@ -4,7 +4,7 @@
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { nextTick, provide } from "vue";
-// import CustomOutline from './components/custom-outline/index.vue'
+import CustomOutline from './components/custom-outline/index.vue'
 
 const { isDark } = useData();
 
@@ -63,9 +63,9 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
       <template #not-found>
         <NotFound />
       </template>
-      <!-- <template #aside-outline-before>
+      <template #aside-outline-before>
         <CustomOutline />
-      </template> -->
+      </template>
     </DefaultTheme.Layout>
   </NConfigProvider>
 </template>
