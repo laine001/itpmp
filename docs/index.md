@@ -58,6 +58,22 @@ features:
     linkText: 看看动态
 ---
 
+<!-- 简单的学习提示 -->
+<div class="study-tips">
+  <h3>💡 学习小提示</h3>
+  <div class="tips-list">
+    <div class="tip-item">📅 建议提前3-6个月开始准备</div>
+    <div class="tip-item">📝 论文是重点，要多练习写作</div>
+    <div class="tip-item">🔄 定期复习，温故而知新</div>
+    <div class="tip-item">👥 计算题多做真题</div>
+  </div>
+</div>
+
+<!-- 简单的鼓励语 -->
+<div class="encouragement">
+  <p>🌟 每天进步一点点，考试就不会太难 🌟</p>
+</div>
+
 <script setup lang="ts">
   import { onMounted } from 'vue'
   import confetti from 'canvas-confetti'
@@ -70,5 +86,68 @@ features:
       })
     }, 200)
   })
-
 </script>
+
+<style scoped>
+
+/* 学习提示样式 */
+.study-tips {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.study-tips h3 {
+  color: var(--vp-c-text-1);
+  margin-bottom: 2rem;
+}
+
+.tips-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.8rem;
+}
+
+.tip-item {
+  background: var(--vp-c-bg-soft);
+  padding: 0.8rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  color: var(--vp-c-text-2);
+}
+
+/* 鼓励语样式 */
+.encouragement {
+  text-align: center;
+  margin: 2rem 0 0;
+  padding: 1rem;
+}
+
+.encouragement p {
+  font-size: 1.1rem;
+  color: var(--vp-c-brand-1);
+  margin: 0;
+  font-weight: 500;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .simple-stats {
+    gap: 1rem;
+  }
+  
+  .stat-box {
+    min-width: 80px;
+    padding: 0.8rem;
+  }
+  
+  .stat-box .number {
+    font-size: 1.5rem;
+  }
+  
+  .tips-list {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
