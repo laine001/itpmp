@@ -32,32 +32,48 @@ const sidebar = {
       // collapsed: true,
       items: [
         {
-          text: "名词/常见图表",
-          link: "/summary/concept",
+          text: '132个工具与技术',
+          link: '/summary/all-tt'
         },
         {
-          text: "计算题相关",
-          link: "/summary/calc-concept",
+          text: '名词/常见图表',
+          link: '/summary/concept'
         },
         {
-          text: "132个工具与技术",
-          link: "/summary/all-tt",
+          text: '计算题相关',
+          link: '/summary/calc-concept'
         },
         {
-          text: "资料整理收录",
-          link: "/summary/learn-data",
+          text: '资料整理收录',
+          link: '/summary/learn-data'
         },
+        {
+          text: '项目绩效域',
+          link: '/summary/performance'
+        },
+      ]
+    },
+  ],
+  "/thesis/": [
+    {
+      text: "论文",
+      items: [
         {
           text: "历年论文",
-          link: "/summary/thesis-record",
+          link: "/thesis/record",
         },
         {
-          text: "项目绩效域",
-          link: "/summary/performance",
+          text: "论文资源",
+          link: "/thesis/resource",
         },
+        {
+          text: "论文模板",
+          link: "/thesis/template",
+        }
       ],
     },
   ],
+
   "/about/": [
     {
       text: "",
