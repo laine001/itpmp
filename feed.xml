@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.netlify.app</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Thu, 14 Aug 2025 08:20:40 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Aug 2025 08:22:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -10901,6 +10901,36 @@ WBS的结构可以采用多种形式</li>
             <link>itpmp.netlify.app</link>
             <guid>itpmp.netlify.app</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[<!-- 简单的学习提示 -->
+<div class="study-tips">
+  <h3>💡 学习小提示</h3>
+  <div class="tips-list">
+    <div class="tip-item">📅 建议提前3-6个月开始准备</div>
+    <div class="tip-item">📝 论文是重点，要多练习写作</div>
+    <div class="tip-item">🔄 定期复习，温故而知新</div>
+    <div class="tip-item">👥 计算题多做真题</div>
+  </div>
+</div>
+<!-- 简单的鼓励语 -->
+<div class="encouragement">
+  <p>🌟 每天进步一点点，考试就不会太难 🌟</p>
+</div>
+]]></description>
+            <content:encoded><![CDATA[<!-- 简单的学习提示 -->
+<div class="study-tips">
+  <h3>💡 学习小提示</h3>
+  <div class="tips-list">
+    <div class="tip-item">📅 建议提前3-6个月开始准备</div>
+    <div class="tip-item">📝 论文是重点，要多练习写作</div>
+    <div class="tip-item">🔄 定期复习，温故而知新</div>
+    <div class="tip-item">👥 计算题多做真题</div>
+  </div>
+</div>
+<!-- 简单的鼓励语 -->
+<div class="encouragement">
+  <p>🌟 每天进步一点点，考试就不会太难 🌟</p>
+</div>
+]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[教材中的工具与技术 ]]></title>
