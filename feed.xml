@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.netlify.app</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Thu, 14 Aug 2025 06:40:36 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Aug 2025 06:41:45 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -1638,7 +1638,8 @@
 </tr>
 </tbody>
 </table>
-]]></description>
+<h2 id="概览和速查" tabindex="-1">概览和速查 <a class="header-anchor" href="#概览和速查" aria-label="Permalink to &quot;概览和速查&quot;">&ZeroWidthSpace;</a></h2>
+<TenManageTable />]]></description>
             <content:encoded><![CDATA[<h1 id="导读" tabindex="-1">导读 <a class="header-anchor" href="#导读" aria-label="Permalink to &quot;导读&quot;">&ZeroWidthSpace;</a></h1>
 <p>PMBOK 项目管理知识体系 (Project Management Body Of Knowledge, PMBOK) 是由美国 项目管理协会 (Project Management Institute, PMI) 开发的一套描述项目管理专业范围的知识体 系，包含了对项目管理所需的知识、技能和工具的描述。</p>
 <p>1981 年， PMI 组委会批准了项目并成立了专门的小组开展了相应的研发工作，旨在将项目管理人在项目管理过程中的优秀实践总结形成标准。
@@ -1834,7 +1835,8 @@
 </tr>
 </tbody>
 </table>
-]]></content:encoded>
+<h2 id="概览和速查" tabindex="-1">概览和速查 <a class="header-anchor" href="#概览和速查" aria-label="Permalink to &quot;概览和速查&quot;">&ZeroWidthSpace;</a></h2>
+<TenManageTable />]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[项目整合管理 ]]></title>
