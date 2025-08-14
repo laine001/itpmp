@@ -222,3 +222,156 @@
 .aside-container {
   width: 258px;
 }
+
+/* 护眼模式样式 */
+.eye-care-mode {
+  --vp-c-bg: #f5f5dc !important;
+  --vp-c-bg-alt: #f0f0d0 !important;
+  --vp-c-bg-soft: #ebebd3 !important;
+  --vp-c-bg-mute: #e6e6cc !important;
+  --vp-c-text-1: #2c3e2d !important;
+  --vp-c-text-2: #3a4f3b !important;
+  --vp-c-text-3: #4a5f4b !important;
+  --vp-c-divider: #d4d4aa !important;
+  --vp-c-divider-light: #e0e0bb !important;
+  --vp-nav-bg-color: rgba(245, 245, 220, 0.9) !important;
+  --vp-sidebar-bg-color: #f5f5dc !important;
+
+  /* 代码块护眼模式 */
+  --vp-code-bg: #ede8d3 !important;
+  --vp-code-block-bg: #ede8d3 !important;
+  --vp-c-code-bg: #ede8d3 !important;
+
+  /* 链接颜色调整 */
+  --vp-c-brand-1: #5a7c5a !important;
+  --vp-c-brand-2: #6b8e6b !important;
+  --vp-c-brand-3: #4a6b4a !important;
+
+  /* 表格护眼模式 */
+  --vp-c-bg-elv: #f0f0d0 !important;
+  --vp-c-bg-elv-up: #ebebd3 !important;
+  --vp-c-bg-elv-down: #e6e6cc !important;
+
+  /* 搜索框护眼模式 */
+  .DocSearch-Button {
+    background: #ede8d3 !important;
+    color: #2c3e2d !important;
+  }
+
+  /* 导航栏护眼模式 */
+  .VPNavBar {
+    background-color: rgba(245, 245, 220, 0.9) !important;
+    backdrop-filter: blur(10px);
+  }
+
+  /* 侧边栏护眼模式 */
+  .VPSidebar {
+    background-color: #f5f5dc !important;
+  }
+
+  /* 内容区域护眼模式 */
+  .VPContent {
+    background-color: #f5f5dc !important;
+  }
+
+  /* 自定义容器护眼模式 */
+  .custom-block {
+    background-color: #ede8d3 !important;
+    border-color: #d4d4aa !important;
+  }
+
+  /* AI box 护眼模式 */
+  .ai-box {
+    background: linear-gradient(135deg,
+        rgba(143, 188, 143, 0.1) 0%,
+        rgba(107, 142, 107, 0.08) 50%,
+        rgba(90, 124, 90, 0.1) 100%) !important;
+    border-color: rgba(143, 188, 143, 0.3) !important;
+  }
+
+  .post-info-card {
+    background-color: #f5f5dc !important;
+  }
+}
+
+/* 护眼模式下的滚动条 */
+.eye-care-mode ::-webkit-scrollbar-thumb {
+  background: #c4c4a4 !important;
+}
+
+.eye-care-mode ::-webkit-scrollbar-thumb:hover {
+  background: #b4b494 !important;
+}
+
+.eye-care-mode ::-webkit-scrollbar-track {
+  background: #ede8d3 !important;
+}
+
+/* 黑白模式样式 */
+.grayscale-mode {
+
+  /* 只对内容区域应用黑白滤镜，不影响主题切换按钮 */
+  .VPApp>*:not(.theme-switcher) {
+    filter: grayscale(100%) !important;
+  }
+
+  /* 确保主题切换按钮不受黑白滤镜影响 */
+  .theme-switcher {
+    filter: none !important;
+    position: fixed !important;
+    bottom: 80px !important;
+    right: 24px !important;
+    z-index: 9999 !important;
+  }
+
+  .theme-switcher .theme-btn {
+    filter: none !important;
+
+    &.active {
+      background: #666 !important;
+      border-color: #666 !important;
+    }
+  }
+
+  /* 确保按钮在黑白模式下仍然可见 */
+  .VPButton {
+    filter: inherit !important;
+  }
+
+  /* 保持导航和重要交互元素的对比度 */
+  .VPNavBar,
+  .VPSidebar,
+  .VPLocalNav {
+    filter: inherit !important;
+  }
+
+  /* 代码块在黑白模式下的处理 */
+  .vp-code-group,
+  .vp-code,
+  pre {
+    filter: inherit !important;
+  }
+
+  /* 图片在黑白模式下 */
+  img {
+    filter: inherit !important;
+  }
+
+  /* 确保文本对比度 */
+  .vp-doc h1,
+  .vp-doc h2,
+  .vp-doc h3,
+  .vp-doc h4,
+  .vp-doc h5,
+  .vp-doc h6 {
+    filter: inherit !important;
+  }
+}
+
+/* 响应式设计 - 黑白模式 */
+@media (max-width: 768px) {
+  .grayscale-mode .theme-switcher {
+    bottom: 60px !important;
+    right: 16px !important;
+  }
+}
