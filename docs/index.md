@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: 📚 学习指南
       link: /book/guide
+    - theme: alt
+      text: 🌈 关于本站
+      link: /about/site
 
 features:
   - title: 🎯 十大知识领域
@@ -68,26 +71,4 @@ features:
     }, 200)
   })
 
-// const end = Date.now() + (1 * 260);
-// const colors = ['#3451b2', '#6f42c1', '#299764'];
-// (function frame() {
-//   confetti({
-//     particleCount: 2,
-//     angle: 60,
-//     spread: 55,
-//     origin: { x: 0 },
-//     // colors: colors ?? []
-//   });
-//   confetti({
-//     particleCount: 2,
-//     angle: 120,
-//     spread: 55,
-//     origin: { x: 1 },
-//     // colors: colors ?? []
-//   });
-
-//   if (Date.now() < end) {
-//     requestAnimationFrame(frame);
-//   }
-// }());
 </script>
