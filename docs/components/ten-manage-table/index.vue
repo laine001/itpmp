@@ -98,51 +98,101 @@
       <tr>
         <td>质量管理</td>
         <td>-</td>
-        <td>①规划质量管理</td>
-        <td>②管理质量</td>
-        <td>③控制质量</td>
+        <td>
+          <a href="/book/quality#_1-规划质量管理">①规划质量管理</a>
+        </td>
+        <td>
+          <a href="/book/quality#_2-管理质量">②管理质量</a>
+        </td>
+        <td>
+          <a href="/book/quality#_3-控制质量">③控制质量</a>
+        </td>
         <td>-</td>
       </tr>
       <tr>
         <td>资源管理</td>
         <td>-</td>
-        <td>①规划资源管理<br />②估算活动资源</td>
-        <td>③获取资源<br />④建设团队<br />⑤管理团队</td>
-        <td>⑥控制资源</td>
+        <td>
+          <a href="/book/resource#_1-规划资源管理">①规划资源管理</a>
+          <br />
+          <a href="/book/resource#_2-估算活动资源">②估算活动资源</a>
+        </td>
+        <td>
+          <a href="/book/resource#_3-获取资源">③获取资源</a>
+          <br />
+          <a href="/book/resource#_4-建设团队">④建设团队</a>
+          <br />
+          <a href="/book/resource#_5-管理团队">⑤管理团队</a>
+        </td>
+        <td>
+          <a href="/book/resource#_6-控制资源">⑥控制资源</a>
+        </td>
         <td>-</td>
       </tr>
       <tr>
         <td>沟通管理</td>
         <td>-</td>
-        <td>①规划沟通管理</td>
-        <td>②管理沟通</td>
-        <td>③监督沟通</td>
+        <td>
+          <a href="/book/communication#_1-规划沟通管理">①规划沟通管理</a>
+        </td>
+        <td>
+          <a href="/book/communication#_2-管理沟通">②管理沟通</a>
+        </td>
+        <td>
+          <a href="/book/communication#_3-监督沟通">③监督沟通</a>
+        </td>
         <td>-</td>
       </tr>
       <tr>
         <td>风险管理</td>
         <td>-</td>
         <td>
-          ①规划风险管理<br />②识别风险<br />③实施定性风险分析<br />④实施定量风险分析<br />⑤规划风险应对
+          <a href="/book/risk#_1-规划风险管理">①规划风险管理</a>
+          <br />
+          <a href="/book/risk#_2-识别风险">②识别风险</a>
+          <br />
+          <a href="/book/risk#_3-实施定性风险分析">③实施定性风险分析</a>
+          <br />
+          <a href="/book/risk#_4-实施定量风险分析">④实施定量风险分析</a>
+          <br />
+          <a href="/book/risk#_5-规划风险应对">⑤规划风险应对</a>
         </td>
-        <td>⑥实施风险应对</td>
-        <td>⑦监督风险</td>
+        <td>
+          <a href="/book/risk#_6-实施风险应对">⑥实施风险应对</a>
+        </td>
+        <td>
+          <a href="/book/risk#_7-监督风险">⑦监督风险</a>
+        </td>
         <td>-</td>
       </tr>
       <tr>
         <td>采购管理</td>
         <td>-</td>
-        <td>①规划采购管理</td>
-        <td>②实施采购</td>
-        <td>③控制采购</td>
+        <td>
+          <a href="/book/purchase#_1-规划采购管理">①规划采购管理</a>
+        </td>
+        <td>
+          <a href="/book/purchase#_2-实施采购">②实施采购</a>
+        </td>
+        <td>
+          <a href="/book/purchase#_3-控制采购">③控制采购</a>
+        </td>
         <td>-</td>
       </tr>
       <tr>
         <td>干系人管理</td>
-        <td>①识别干系人</td>
-        <td>②规划干系人参与</td>
-        <td>③管理干系人参与</td>
-        <td>④监督干系人参与</td>
+        <td>
+          <a href="/book/related#_1-识别干系人">①识别干系人</a>
+        </td>
+        <td>
+          <a href="/book/related#_2-规划干系人参与">②规划干系人参与</a>
+        </td>
+        <td>
+          <a href="/book/related#_3-管理干系人参与">③管理干系人参与</a>
+        </td>
+        <td>
+          <a href="/book/related#_4-监督干系人参与">④监督干系人参与</a>
+        </td>
         <td>-</td>
       </tr>
     </tbody>
@@ -151,6 +201,58 @@
 
 <style lang="scss">
 .manage-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
 
+  th,
+  td {
+    border: 1px solid var(--vp-c-divider);
+    padding: 0.75rem 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  th {
+    background-color: var(--vp-c-bg-soft);
+    font-weight: 600;
+    color: var(--vp-c-text-1);
+  }
+
+  td {
+    background-color: var(--vp-c-bg);
+    color: var(--vp-c-text-2);
+
+    &:first-child {
+      font-weight: 500;
+      background-color: var(--vp-c-bg-soft);
+      color: var(--vp-c-text-1);
+    }
+  }
+
+  a {
+    color: var(--vp-c-brand-1);
+    text-decoration: none;
+    font-size: 0.9rem;
+
+    &:hover {
+      color: var(--vp-c-brand-2);
+      text-decoration: underline;
+    }
+  }
+
+  // 响应式设计
+  @media (max-width: 768px) {
+    font-size: 0.8rem;
+
+    th,
+    td {
+      padding: 0.5rem 0.25rem;
+    }
+
+    a {
+      font-size: 0.8rem;
+    }
+  }
 }
 </style>
