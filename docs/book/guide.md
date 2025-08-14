@@ -1,3 +1,7 @@
+<script setup>
+import TenManageTable from '../components/ten-manage-table/index.vue'
+</script>
+
 # 导读
 
 PMBOK 项目管理知识体系 (Project Management Body Of Knowledge, PMBOK) 是由美国 项目管理协会 (Project Management Institute, PMI) 开发的一套描述项目管理专业范围的知识体 系，包含了对项目管理所需的知识、技能和工具的描述。
@@ -123,3 +127,7 @@ PMBOK 项目管理知识体系 (Project Management Body Of Knowledge, PMBOK) 是
 |风险管理|识别风险（如技术难点），制定应对方案。|在不确定性绩效域中，动态调整开发策略。
 |干系人管理|与客户沟通需求变更。|在干系人绩效域中，通过持续参与管理期望。
 |团队管理|分配开发任务，协调团队资源。|在团队绩效域中，通过Scrum提升协作效率。
+
+## 概览和速查
+
+<TenManageTable />
