@@ -327,7 +327,8 @@ export default withPwa(defineConfig({
   },
   async buildEnd(config) {
     await generateSitemap({
-      hostname: 'https://itpmp.netlify.app'
+      hostname: 'https://itpmp.netlify.app',
+      outDir: 'docs/.vitepress/dist'
     })
     await genFeed(config)
   }
