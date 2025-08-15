@@ -7,14 +7,16 @@ const fileAndStyles: Record<string, string> = {}
 import { withPwa } from '@vite-pwa/vitepress'
 import { pwa } from './plugins/pwa'
 import { genFeed } from './plugins/feed'
-// import { generateSitemap } from 'sitemap-ts'
+import { generateSitemap } from 'sitemap-ts'
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(defineConfig({
   pwa,
   title: "信息系统项目管理师",
   description: "信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP",
+  lang: 'zh-CN',
   head: [
+    // Favicon
     [
       'link',
       {
@@ -24,6 +26,130 @@ export default withPwa(defineConfig({
         sizes: '32x32',
       },
     ],
+    [
+      'link',
+      {
+        rel: 'icon',
+        href: '/images/site/favicon.ico',
+        type: 'image/x-icon',
+      },
+    ],
+    // SEO Meta Tags
+    [
+      'meta',
+      {
+        name: 'keywords',
+        content: '信息系统项目管理师,软考,高级信息系统项目管理,项目管理,ITPM,ITPMP,软件设计师,系统架构设计师,网络工程师,数据库系统工程师,信息安全工程师,软考高级,软考中级,软考初级,计算机技术与软件专业技术资格考试'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'author',
+        content: 'laine001'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'robots',
+        content: 'index,follow'
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'googlebot',
+        content: 'index,follow'
+      }
+    ],
+    // Open Graph / Facebook
+    [
+      'meta',
+      {
+        property: 'og:type',
+        content: 'website'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:url',
+        content: 'https://itpmp.netlify.app/'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:title',
+        content: '信息系统项目管理师 - 软考高级认证学习指南'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:description',
+        content: '专业的信息系统项目管理师学习平台，提供软考高级认证考试指南、项目管理知识体系、ITPM实战经验分享。助你轻松通过软考高级考试。'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:image',
+        content: 'https://itpmp.netlify.app/images/site/og-image.png'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:site_name',
+        content: '信息系统项目管理师'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'og:locale',
+        content: 'zh_CN'
+      }
+    ],
+    // Twitter Cards
+    [
+      'meta',
+      {
+        property: 'twitter:card',
+        content: 'summary_large_image'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:url',
+        content: 'https://itpmp.netlify.app/'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:title',
+        content: '信息系统项目管理师 - 软考高级认证学习指南'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:description',
+        content: '专业的信息系统项目管理师学习平台，提供软考高级认证考试指南、项目管理知识体系、ITPM实战经验分享。'
+      }
+    ],
+    [
+      'meta',
+      {
+        property: 'twitter:image',
+        content: 'https://itpmp.netlify.app/images/site/og-image.png'
+      }
+    ],
+    // 搜索引擎验证
     [
       'meta',
       {
@@ -38,6 +164,38 @@ export default withPwa(defineConfig({
         content: '2D1814F64604C599D231358157EE60ED'
       }
     ],
+    // 结构化数据
+    [
+      'script',
+      {
+        type: 'application/ld+json'
+      },
+      JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "信息系统项目管理师",
+        "description": "专业的信息系统项目管理师学习平台，提供软考高级认证考试指南、项目管理知识体系、ITPM实战经验分享。",
+        "url": "https://itpmp.netlify.app/",
+        "author": {
+          "@type": "Person",
+          "name": "laine001"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "信息系统项目管理师",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://itpmp.netlify.app/images/site/logo.svg"
+          }
+        },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://itpmp.netlify.app/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      })
+    ],
+    // Google Analytics
     [
       'script',
       {
@@ -56,6 +214,7 @@ export default withPwa(defineConfig({
       gtag('config', 'G-NVZ7WX3XRN');
       `
     ],
+    // Microsoft Clarity
     [
       'script',
       {},
@@ -67,6 +226,7 @@ export default withPwa(defineConfig({
     })(window, document, "clarity", "script", "qd63ndsdgn");
       `
     ],
+    // 百度统计
     [
       'script',
       {},
@@ -85,7 +245,7 @@ export default withPwa(defineConfig({
   themeConfig: {
     logo: '/images/site/logo.svg',
     footer: {
-      message: '- -',
+      message: '一起学习信息系统项目管理师，轻松通过软考！',
       copyright: 'Copyright (c) 2023-present, laine001. All rights reserved.',
     },
     // https://vitepress.dev/reference/default-theme-config
@@ -166,9 +326,9 @@ export default withPwa(defineConfig({
     }
   },
   async buildEnd(config) {
-    // await generateSitemap({
-    //   hostname: 'https://itpmp.netlify.app'
-    // })
+    await generateSitemap({
+      hostname: 'https://itpmp.netlify.app'
+    })
     await genFeed(config)
   }
 }))

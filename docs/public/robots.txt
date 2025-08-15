@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# 主要页面
+Allow: /
+Allow: /basic/
+Allow: /advanced/
+Allow: /thesis/
+Allow: /components/
+
+# 静态资源
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# 禁止访问的目录
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.vitepress/
+Disallow: /temp/
+
+# 网站地图
+Sitemap: https://itpmp.netlify.app/sitemap.xml
+
+# 爬虫延迟（可选）
+Crawl-delay: 1
