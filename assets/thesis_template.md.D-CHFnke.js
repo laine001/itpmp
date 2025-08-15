@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.B5199-QK.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"thesis/template.md","filePath":"thesis/template.md","lastUpdated":1755224186000}'),s={name:"thesis/template.md"};function r(o,p,c,n,i,m){return a(),t("div")}const _=e(s,[["render",r]]);export{l as __pageData,_ as default};
