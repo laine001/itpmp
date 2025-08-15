@@ -245,6 +245,7 @@
     // 右上下拉导航菜单的磨砂效果
     background-color: rgba($color: #fff, $alpha: 0.1);
     backdrop-filter: blur(18px);
+    border-radius: var(--cov-default-radius);
 
     .VPMenu {
       background: none;
