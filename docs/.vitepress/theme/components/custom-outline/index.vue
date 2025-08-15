@@ -113,6 +113,7 @@ const headers = ref<Header[]>([])
 const expandedKeys = ref<Set<string>>(new Set())
 const activeAnchor = ref<string>('')
 const marker = ref<HTMLElement>()
+const isManualClick = ref<boolean>(false) // 添加手动点击标记
 
 // 计算属性
 const hasCollapsibleItems = computed(() => {
@@ -241,6 +242,15 @@ function handleClick(event: Event, anchor: string) {
 
   const element = document.getElementById(anchor)
   if (element) {
+    // 立即设置 activeAnchor 和手动点击标记
+    isManualClick.value = true
+    activeAnchor.value = anchor
+
+    // 立即更新标记位置
+    nextTick(() => {
+      updateMarker()
+    })
+
     // 使用 scrollIntoView 进行平滑滚动
     element.scrollIntoView({
       behavior: 'smooth',
@@ -249,17 +259,21 @@ function handleClick(event: Event, anchor: string) {
 
     // 更新URL hash
     window.history.replaceState(null, '', `#${anchor}`)
-    activeAnchor.value = anchor
 
-    // 更新标记位置
-    nextTick(() => {
-      updateMarker()
-    })
+    // 延迟重置手动点击标记，给滚动动画足够时间完成
+    setTimeout(() => {
+      isManualClick.value = false
+    }, 1000)
   }
 }
 
 // 更新活跃锚点和标记位置
 function updateActiveAnchor() {
+  // 如果是手动点击，不执行自动更新
+  if (isManualClick.value) {
+    return
+  }
+
   const headings = Array.from(
     document.querySelectorAll('.VPDoc :where(h2,h3,h4,h5,h6)')
   ).filter((el): el is HTMLHeadingElement => el.id)
@@ -284,7 +298,8 @@ function updateActiveAnchor() {
     }
   }
 
-  if (active !== activeAnchor.value) {
+  // 只有当检测到的 active 与当前不同时才更新
+  if (active && active !== activeAnchor.value) {
     activeAnchor.value = active
     updateMarker()
   }
