@@ -1,8 +1,12 @@
+---
+lastUpdated: false
+---
 
 <script setup>
 import { useData } from 'vitepress';
 
 const { page } = useData();
+// console.log(page.value, 'page.value')
 
 const lastUpdateTime = new Date(page.value.lastUpdated).toLocaleString('zh-CN')
 
@@ -23,7 +27,7 @@ const getDaysFromNow = (dateString) => {
 }
 const props = defineProps({
   readTime: {
-    type: Number,
+    // type: Number || String,
     default: 0,
   },
   words: {
