@@ -1,5 +1,5 @@
 export const name = "高项信息系统项目管理师"
-export const host_name = "itpmp.cc"
+export const host_name = "itpmp.cc/"
 export const short_name = "信息系统项目管理师"
 export const description = "信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP"
 export const keywords = "信息系统项目管理师,软考,高级信息系统项目管理,项目管理,ITPM,ITPMP"
