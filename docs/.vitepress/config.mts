@@ -164,6 +164,13 @@ export default withPwa(defineConfig({
         content: '2D1814F64604C599D231358157EE60ED'
       }
     ],
+    [
+      'meta',
+      {
+        name: "google-adsense-account",
+        content: "ca-pub-6697132875062696"
+      }
+    ],
     // 结构化数据
     [
       'script',
