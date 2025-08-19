@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>高项信息系统项目管理师</title>
-        <link>itpmp.cc</link>
+        <link>itpmp.cc/</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Tue, 19 Aug 2025 01:54:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Aug 2025 02:08:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
         <image>
             <title>高项信息系统项目管理师</title>
             <url>https://itpmp.cc/images/site/logo.png</url>
-            <link>itpmp.cc</link>
+            <link>itpmp.cc/</link>
         </image>
         <copyright>Copyright (c) 2023-present, laine001. All rights reserved.</copyright>
         <item>
             <title><![CDATA[关于信息系统项目管理师 ]]></title>
-            <link>itpmp.ccabout/itpmp</link>
-            <guid>itpmp.ccabout/itpmp</guid>
+            <link>itpmp.cc/about/itpmp</link>
+            <guid>itpmp.cc/about/itpmp</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="关于信息系统项目管理师" tabindex="-1">关于信息系统项目管理师 <a class="header-anchor" href="#关于信息系统项目管理师" aria-label="Permalink to &quot;关于信息系统项目管理师&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">什么是信息系统项目管理师？</p>
@@ -332,8 +332,8 @@
         </item>
         <item>
             <title><![CDATA[关于本站 ]]></title>
-            <link>itpmp.ccabout/site</link>
-            <guid>itpmp.ccabout/site</guid>
+            <link>itpmp.cc/about/site</link>
+            <guid>itpmp.cc/about/site</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="关于本站" tabindex="-1">关于本站 <a class="header-anchor" href="#关于本站" aria-label="Permalink to &quot;关于本站&quot;">&ZeroWidthSpace;</a></h1>
 <div class="warning custom-block"><p class="custom-block-title">⚠️ 重要提醒</p>
@@ -534,8 +534,8 @@ Copyright © 2023-present laine001. All rights reserved.</p>
         </item>
         <item>
             <title><![CDATA[项目沟通管理 ]]></title>
-            <link>itpmp.ccbook/communication</link>
-            <guid>itpmp.ccbook/communication</guid>
+            <link>itpmp.cc/book/communication</link>
+            <guid>itpmp.cc/book/communication</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目沟通管理" tabindex="-1">项目沟通管理 <a class="header-anchor" href="#项目沟通管理" aria-label="Permalink to &quot;项目沟通管理&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">概念</p>
@@ -1218,8 +1218,8 @@ Copyright © 2023-present laine001. All rights reserved.</p>
         </item>
         <item>
             <title><![CDATA[项目成本管理 ]]></title>
-            <link>itpmp.ccbook/cost</link>
-            <guid>itpmp.ccbook/cost</guid>
+            <link>itpmp.cc/book/cost</link>
+            <guid>itpmp.cc/book/cost</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目成本管理" tabindex="-1">项目成本管理 <a class="header-anchor" href="#项目成本管理" aria-label="Permalink to &quot;项目成本管理&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">概念</p>
@@ -1898,8 +1898,8 @@ Copyright © 2023-present laine001. All rights reserved.</p>
         </item>
         <item>
             <title><![CDATA[导读 ]]></title>
-            <link>itpmp.ccbook/guide</link>
-            <guid>itpmp.ccbook/guide</guid>
+            <link>itpmp.cc/book/guide</link>
+            <guid>itpmp.cc/book/guide</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="导读" tabindex="-1">导读 <a class="header-anchor" href="#导读" aria-label="Permalink to &quot;导读&quot;">&ZeroWidthSpace;</a></h1>
 <p>PMBOK 项目管理知识体系 (Project Management Body Of Knowledge, PMBOK) 是由美国 项目管理协会 (Project Management Institute, PMI) 开发的一套描述项目管理专业范围的知识体 系，包含了对项目管理所需的知识、技能和工具的描述。</p>
@@ -2298,8 +2298,8 @@ Copyright © 2023-present laine001. All rights reserved.</p>
         </item>
         <item>
             <title><![CDATA[项目整合管理 ]]></title>
-            <link>itpmp.ccbook/integration</link>
-            <guid>itpmp.ccbook/integration</guid>
+            <link>itpmp.cc/book/integration</link>
+            <guid>itpmp.cc/book/integration</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目整合管理" tabindex="-1">项目整合管理 <a class="header-anchor" href="#项目整合管理" aria-label="Permalink to &quot;项目整合管理&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">概念</p>
@@ -3358,8 +3358,8 @@ CCB的决定都应记录在案，并向干系人传达，以便其知晓并采�
         </item>
         <item>
             <title><![CDATA[八大绩效域 ]]></title>
-            <link>itpmp.ccbook/performance</link>
-            <guid>itpmp.ccbook/performance</guid>
+            <link>itpmp.cc/book/performance</link>
+            <guid>itpmp.cc/book/performance</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="八大绩效域" tabindex="-1">八大绩效域 <a class="header-anchor" href="#八大绩效域" aria-label="Permalink to &quot;八大绩效域&quot;">&ZeroWidthSpace;</a></h1>
 <p>价值驱动的项目管理知识体系关注价值的实现，包含了项目管理原则、绩效域、项目生命周期、过程组、 10大知识领域和价值交付系统。
@@ -4576,8 +4576,8 @@ CCB的决定都应记录在案，并向干系人传达，以便其知晓并采�
         </item>
         <item>
             <title><![CDATA[项目进度管理 ]]></title>
-            <link>itpmp.ccbook/progress</link>
-            <guid>itpmp.ccbook/progress</guid>
+            <link>itpmp.cc/book/progress</link>
+            <guid>itpmp.cc/book/progress</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目进度管理" tabindex="-1">项目进度管理 <a class="header-anchor" href="#项目进度管理" aria-label="Permalink to &quot;项目进度管理&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">概念</p>
@@ -5422,8 +5422,8 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
         </item>
         <item>
             <title><![CDATA[项目采购管理 ]]></title>
-            <link>itpmp.ccbook/purchase</link>
-            <guid>itpmp.ccbook/purchase</guid>
+            <link>itpmp.cc/book/purchase</link>
+            <guid>itpmp.cc/book/purchase</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目采购管理" tabindex="-1">项目采购管理 <a class="header-anchor" href="#项目采购管理" aria-label="Permalink to &quot;项目采购管理&quot;">&ZeroWidthSpace;</a></h1>
 <p>项目采购管理包括从项目团队外部采购或获取所需产品、服务或成果的各个过程。</p>
@@ -6242,8 +6242,8 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
         </item>
         <item>
             <title><![CDATA[项目质量管理 ]]></title>
-            <link>itpmp.ccbook/quality</link>
-            <guid>itpmp.ccbook/quality</guid>
+            <link>itpmp.cc/book/quality</link>
+            <guid>itpmp.cc/book/quality</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目质量管理" tabindex="-1">项目质量管理 <a class="header-anchor" href="#项目质量管理" aria-label="Permalink to &quot;项目质量管理&quot;">&ZeroWidthSpace;</a></h1>
 <details class="details custom-block"><summary>本章目录</summary>
@@ -6940,8 +6940,8 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
         </item>
         <item>
             <title><![CDATA[项目干系人管理 ]]></title>
-            <link>itpmp.ccbook/related</link>
-            <guid>itpmp.ccbook/related</guid>
+            <link>itpmp.cc/book/related</link>
+            <guid>itpmp.cc/book/related</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目干系人管理" tabindex="-1">项目干系人管理 <a class="header-anchor" href="#项目干系人管理" aria-label="Permalink to &quot;项目干系人管理&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">概念</p>
@@ -7524,8 +7524,8 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
         </item>
         <item>
             <title><![CDATA[项目资源管理 ]]></title>
-            <link>itpmp.ccbook/resource</link>
-            <guid>itpmp.ccbook/resource</guid>
+            <link>itpmp.cc/book/resource</link>
+            <guid>itpmp.cc/book/resource</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目资源管理" tabindex="-1">项目资源管理 <a class="header-anchor" href="#项目资源管理" aria-label="Permalink to &quot;项目资源管理&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">概念</p>
@@ -8636,8 +8636,8 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
         </item>
         <item>
             <title><![CDATA[项目风险管理 ]]></title>
-            <link>itpmp.ccbook/risk</link>
-            <guid>itpmp.ccbook/risk</guid>
+            <link>itpmp.cc/book/risk</link>
+            <guid>itpmp.cc/book/risk</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目风险管理" tabindex="-1">项目风险管理 <a class="header-anchor" href="#项目风险管理" aria-label="Permalink to &quot;项目风险管理&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">概念</p>
@@ -9636,8 +9636,8 @@ PDM包括四种依赖关系或逻辑关系，这些关系定义为：</p>
         </item>
         <item>
             <title><![CDATA[项目范围管理 ]]></title>
-            <link>itpmp.ccbook/scope</link>
-            <guid>itpmp.ccbook/scope</guid>
+            <link>itpmp.cc/book/scope</link>
+            <guid>itpmp.cc/book/scope</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="项目范围管理" tabindex="-1">项目范围管理 <a class="header-anchor" href="#项目范围管理" aria-label="Permalink to &quot;项目范围管理&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">概念</p>
@@ -10518,8 +10518,8 @@ WBS的结构可以采用多种形式</li>
         </item>
         <item>
             <title><![CDATA[10 大管理、49 个过程 ]]></title>
-            <link>itpmp.ccbook/top-ten-management</link>
-            <guid>itpmp.ccbook/top-ten-management</guid>
+            <link>itpmp.cc/book/top-ten-management</link>
+            <guid>itpmp.cc/book/top-ten-management</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="_10-大管理、49-个过程" tabindex="-1">10 大管理、49 个过程 <a class="header-anchor" href="#_10-大管理、49-个过程" aria-label="Permalink to &quot;10 大管理、49 个过程&quot;">&ZeroWidthSpace;</a></h1>
 <p>这是基于过程的方法，关注的是如何通过一系列定义明确的过程来管理项目。每个领域都有一系列具体的输入、工具和技术以及输出。这种方法更适合于具有明确范围、时间和成本限制的传统项目。</p>
@@ -11354,8 +11354,8 @@ WBS的结构可以采用多种形式</li>
         </item>
         <item>
             <title><![CDATA[无题]]></title>
-            <link>itpmp.cc</link>
-            <guid>itpmp.cc</guid>
+            <link>itpmp.cc/</link>
+            <guid>itpmp.cc/</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<!-- 简单的学习提示 -->
 <div class="study-tips">
@@ -11390,8 +11390,8 @@ WBS的结构可以采用多种形式</li>
         </item>
         <item>
             <title><![CDATA[SEO 优化检查清单 ]]></title>
-            <link>itpmp.ccseo-checklist</link>
-            <guid>itpmp.ccseo-checklist</guid>
+            <link>itpmp.cc/seo-checklist</link>
+            <guid>itpmp.cc/seo-checklist</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="seo-优化检查清单" tabindex="-1">SEO 优化检查清单 <a class="header-anchor" href="#seo-优化检查清单" aria-label="Permalink to &quot;SEO 优化检查清单&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="✅-已完成的-seo-优化" tabindex="-1">✅ 已完成的 SEO 优化 <a class="header-anchor" href="#✅-已完成的-seo-优化" aria-label="Permalink to &quot;✅ 已完成的 SEO 优化&quot;">&ZeroWidthSpace;</a></h2>
@@ -11700,8 +11700,8 @@ WBS的结构可以采用多种形式</li>
         </item>
         <item>
             <title><![CDATA[教材中的工具与技术 ]]></title>
-            <link>itpmp.ccsummary/all-tt</link>
-            <guid>itpmp.ccsummary/all-tt</guid>
+            <link>itpmp.cc/summary/all-tt</link>
+            <guid>itpmp.cc/summary/all-tt</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="教材中的工具与技术" tabindex="-1">教材中的工具与技术 <a class="header-anchor" href="#教材中的工具与技术" aria-label="Permalink to &quot;教材中的工具与技术&quot;">&ZeroWidthSpace;</a></h1>
 <div class="ai-box">
@@ -12758,8 +12758,8 @@ WBS的结构可以采用多种形式</li>
         </item>
         <item>
             <title><![CDATA[一些不太好记的概念和公式 ]]></title>
-            <link>itpmp.ccsummary/calc-concept</link>
-            <guid>itpmp.ccsummary/calc-concept</guid>
+            <link>itpmp.cc/summary/calc-concept</link>
+            <guid>itpmp.cc/summary/calc-concept</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="一些不太好记的概念和公式" tabindex="-1">一些不太好记的概念和公式 <a class="header-anchor" href="#一些不太好记的概念和公式" aria-label="Permalink to &quot;一些不太好记的概念和公式&quot;">&ZeroWidthSpace;</a></h1>
 <div class="info custom-block"><p class="custom-block-title">✨</p>
@@ -13352,8 +13352,8 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
         </item>
         <item>
             <title><![CDATA[一些名词和图表 ]]></title>
-            <link>itpmp.ccsummary/concept</link>
-            <guid>itpmp.ccsummary/concept</guid>
+            <link>itpmp.cc/summary/concept</link>
+            <guid>itpmp.cc/summary/concept</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="一些名词和图表" tabindex="-1">一些名词和图表 <a class="header-anchor" href="#一些名词和图表" aria-label="Permalink to &quot;一些名词和图表&quot;">&ZeroWidthSpace;</a></h1>
 <div class="warning custom-block"><p class="custom-block-title">🐢</p>
@@ -13454,8 +13454,8 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
         </item>
         <item>
             <title><![CDATA[备考资料 ]]></title>
-            <link>itpmp.ccsummary/learn-data</link>
-            <guid>itpmp.ccsummary/learn-data</guid>
+            <link>itpmp.cc/summary/learn-data</link>
+            <guid>itpmp.cc/summary/learn-data</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="备考资料" tabindex="-1">备考资料 <a class="header-anchor" href="#备考资料" aria-label="Permalink to &quot;备考资料&quot;">&ZeroWidthSpace;</a></h1>
 <div class="tip custom-block"><p class="custom-block-title">！！！</p>
@@ -13506,8 +13506,8 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
         </item>
         <item>
             <title><![CDATA[八大项目绩效域 ]]></title>
-            <link>itpmp.ccsummary/performance</link>
-            <guid>itpmp.ccsummary/performance</guid>
+            <link>itpmp.cc/summary/performance</link>
+            <guid>itpmp.cc/summary/performance</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="八大项目绩效域" tabindex="-1">八大项目绩效域 <a class="header-anchor" href="#八大项目绩效域" aria-label="Permalink to &quot;八大项目绩效域&quot;">&ZeroWidthSpace;</a></h1>
 <div class="ai-box">✨此内容为AI生成，仅供参考</div>
@@ -13638,8 +13638,8 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
         </item>
         <item>
             <title><![CDATA[历年论文题目 ]]></title>
-            <link>itpmp.ccsummary/thesis-record</link>
-            <guid>itpmp.ccsummary/thesis-record</guid>
+            <link>itpmp.cc/summary/thesis-record</link>
+            <guid>itpmp.cc/summary/thesis-record</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="历年论文题目" tabindex="-1">历年论文题目 <a class="header-anchor" href="#历年论文题目" aria-label="Permalink to &quot;历年论文题目&quot;">&ZeroWidthSpace;</a></h1>
 <p>2022年5月份之前，每批考试会有2个论文主题可选，也就是<code>2选1</code>，在2022年5月份之后，每批论文考试只有一个题目。其中2023年的11月有四批考试</p>
@@ -13836,8 +13836,8 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
         </item>
         <item>
             <title><![CDATA[无题]]></title>
-            <link>itpmp.ccsummary/thesis-temp-perf-deliver</link>
-            <guid>itpmp.ccsummary/thesis-temp-perf-deliver</guid>
+            <link>itpmp.cc/summary/thesis-temp-perf-deliver</link>
+            <guid>itpmp.cc/summary/thesis-temp-perf-deliver</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h2 id="交付绩效域" tabindex="-1">交付绩效域 <a class="header-anchor" href="#交付绩效域" aria-label="Permalink to &quot;交付绩效域&quot;">&ZeroWidthSpace;</a></h2>
 <p>随着《”十四五“国家老龄事业发展和养老服务体系规划》的实施，对养老服务的智能化运营、数字化监管提出了更高要求。如何将多渠道养老数据安全、高效整体并提供精准服务已
@@ -13860,8 +13860,8 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
         </item>
         <item>
             <title><![CDATA[历年论文速览 ]]></title>
-            <link>itpmp.ccthesis/record</link>
-            <guid>itpmp.ccthesis/record</guid>
+            <link>itpmp.cc/thesis/record</link>
+            <guid>itpmp.cc/thesis/record</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="历年论文速览" tabindex="-1">历年论文速览 <a class="header-anchor" href="#历年论文速览" aria-label="Permalink to &quot;历年论文速览&quot;">&ZeroWidthSpace;</a></h1>
 <p>2022年5月份之前，每批考试会有2个论文主题可选，也就是<code>2选1</code>，在2022年5月份之后，每批论文考试只有一个题目。其中2023年的11月有四批考试</p>
@@ -14036,8 +14036,8 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
         </item>
         <item>
             <title><![CDATA[论文相关资源 ]]></title>
-            <link>itpmp.ccthesis/resource</link>
-            <guid>itpmp.ccthesis/resource</guid>
+            <link>itpmp.cc/thesis/resource</link>
+            <guid>itpmp.cc/thesis/resource</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="论文相关资源" tabindex="-1">论文相关资源 <a class="header-anchor" href="#论文相关资源" aria-label="Permalink to &quot;论文相关资源&quot;">&ZeroWidthSpace;</a></h1>
 <h2 id="一、核心课程资源-2025-最新版名师精讲" tabindex="-1">一、核心课程资源：2025 最新版名师精讲 <a class="header-anchor" href="#一、核心课程资源-2025-最新版名师精讲" aria-label="Permalink to &quot;一、核心课程资源：2025 最新版名师精讲&quot;">&ZeroWidthSpace;</a></h2>
@@ -14548,8 +14548,8 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
         </item>
         <item>
             <title><![CDATA[无题]]></title>
-            <link>itpmp.ccthesis/template</link>
-            <guid>itpmp.ccthesis/template</guid>
+            <link>itpmp.cc/thesis/template</link>
+            <guid>itpmp.cc/thesis/template</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
         </item>
     </channel>
