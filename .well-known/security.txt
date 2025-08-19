@@ -1,4 +1,4 @@
 Contact: mailto:laine001@163.com
 Expires: 2025-12-31T23:59:59.000Z
 Preferred-Languages: zh-CN, en
-Canonical: https://itpmp.netlify.app/.well-known/security.txt
+Canonical: https://itpmp.cc/.well-known/security.txt

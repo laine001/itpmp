@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://itpmp.netlify.app/sitemap.xml
+Sitemap: https://itpmp.cc/sitemap.xml
