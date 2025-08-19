@@ -1,9 +1,9 @@
 export const name = "高项信息系统项目管理师"
-export const host_name = "itpmp.netlify.app"
+export const host_name = "itpmp.cc"
 export const short_name = "信息系统项目管理师"
 export const description = "信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP"
 export const keywords = "信息系统项目管理师,软考,高级信息系统项目管理,项目管理,ITPM,ITPMP"
 export const author = "laine001"
 export const github_link = 'https://github.com/laine001'
-export const sit_icon = 'https://itpmp.netlify.app/images/site/favicon.ico'
-export const sit_logo = 'https://itpmp.netlify.app/images/site/logo.png'
+export const sit_icon = 'https://itpmp.cc/images/site/favicon.ico'
+export const sit_logo = 'https://itpmp.cc/images/site/logo.png'

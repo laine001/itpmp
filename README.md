@@ -1,1 +1,1 @@
-https://itpmp.netlify.app
+https://itpmp.cc

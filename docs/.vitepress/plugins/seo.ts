@@ -6,7 +6,7 @@ export function generateSEOHead(
   url: string,
   image?: string
 ): HeadConfig[] {
-  const siteUrl = 'https://itpmp.netlify.app'
+  const siteUrl = 'https://itpmp.cc'
   const fullUrl = `${siteUrl}${url}`
   const ogImage = image || `${siteUrl}/images/site/og-image.png`
   

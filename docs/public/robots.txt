@@ -20,7 +20,7 @@ Disallow: /.vitepress/
 Disallow: /temp/
 
 # 网站地图
-Sitemap: https://itpmp.netlify.app/sitemap.xml
+Sitemap: https://itpmp.cc/sitemap.xml
 
 # 爬虫延迟（可选）
 Crawl-delay: 1

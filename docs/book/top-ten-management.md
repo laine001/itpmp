@@ -14,7 +14,7 @@ import TenManageTable from '../components/ten-manage-table/index.vue'
 
 |维度|10大知识领域（PMBOK第6版）|8大绩效域（PMBOK第7版）|
 |------ |--- |--- |
-|导向	|过程导向：关注“怎么做”（步骤和工具）|	结果导向：关注“为什么做”（价值和目标）
+|导向	|过程导向：关注"怎么做"（步骤和工具）|	结果导向：关注"为什么做"（价值和目标）
 |结构|	静态分解为独立领域（如范围、时间）	|动态互动的系统（如团队、不确定性）
 |灵活性	|强调流程控制（如甘特图、WBS）	|强调适应变化（如敏捷、滚动规划）
 |适用场景	|传统项目（建筑、制造业）|	复杂多变项目（IT、创新产品）
@@ -255,6 +255,5 @@ import TenManageTable from '../components/ten-manage-table/index.vue'
 
 <n-image
   width="90%"
-  src="https://itpmp.netlify.app/assets/49个过程.png"
+  src="https://itpmp.cc/assets/49个过程.png"
 />
-

@@ -10,7 +10,7 @@ export default defineConfig(async () => {
   return <UserConfig>{
     plugins: [
       basicSsl({
-        domains: ['localhost', 'itpmp.netlify.app']
+        domains: ['localhost', 'itpmp.cc']
       }),
       Components({
         dirs: ['./.vitepress/theme/components'],

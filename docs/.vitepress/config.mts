@@ -75,7 +75,7 @@ export default withPwa(defineConfig({
       'meta',
       {
         property: 'og:url',
-        content: 'https://itpmp.netlify.app/'
+        content: 'https://itpmp.cc/'
       }
     ],
     [
@@ -96,7 +96,7 @@ export default withPwa(defineConfig({
       'meta',
       {
         property: 'og:image',
-        content: 'https://itpmp.netlify.app/images/site/og-image.png'
+        content: 'https://itpmp.cc/images/site/og-image.png'
       }
     ],
     [
@@ -125,7 +125,7 @@ export default withPwa(defineConfig({
       'meta',
       {
         property: 'twitter:url',
-        content: 'https://itpmp.netlify.app/'
+        content: 'https://itpmp.cc/'
       }
     ],
     [
@@ -146,7 +146,7 @@ export default withPwa(defineConfig({
       'meta',
       {
         property: 'twitter:image',
-        content: 'https://itpmp.netlify.app/images/site/og-image.png'
+        content: 'https://itpmp.cc/images/site/og-image.png'
       }
     ],
     // 搜索引擎验证
@@ -175,7 +175,7 @@ export default withPwa(defineConfig({
         "@type": "WebSite",
         "name": "信息系统项目管理师",
         "description": "专业的信息系统项目管理师学习平台，提供软考高级认证考试指南、项目管理知识体系、ITPM实战经验分享。",
-        "url": "https://itpmp.netlify.app/",
+        "url": "https://itpmp.cc/",
         "author": {
           "@type": "Person",
           "name": "laine001"
@@ -185,12 +185,12 @@ export default withPwa(defineConfig({
           "name": "信息系统项目管理师",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://itpmp.netlify.app/images/site/logo.svg"
+            "url": "https://itpmp.cc/images/site/logo.svg"
           }
         },
         "potentialAction": {
           "@type": "SearchAction",
-          "target": "https://itpmp.netlify.app/?q={search_term_string}",
+          "target": "https://itpmp.cc/?q={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       })
@@ -296,7 +296,7 @@ export default withPwa(defineConfig({
         icon: {
           svg: `<svg t="1748263018176" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2632" width="64" height="64"><path d="M256 810.666667a42.666667 42.666667 0 1 0 0-85.333334 42.666667 42.666667 0 0 0 0 85.333334z m0 85.333333a128 128 0 1 1 0-256 128 128 0 0 1 0 256z m553.429333 0C788.181333 529.408 494.592 235.818667 128 214.570667V128c424.149333 0 768 343.850667 768 768h-86.570667z m-213.845333 0C575.061333 647.253333 376.704 448.938667 128 428.416V341.333333c306.346667 0 554.666667 248.32 554.666667 554.666667h-87.082667z" fill="#8a8a8a" p-id="2633"></path></svg>`
         },
-        link: 'https://itpmp.netlify.app/feed.xml'
+        link: 'https://itpmp.cc/feed.xml'
       }
     ]
   },
@@ -327,7 +327,7 @@ export default withPwa(defineConfig({
   },
   async buildEnd(config) {
     await generateSitemap({
-      hostname: 'https://itpmp.netlify.app',
+      hostname: 'https://itpmp.cc',
       outDir: 'docs/.vitepress/dist'
     })
     await genFeed(config)
