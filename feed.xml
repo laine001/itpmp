@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.cc/</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Tue, 19 Aug 2025 03:01:53 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 19 Aug 2025 09:38:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -432,7 +432,8 @@
 <p>本站内容仅供学习交流使用，如有侵权请联系删除。
 Copyright © 2023-present laine001. All rights reserved.</p>
 </div>
-]]></description>
+<!-- Twikoo 评论组件 -->
+<TwikooComment />]]></description>
             <content:encoded><![CDATA[<h1 id="关于本站" tabindex="-1">关于本站 <a class="header-anchor" href="#关于本站" aria-label="Permalink to &quot;关于本站&quot;">&ZeroWidthSpace;</a></h1>
 <div class="warning custom-block"><p class="custom-block-title">⚠️ 重要提醒</p>
 <p>本站内容仅供学习参考，理论上课本上的知识点都是考试重点，请务必以官方教材和考试大纲为准进行复习！！！</p>
@@ -530,7 +531,8 @@ Copyright © 2023-present laine001. All rights reserved.</p>
 <p>本站内容仅供学习交流使用，如有侵权请联系删除。
 Copyright © 2023-present laine001. All rights reserved.</p>
 </div>
-]]></content:encoded>
+<!-- Twikoo 评论组件 -->
+<TwikooComment />]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[项目沟通管理 ]]></title>
