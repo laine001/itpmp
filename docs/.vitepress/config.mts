@@ -171,13 +171,13 @@ export default withPwa(defineConfig({
         content: "ca-pub-6697132875062696"
       }
     ],
-    [
-      'meta',
-      {
-        content: '1ea92bc373b9a8d71c125b69d98ed225',
-        name: 'baidu_union_verify'
-      }
-    ],
+    // [
+    //   'meta',
+    //   {
+    //     content: '1ea92bc373b9a8d71c125b69d98ed225',
+    //     name: 'baidu_union_verify'
+    //   }
+    // ],
     // 结构化数据
     [
       'script',

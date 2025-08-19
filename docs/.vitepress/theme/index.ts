@@ -5,6 +5,7 @@ import busuanzi from 'busuanzi.pure.js'
 import DefaultTheme from 'vitepress/theme'
 // import Layout from './Layout.vue'
 import MyTooltip from './components/my-tooltip/index.vue'
+import TwikooComment from './components/twikoo-comment/index.vue'
 import { NaiveUIProvider } from './libs/navive-ui-vp'
 import { setup } from '@css-render/vue3-ssr'
 // import OutlineCollapsePlugin from './components/custom-outline/outline-collapse.plugin'
@@ -41,5 +42,6 @@ export default {
     app.component('n-tooltip', NTooltip)
     app.component('NConfigProvider', NConfigProvider)
     app.component('m-tooltip', MyTooltip)
+    app.component('TwikooComment', TwikooComment)
   }
 }
