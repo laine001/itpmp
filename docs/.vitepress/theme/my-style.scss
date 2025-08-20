@@ -12,6 +12,15 @@
     border-radius: var(--cov-small-radius) !important;
   }
 }
+// 侧边栏
+.VPSidebar {
+  scrollbar-color: #eaeaea transparent;
+  scrollbar-gutter: stable;
+}
+
+.dark .VPSidebar {
+  scrollbar-color: #555 transparent;
+}
 
 // 顶部搜素框
 .DocSearch-Button,
