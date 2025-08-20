@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.cc/</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Tue, 19 Aug 2025 09:38:27 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Aug 2025 02:05:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -13020,24 +13020,254 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
 <h3 id="静态投资回收期法" tabindex="-1">静态投资回收期法 <a class="header-anchor" href="#静态投资回收期法" aria-label="Permalink to &quot;静态投资回收期法&quot;">&ZeroWidthSpace;</a></h3>
 <p>P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计净现金流量的绝对值 / 当年净现金流量)</p>
 <details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
+<p><strong>题目：</strong> 某IT公司计划投资开发一个项目管理系统，初始投资为100万元。预计该系统投入使用后，每年可为公司节省运营成本并带来收益如下：</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th>年份</th>
+<th>第1年</th>
+<th>第2年</th>
+<th>第3年</th>
+<th>第4年</th>
+<th>第5年</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>净现金流量(万元)</td>
+<td>20</td>
+<td>30</td>
+<td>35</td>
+<td>40</td>
+<td>45</td>
+</tr>
+</tbody>
+</table>
+<p>请计算该项目的静态投资回收期。</p>
+<p><strong>解答：</strong></p>
+<p><strong>步骤1：</strong> 列出各年累计净现金流量表</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th>年份</th>
+<th>净现金流量(万元)</th>
+<th>累计净现金流量(万元)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第0年</td>
+<td>-100</td>
+<td>-100</td>
+</tr>
+<tr>
+<td>第1年</td>
+<td>20</td>
+<td>-80</td>
+</tr>
+<tr>
+<td>第2年</td>
+<td>30</td>
+<td>-50</td>
+</tr>
+<tr>
+<td>第3年</td>
+<td>35</td>
+<td>-15</td>
+</tr>
+<tr>
+<td>第4年</td>
+<td>40</td>
+<td>25</td>
+</tr>
+<tr>
+<td>第5年</td>
+<td>45</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+<p><strong>步骤2：</strong> 找到累计净现金流量开始出现正值的年份
+从表中可以看出，<em><strong>第4年累计净现金流量首次出现正值(25万元)</strong></em>。</p>
+<p><strong>步骤3：</strong> 应用静态投资回收期公式
+P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计净现金流量的绝对值 / 当年净现金流量)</p>
+<p>P = (4 - 1) + (|-15| / 40)</p>
+<p>P = 3 + (15 / 40)</p>
+<p>P = 3 + 0.375</p>
+<p>P = 3.375年</p>
+<p><strong>答案：</strong> 该项目管理系统的静态投资回收期为3.375年，即3年4.5个月。</p>
+<p><strong>解释：</strong> 这意味着公司需要3年4.5个月的时间才能通过该项目管理系统产生的净现金流量收回初始投资的100万元。在项目决策中，如果公司设定的投资回收期标准是4年以内，那么这个项目是可以接受的。</p>
 </details>
 <h2 id="运输问题" tabindex="-1">运输问题 <a class="header-anchor" href="#运输问题" aria-label="Permalink to &quot;运输问题&quot;">&ZeroWidthSpace;</a></h2>
 <p>把某种产品从若干个产地调运到若干个销地（多对多），求运输费用最低的方案</p>
 <h3 id="伏格尔法" tabindex="-1">伏格尔法 <a class="header-anchor" href="#伏格尔法" aria-label="Permalink to &quot;伏格尔法&quot;">&ZeroWidthSpace;</a></h3>
 <ol>
-<li>算出各行各列中最小元素和次小无素的差额</li>
+<li>算出各行列中最小元素和次小无素的差额</li>
 <li>对行差和列差进行对比，找出最大差额。以与最大差额值同行（或同列）的最小运价为准，倾其所在行的产量，最大限度地满足所在列的需求：一旦需求（或库存）被彻底满足（或库存调光）则随即划去该列（或行）的所有运价信息。（注意产量和销量的变化）</li>
 <li>对未划去的行列重复以上步骤，直到得到一个初始解。</li>
 </ol>
 <details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
+<p><strong>题目：</strong> 某软件公司有3个开发中心（A、B、C），需要向2个客户地点（甲、乙）交付软件产品。各开发中心的产能、各客户的需求量以及运输成本如下表所示，求最低运输成本的分配方案。</p>
+<p><strong>运输成本表：</strong></p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲地</th>
+<th>乙地</th>
+<th>产能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A中心</td>
+<td>3</td>
+<td>1</td>
+<td>7</td>
+</tr>
+<tr>
+<td>B中心</td>
+<td>4</td>
+<td>5</td>
+<td>9</td>
+</tr>
+<tr>
+<td>C中心</td>
+<td>6</td>
+<td>2</td>
+<td>18</td>
+</tr>
+<tr>
+<td>需求</td>
+<td>5</td>
+<td>29</td>
+<td>34</td>
+</tr>
+</tbody>
+</table>
+<p><strong>解答过程：</strong></p>
+<p><strong>第一轮计算：</strong></p>
+<ol>
+<li>
+<p><strong>计算行差和列差：</strong></p>
+<ul>
+<li>A行：次小值3 - 最小值1 = 2</li>
+<li>B行：次小值5 - 最小值4 = 1</li>
+<li>C行：次小值6 - 最小值2 = 4</li>
+<li>甲列：次小值4 - 最小值3 = 1</li>
+<li>乙列：次小值2 - 最小值1 = 1</li>
+</ul>
+</li>
+<li>
+<p><strong>找最大差额：</strong> C行差额4最大</p>
+</li>
+<li>
+<p><strong>分配：</strong> C行最小运价是2（C→乙），C中心产能18，乙地需求29</p>
+<ul>
+<li>分配：C→乙 = 18（C中心产能用完）</li>
+<li>更新需求：乙地剩余需求 = 29-18 = 11</li>
+<li>划去C行</li>
+</ul>
+</li>
+</ol>
+<p><strong>第二轮计算：</strong></p>
+<p>剩余表格：</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲地</th>
+<th>乙地</th>
+<th>产能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A中心</td>
+<td>3</td>
+<td>1</td>
+<td>7</td>
+</tr>
+<tr>
+<td>B中心</td>
+<td>4</td>
+<td>5</td>
+<td>9</td>
+</tr>
+<tr>
+<td>需求</td>
+<td>5</td>
+<td>11</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>
+<p><strong>计算行差和列差：</strong></p>
+<ul>
+<li>A行：3 - 1 = 2</li>
+<li>B行：5 - 4 = 1</li>
+<li>甲列：4 - 3 = 1</li>
+<li>乙列：5 - 1 = 4</li>
+</ul>
+</li>
+<li>
+<p><strong>找最大差额：</strong> 乙列差额4最大</p>
+</li>
+<li>
+<p><strong>分配：</strong> 乙列最小运价是1（A→乙），A中心产能7，乙地需求11</p>
+<ul>
+<li>分配：A→乙 = 7（A中心产能用完）</li>
+<li>更新需求：乙地剩余需求 = 11-7 = 4</li>
+<li>划去A行</li>
+</ul>
+</li>
+</ol>
+<p><strong>第三轮计算：</strong></p>
+<p>剩余表格：</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲地</th>
+<th>乙地</th>
+<th>产能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B中心</td>
+<td>4</td>
+<td>5</td>
+<td>9</td>
+</tr>
+<tr>
+<td>需求</td>
+<td>5</td>
+<td>4</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+<p>只剩B中心，直接分配：</p>
+<ul>
+<li>B→甲 = 5</li>
+<li>B→乙 = 4</li>
+</ul>
+<p><strong>最终分配方案：</strong></p>
+<ul>
+<li>A中心 → 乙地：7单位</li>
+<li>B中心 → 甲地：5单位</li>
+<li>B中心 → 乙地：4单位</li>
+<li>C中心 → 乙地：18单位</li>
+</ul>
+<p><strong>总运输成本：</strong>
+7×1 + 5×4 + 4×5 + 18×2 = 7 + 20 + 20 + 36 = <strong>83</strong></p>
+<p><strong>验证：</strong> 产能总计：7+9+18=34，需求总计：5+29=34 ✓</p>
 </details>
 <h2 id="指派问题" tabindex="-1">指派问题 <a class="header-anchor" href="#指派问题" aria-label="Permalink to &quot;指派问题&quot;">&ZeroWidthSpace;</a></h2>
 <p>有n项任务，恰好有n个人可以分别完成其中任何一项，应指派哪个人完成哪项任务（一对一），才能使效率最高</p>
-<details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
-</details>
 <h3 id="匈牙利法" tabindex="-1">匈牙利法 <a class="header-anchor" href="#匈牙利法" aria-label="Permalink to &quot;匈牙利法&quot;">&ZeroWidthSpace;</a></h3>
 <ol>
 <li>首先找出每行的最小值，然后该行每个数值都减去这个数，得到一个矩阵。</li>
@@ -13045,7 +13275,128 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
 <li>在第2步所得的矩阵中，0即为可以安排的对应工作。</li>
 </ol>
 <details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
+<p><strong>题目：</strong> 某软件公司有3名程序员（A、B、C）和3个开发任务（甲、乙、丙），每个程序员完成各项任务所需的时间（小时）如下表所示。请用匈牙利法求出使总完成时间最短的分配方案。</p>
+<p><strong>效率矩阵（完成时间）：</strong></p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲任务</th>
+<th>乙任务</th>
+<th>丙任务</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A程序员</td>
+<td>9</td>
+<td>2</td>
+<td>7</td>
+</tr>
+<tr>
+<td>B程序员</td>
+<td>6</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr>
+<td>C程序员</td>
+<td>5</td>
+<td>8</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>解答过程：</strong></p>
+<p><strong>步骤1：行变换（每行减去该行最小值）</strong></p>
+<ul>
+<li>A行最小值：2，减去2后：[7, 0, 5]</li>
+<li>B行最小值：3，减去3后：[3, 1, 0]</li>
+<li>C行最小值：1，减去1后：[4, 7, 0]</li>
+</ul>
+<p>得到矩阵1：</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲任务</th>
+<th>乙任务</th>
+<th>丙任务</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A程序员</td>
+<td>7</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>B程序员</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C程序员</td>
+<td>4</td>
+<td>7</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>步骤2：列变换（每列减去该列最小值）</strong></p>
+<ul>
+<li>甲列最小值：3，减去3后：[4, 0, 1]</li>
+<li>乙列最小值：0，减去0后：[0, 1, 7]</li>
+<li>丙列最小值：0，减去0后：[5, 0, 0]</li>
+</ul>
+<p><strong>得到最终矩阵：</strong></p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲任务</th>
+<th>乙任务</th>
+<th>丙任务</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A程序员</td>
+<td>4</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>B程序员</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C程序员</td>
+<td>1</td>
+<td>7</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>步骤3：寻找最优分配</strong>
+从矩阵中的0元素寻找分配方案：</p>
+<ul>
+<li>A程序员 → 乙任务（矩阵中A行乙列为0）</li>
+<li>B程序员 → 甲任务（矩阵中B行甲列为0）</li>
+<li>C程序员 → 丙任务（矩阵中C行丙列为0）</li>
+</ul>
+<p><strong>最终分配方案：</strong></p>
+<ul>
+<li>A程序员完成乙任务：2小时</li>
+<li>B程序员完成甲任务：6小时</li>
+<li>C程序员完成丙任务：1小时</li>
+</ul>
+<p><strong>总完成时间：</strong> 2 + 6 + 1 = <strong>9小时</strong></p>
+<p><strong>验证：</strong> 这是所有可能分配方案中总时间最短的方案。</p>
 </details>
 <h2 id="博弈论" tabindex="-1">博弈论 <a class="header-anchor" href="#博弈论" aria-label="Permalink to &quot;博弈论&quot;">&ZeroWidthSpace;</a></h2>
 <ol>
@@ -13054,7 +13405,55 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
 <li>同时被1和2选中的元素即为对策的最优值，对应的策略分别为局中人的最优纯策略</li>
 </ol>
 <details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
+<p><strong>题目：</strong> 两家互联网公司A和B在考虑产品定价策略。公司A可以选择高价或低价策略，公司B也可以选择高价或低价策略。下表显示了在不同策略组合下公司A的收益（单位：万元）。请用博弈论方法找出公司A的最优策略。</p>
+<p><strong>收益矩阵（公司A的收益）：</strong></p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>B选择高价</th>
+<th>B选择低价</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A选择高价</td>
+<td>8</td>
+<td>2</td>
+</tr>
+<tr>
+<td>A选择低价</td>
+<td>6</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>解答过程：</strong></p>
+<p><strong>步骤1：找出A中各行的最小值</strong></p>
+<ul>
+<li>A选择高价行：min(8, 2) = <strong>2</strong></li>
+<li>A选择低价行：min(6, 4) = <strong>4</strong></li>
+</ul>
+<p>各行最小值中的最大值：max(2, 4) = <strong>4</strong></p>
+<p><strong>步骤2：找出A中各列的最大值</strong></p>
+<ul>
+<li>B选择高价列：max(8, 6) = <strong>8</strong></li>
+<li>B选择低价列：max(2, 4) = <strong>4</strong></li>
+</ul>
+<p>各列最大值中的最小值：min(8, 4) = <strong>4</strong></p>
+<p><strong>步骤3：寻找鞍点</strong>
+同时被步骤1和步骤2选中的元素：<strong>4</strong></p>
+<ul>
+<li>位置：A选择低价，B选择低价</li>
+<li>行最小值 = 列最大值 = 4，存在鞍点</li>
+</ul>
+<p><strong>最优策略：</strong></p>
+<ul>
+<li><strong>公司A的最优策略：选择低价</strong></li>
+<li><strong>公司B的最优策略：选择低价</strong></li>
+<li><strong>博弈的均衡收益：4万元</strong></li>
+</ul>
+<p><strong>解释：</strong> 在这个博弈中，无论对方选择什么策略，公司A选择低价策略都能保证至少获得4万元的收益，这是A公司的最优纯策略。同样，B公司选择低价也是其最优策略，因为这样可以最小化A公司的收益。</p>
 </details>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="一些不太好记的概念和公式" tabindex="-1">一些不太好记的概念和公式 <a class="header-anchor" href="#一些不太好记的概念和公式" aria-label="Permalink to &quot;一些不太好记的概念和公式&quot;">&ZeroWidthSpace;</a></h1>
@@ -13314,24 +13713,254 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
 <h3 id="静态投资回收期法" tabindex="-1">静态投资回收期法 <a class="header-anchor" href="#静态投资回收期法" aria-label="Permalink to &quot;静态投资回收期法&quot;">&ZeroWidthSpace;</a></h3>
 <p>P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计净现金流量的绝对值 / 当年净现金流量)</p>
 <details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
+<p><strong>题目：</strong> 某IT公司计划投资开发一个项目管理系统，初始投资为100万元。预计该系统投入使用后，每年可为公司节省运营成本并带来收益如下：</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th>年份</th>
+<th>第1年</th>
+<th>第2年</th>
+<th>第3年</th>
+<th>第4年</th>
+<th>第5年</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>净现金流量(万元)</td>
+<td>20</td>
+<td>30</td>
+<td>35</td>
+<td>40</td>
+<td>45</td>
+</tr>
+</tbody>
+</table>
+<p>请计算该项目的静态投资回收期。</p>
+<p><strong>解答：</strong></p>
+<p><strong>步骤1：</strong> 列出各年累计净现金流量表</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th>年份</th>
+<th>净现金流量(万元)</th>
+<th>累计净现金流量(万元)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第0年</td>
+<td>-100</td>
+<td>-100</td>
+</tr>
+<tr>
+<td>第1年</td>
+<td>20</td>
+<td>-80</td>
+</tr>
+<tr>
+<td>第2年</td>
+<td>30</td>
+<td>-50</td>
+</tr>
+<tr>
+<td>第3年</td>
+<td>35</td>
+<td>-15</td>
+</tr>
+<tr>
+<td>第4年</td>
+<td>40</td>
+<td>25</td>
+</tr>
+<tr>
+<td>第5年</td>
+<td>45</td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+<p><strong>步骤2：</strong> 找到累计净现金流量开始出现正值的年份
+从表中可以看出，<em><strong>第4年累计净现金流量首次出现正值(25万元)</strong></em>。</p>
+<p><strong>步骤3：</strong> 应用静态投资回收期公式
+P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计净现金流量的绝对值 / 当年净现金流量)</p>
+<p>P = (4 - 1) + (|-15| / 40)</p>
+<p>P = 3 + (15 / 40)</p>
+<p>P = 3 + 0.375</p>
+<p>P = 3.375年</p>
+<p><strong>答案：</strong> 该项目管理系统的静态投资回收期为3.375年，即3年4.5个月。</p>
+<p><strong>解释：</strong> 这意味着公司需要3年4.5个月的时间才能通过该项目管理系统产生的净现金流量收回初始投资的100万元。在项目决策中，如果公司设定的投资回收期标准是4年以内，那么这个项目是可以接受的。</p>
 </details>
 <h2 id="运输问题" tabindex="-1">运输问题 <a class="header-anchor" href="#运输问题" aria-label="Permalink to &quot;运输问题&quot;">&ZeroWidthSpace;</a></h2>
 <p>把某种产品从若干个产地调运到若干个销地（多对多），求运输费用最低的方案</p>
 <h3 id="伏格尔法" tabindex="-1">伏格尔法 <a class="header-anchor" href="#伏格尔法" aria-label="Permalink to &quot;伏格尔法&quot;">&ZeroWidthSpace;</a></h3>
 <ol>
-<li>算出各行各列中最小元素和次小无素的差额</li>
+<li>算出各行列中最小元素和次小无素的差额</li>
 <li>对行差和列差进行对比，找出最大差额。以与最大差额值同行（或同列）的最小运价为准，倾其所在行的产量，最大限度地满足所在列的需求：一旦需求（或库存）被彻底满足（或库存调光）则随即划去该列（或行）的所有运价信息。（注意产量和销量的变化）</li>
 <li>对未划去的行列重复以上步骤，直到得到一个初始解。</li>
 </ol>
 <details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
+<p><strong>题目：</strong> 某软件公司有3个开发中心（A、B、C），需要向2个客户地点（甲、乙）交付软件产品。各开发中心的产能、各客户的需求量以及运输成本如下表所示，求最低运输成本的分配方案。</p>
+<p><strong>运输成本表：</strong></p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲地</th>
+<th>乙地</th>
+<th>产能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A中心</td>
+<td>3</td>
+<td>1</td>
+<td>7</td>
+</tr>
+<tr>
+<td>B中心</td>
+<td>4</td>
+<td>5</td>
+<td>9</td>
+</tr>
+<tr>
+<td>C中心</td>
+<td>6</td>
+<td>2</td>
+<td>18</td>
+</tr>
+<tr>
+<td>需求</td>
+<td>5</td>
+<td>29</td>
+<td>34</td>
+</tr>
+</tbody>
+</table>
+<p><strong>解答过程：</strong></p>
+<p><strong>第一轮计算：</strong></p>
+<ol>
+<li>
+<p><strong>计算行差和列差：</strong></p>
+<ul>
+<li>A行：次小值3 - 最小值1 = 2</li>
+<li>B行：次小值5 - 最小值4 = 1</li>
+<li>C行：次小值6 - 最小值2 = 4</li>
+<li>甲列：次小值4 - 最小值3 = 1</li>
+<li>乙列：次小值2 - 最小值1 = 1</li>
+</ul>
+</li>
+<li>
+<p><strong>找最大差额：</strong> C行差额4最大</p>
+</li>
+<li>
+<p><strong>分配：</strong> C行最小运价是2（C→乙），C中心产能18，乙地需求29</p>
+<ul>
+<li>分配：C→乙 = 18（C中心产能用完）</li>
+<li>更新需求：乙地剩余需求 = 29-18 = 11</li>
+<li>划去C行</li>
+</ul>
+</li>
+</ol>
+<p><strong>第二轮计算：</strong></p>
+<p>剩余表格：</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲地</th>
+<th>乙地</th>
+<th>产能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A中心</td>
+<td>3</td>
+<td>1</td>
+<td>7</td>
+</tr>
+<tr>
+<td>B中心</td>
+<td>4</td>
+<td>5</td>
+<td>9</td>
+</tr>
+<tr>
+<td>需求</td>
+<td>5</td>
+<td>11</td>
+<td>16</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>
+<p><strong>计算行差和列差：</strong></p>
+<ul>
+<li>A行：3 - 1 = 2</li>
+<li>B行：5 - 4 = 1</li>
+<li>甲列：4 - 3 = 1</li>
+<li>乙列：5 - 1 = 4</li>
+</ul>
+</li>
+<li>
+<p><strong>找最大差额：</strong> 乙列差额4最大</p>
+</li>
+<li>
+<p><strong>分配：</strong> 乙列最小运价是1（A→乙），A中心产能7，乙地需求11</p>
+<ul>
+<li>分配：A→乙 = 7（A中心产能用完）</li>
+<li>更新需求：乙地剩余需求 = 11-7 = 4</li>
+<li>划去A行</li>
+</ul>
+</li>
+</ol>
+<p><strong>第三轮计算：</strong></p>
+<p>剩余表格：</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲地</th>
+<th>乙地</th>
+<th>产能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B中心</td>
+<td>4</td>
+<td>5</td>
+<td>9</td>
+</tr>
+<tr>
+<td>需求</td>
+<td>5</td>
+<td>4</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+<p>只剩B中心，直接分配：</p>
+<ul>
+<li>B→甲 = 5</li>
+<li>B→乙 = 4</li>
+</ul>
+<p><strong>最终分配方案：</strong></p>
+<ul>
+<li>A中心 → 乙地：7单位</li>
+<li>B中心 → 甲地：5单位</li>
+<li>B中心 → 乙地：4单位</li>
+<li>C中心 → 乙地：18单位</li>
+</ul>
+<p><strong>总运输成本：</strong>
+7×1 + 5×4 + 4×5 + 18×2 = 7 + 20 + 20 + 36 = <strong>83</strong></p>
+<p><strong>验证：</strong> 产能总计：7+9+18=34，需求总计：5+29=34 ✓</p>
 </details>
 <h2 id="指派问题" tabindex="-1">指派问题 <a class="header-anchor" href="#指派问题" aria-label="Permalink to &quot;指派问题&quot;">&ZeroWidthSpace;</a></h2>
 <p>有n项任务，恰好有n个人可以分别完成其中任何一项，应指派哪个人完成哪项任务（一对一），才能使效率最高</p>
-<details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
-</details>
 <h3 id="匈牙利法" tabindex="-1">匈牙利法 <a class="header-anchor" href="#匈牙利法" aria-label="Permalink to &quot;匈牙利法&quot;">&ZeroWidthSpace;</a></h3>
 <ol>
 <li>首先找出每行的最小值，然后该行每个数值都减去这个数，得到一个矩阵。</li>
@@ -13339,7 +13968,128 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
 <li>在第2步所得的矩阵中，0即为可以安排的对应工作。</li>
 </ol>
 <details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
+<p><strong>题目：</strong> 某软件公司有3名程序员（A、B、C）和3个开发任务（甲、乙、丙），每个程序员完成各项任务所需的时间（小时）如下表所示。请用匈牙利法求出使总完成时间最短的分配方案。</p>
+<p><strong>效率矩阵（完成时间）：</strong></p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲任务</th>
+<th>乙任务</th>
+<th>丙任务</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A程序员</td>
+<td>9</td>
+<td>2</td>
+<td>7</td>
+</tr>
+<tr>
+<td>B程序员</td>
+<td>6</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr>
+<td>C程序员</td>
+<td>5</td>
+<td>8</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>解答过程：</strong></p>
+<p><strong>步骤1：行变换（每行减去该行最小值）</strong></p>
+<ul>
+<li>A行最小值：2，减去2后：[7, 0, 5]</li>
+<li>B行最小值：3，减去3后：[3, 1, 0]</li>
+<li>C行最小值：1，减去1后：[4, 7, 0]</li>
+</ul>
+<p>得到矩阵1：</p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲任务</th>
+<th>乙任务</th>
+<th>丙任务</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A程序员</td>
+<td>7</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>B程序员</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C程序员</td>
+<td>4</td>
+<td>7</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>步骤2：列变换（每列减去该列最小值）</strong></p>
+<ul>
+<li>甲列最小值：3，减去3后：[4, 0, 1]</li>
+<li>乙列最小值：0，减去0后：[0, 1, 7]</li>
+<li>丙列最小值：0，减去0后：[5, 0, 0]</li>
+</ul>
+<p><strong>得到最终矩阵：</strong></p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>甲任务</th>
+<th>乙任务</th>
+<th>丙任务</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A程序员</td>
+<td>4</td>
+<td>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>B程序员</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>C程序员</td>
+<td>1</td>
+<td>7</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p><strong>步骤3：寻找最优分配</strong>
+从矩阵中的0元素寻找分配方案：</p>
+<ul>
+<li>A程序员 → 乙任务（矩阵中A行乙列为0）</li>
+<li>B程序员 → 甲任务（矩阵中B行甲列为0）</li>
+<li>C程序员 → 丙任务（矩阵中C行丙列为0）</li>
+</ul>
+<p><strong>最终分配方案：</strong></p>
+<ul>
+<li>A程序员完成乙任务：2小时</li>
+<li>B程序员完成甲任务：6小时</li>
+<li>C程序员完成丙任务：1小时</li>
+</ul>
+<p><strong>总完成时间：</strong> 2 + 6 + 1 = <strong>9小时</strong></p>
+<p><strong>验证：</strong> 这是所有可能分配方案中总时间最短的方案。</p>
 </details>
 <h2 id="博弈论" tabindex="-1">博弈论 <a class="header-anchor" href="#博弈论" aria-label="Permalink to &quot;博弈论&quot;">&ZeroWidthSpace;</a></h2>
 <ol>
@@ -13348,7 +14098,55 @@ SPI = EV / PV = 8 / 9 &lt; 1    进度滞后。</p>
 <li>同时被1和2选中的元素即为对策的最优值，对应的策略分别为局中人的最优纯策略</li>
 </ol>
 <details class="details custom-block"><summary>示例题</summary>
-<p>//</p>
+<p><strong>题目：</strong> 两家互联网公司A和B在考虑产品定价策略。公司A可以选择高价或低价策略，公司B也可以选择高价或低价策略。下表显示了在不同策略组合下公司A的收益（单位：万元）。请用博弈论方法找出公司A的最优策略。</p>
+<p><strong>收益矩阵（公司A的收益）：</strong></p>
+<table tabindex="0">
+<thead>
+<tr>
+<th></th>
+<th>B选择高价</th>
+<th>B选择低价</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A选择高价</td>
+<td>8</td>
+<td>2</td>
+</tr>
+<tr>
+<td>A选择低价</td>
+<td>6</td>
+<td>4</td>
+</tr>
+</tbody>
+</table>
+<p><strong>解答过程：</strong></p>
+<p><strong>步骤1：找出A中各行的最小值</strong></p>
+<ul>
+<li>A选择高价行：min(8, 2) = <strong>2</strong></li>
+<li>A选择低价行：min(6, 4) = <strong>4</strong></li>
+</ul>
+<p>各行最小值中的最大值：max(2, 4) = <strong>4</strong></p>
+<p><strong>步骤2：找出A中各列的最大值</strong></p>
+<ul>
+<li>B选择高价列：max(8, 6) = <strong>8</strong></li>
+<li>B选择低价列：max(2, 4) = <strong>4</strong></li>
+</ul>
+<p>各列最大值中的最小值：min(8, 4) = <strong>4</strong></p>
+<p><strong>步骤3：寻找鞍点</strong>
+同时被步骤1和步骤2选中的元素：<strong>4</strong></p>
+<ul>
+<li>位置：A选择低价，B选择低价</li>
+<li>行最小值 = 列最大值 = 4，存在鞍点</li>
+</ul>
+<p><strong>最优策略：</strong></p>
+<ul>
+<li><strong>公司A的最优策略：选择低价</strong></li>
+<li><strong>公司B的最优策略：选择低价</strong></li>
+<li><strong>博弈的均衡收益：4万元</strong></li>
+</ul>
+<p><strong>解释：</strong> 在这个博弈中，无论对方选择什么策略，公司A选择低价策略都能保证至少获得4万元的收益，这是A公司的最优纯策略。同样，B公司选择低价也是其最优策略，因为这样可以最小化A公司的收益。</p>
 </details>
 ]]></content:encoded>
         </item>
