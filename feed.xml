@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.cc/</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Thu, 21 Aug 2025 09:45:57 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Aug 2025 07:06:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -14354,7 +14354,13 @@ P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计
             <guid>itpmp.cc/thesis/record</guid>
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="历年论文速览" tabindex="-1">历年论文速览 <a class="header-anchor" href="#历年论文速览" aria-label="Permalink to &quot;历年论文速览&quot;">&ZeroWidthSpace;</a></h1>
-<p>2022年5月份之前，每批考试会有2个论文主题可选，也就是<code>2选1</code>，在2022年5月份之后，每批论文考试只有一个题目。其中2023年的11月有四批考试</p>
+<div class="info custom-block"><p class="custom-block-title">📢</p>
+<p>2022年5月份之前，每批考试会有2个论文主题可选，也就是<code>2选1</code>。
+在2022年5月份之后，<strong>每批论文考试只有一个题目</strong>。其中2023年的11月有四批考试。</p>
+</div>
+<div class="warning custom-block"><p class="custom-block-title">⚠️</p>
+<p>2025年的两批考试里都是<code>绩效域</code>相关的论文。各个机构和老师都预计在后续论文考试中，将从主要考试内容由十大管理域变为<strong>十大管理域加八大绩效域</strong>。相当于难度增加几乎一倍（多准备八个绩效域的论文相关内容）。</p>
+</div>
 <h2 id="历年题目" tabindex="-1">历年题目 <a class="header-anchor" href="#历年题目" aria-label="Permalink to &quot;历年题目&quot;">&ZeroWidthSpace;</a></h2>
 <table tabindex="0">
 <thead>
@@ -14423,7 +14429,7 @@ P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计
 <tr>
 <td>2018年下</td>
 <td style="text-align:center"><code>沟通管理</code></td>
-<td style="text-align:right">论项目的<code>风险管理</code></td>
+<td style="text-align:right"><code>风险管理</code></td>
 </tr>
 <tr>
 <td>2018年上</td>
@@ -14439,7 +14445,13 @@ P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计
 </table>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="历年论文速览" tabindex="-1">历年论文速览 <a class="header-anchor" href="#历年论文速览" aria-label="Permalink to &quot;历年论文速览&quot;">&ZeroWidthSpace;</a></h1>
-<p>2022年5月份之前，每批考试会有2个论文主题可选，也就是<code>2选1</code>，在2022年5月份之后，每批论文考试只有一个题目。其中2023年的11月有四批考试</p>
+<div class="info custom-block"><p class="custom-block-title">📢</p>
+<p>2022年5月份之前，每批考试会有2个论文主题可选，也就是<code>2选1</code>。
+在2022年5月份之后，<strong>每批论文考试只有一个题目</strong>。其中2023年的11月有四批考试。</p>
+</div>
+<div class="warning custom-block"><p class="custom-block-title">⚠️</p>
+<p>2025年的两批考试里都是<code>绩效域</code>相关的论文。各个机构和老师都预计在后续论文考试中，将从主要考试内容由十大管理域变为<strong>十大管理域加八大绩效域</strong>。相当于难度增加几乎一倍（多准备八个绩效域的论文相关内容）。</p>
+</div>
 <h2 id="历年题目" tabindex="-1">历年题目 <a class="header-anchor" href="#历年题目" aria-label="Permalink to &quot;历年题目&quot;">&ZeroWidthSpace;</a></h2>
 <table tabindex="0">
 <thead>
@@ -14508,7 +14520,7 @@ P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计
 <tr>
 <td>2018年下</td>
 <td style="text-align:center"><code>沟通管理</code></td>
-<td style="text-align:right">论项目的<code>风险管理</code></td>
+<td style="text-align:right"><code>风险管理</code></td>
 </tr>
 <tr>
 <td>2018年上</td>
