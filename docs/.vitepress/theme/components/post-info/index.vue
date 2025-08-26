@@ -6,8 +6,9 @@ lastUpdated: false
 import { useData } from 'vitepress';
 
 const { page } = useData();
-// console.log(page.value, 'page.value')
 
+// 教材章节信息
+const chapterPageNum = page.value?.frontmatter?.chapterPageNum;
 const lastUpdateTime = new Date(page.value.lastUpdated).toLocaleString('zh-CN')
 
 const getDaysFromNow = (dateString) => {
@@ -35,7 +36,6 @@ const props = defineProps({
     default: '0',
   },
 });
-console.log(props, 'props')
 </script>
 
 <template>
@@ -43,6 +43,7 @@ console.log(props, 'props')
     <span>本章字数: {{ props.words }}</span>
     <span>阅读时长: {{ props.readTime }} 分钟</span>
     <span>最后更新于: {{ getDaysFromNow(lastUpdateTime) }}</span>
+    <span v-if="chapterPageNum">教材页码: 第{{ chapterPageNum }}页</span>
   </div>
 </template>
 
