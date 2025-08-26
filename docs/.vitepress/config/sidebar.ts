@@ -86,6 +86,10 @@ const sidebar = {
           text: "信息系统项目管理师",
           link: "/about/itpmp",
         },
+        {
+          text: "共创计划",
+          link: "/about/co-creation-plan",
+        },
       ],
     },
   ],
