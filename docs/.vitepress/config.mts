@@ -15,6 +15,27 @@ export default withPwa(defineConfig({
   title: "信息系统项目管理师",
   description: "信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP",
   lang: 'zh-CN',
+  markdown: {
+    config: (md) => {
+      // 添加自定义容器：details-open（默认展开的 details）markdown-it-container
+      // md.use(container, 'details-open', {
+      //   validate: function(params) {
+      //     return params.trim().match(/^details-open\s+(.*)$/);
+      //   },
+      //   render: function (tokens, idx) {
+      //     const m = tokens[idx].info.trim().match(/^details-open\s+(.*)$/);
+      //     if (tokens[idx].nesting === 1) {
+      //       // 开始标签 - 默认展开
+      //       const title = m && m[1] ? md.utils.escapeHtml(m[1]) : '详情';
+      //       return `<details class="details custom-block" open>\n<summary>${title}</summary>\n`;
+      //     } else {
+      //       // 结束标签
+      //       return '</details>\n';
+      //     }
+      //   }
+      // });
+    }
+  },
   head: [
     // Favicon
     [
