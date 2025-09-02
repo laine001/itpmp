@@ -1,0 +1,4 @@
+## Here's my code: 
+# ads.txt file for Google AdSense
+
+google.com, pub-6697132875062696, DIRECT, f08c47fec0942fa0
