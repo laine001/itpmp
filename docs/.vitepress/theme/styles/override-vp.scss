@@ -1,0 +1,161 @@
+:root {
+  --cov-default-radius: 14px;
+  --cov-small-radius: 10px;
+}
+
+// // 头部菜单
+.VPMenu {
+  border: none !important;
+  border-radius: var(--cov-default-radius) !important;
+
+  .link {
+    border-radius: var(--cov-small-radius) !important;
+  }
+}
+
+// 侧边栏
+.VPSidebar {
+  scrollbar-color: #eaeaea transparent;
+  scrollbar-gutter: stable;
+}
+
+.dark .VPSidebar {
+  scrollbar-color: #555 transparent;
+}
+
+// 顶部搜素框
+.DocSearch-Button,
+.custom-block,
+.pager .VPLink {
+  border-radius: var(--cov-default-radius);
+}
+
+.DocSearch {
+  background: transparent;
+
+  &:hover {
+    background: transparent;
+  }
+
+}
+
+// 搜索浮层
+.shell {
+  border-radius: var(--cov-default-radius) !important;
+
+  .search-bar {
+    border-radius: var(--cov-default-radius) !important;
+    padding: 4px 10px !important;
+  }
+
+  // 搜索浮层
+  .result {
+    border-radius: var(--cov-default-radius) !important;
+  }
+}
+
+.VPHomeFeatures {
+
+  // // 首页feature
+  .VPFeature {
+    transition: all 0.28s;
+    border: 2px solid var(--vp-c-bg-soft);
+    border-radius: var(--cov-default-radius);
+
+    &:hover {
+      // border-color: var(--vp-c-brand-3);
+
+      .link-text-value .vpi-arrow-right {
+        transform: translateX(6px);
+      }
+    }
+
+    .link-text-value .vpi-arrow-right {
+      // transform: translateX(-2px);
+      transition: all 0.28s;
+    }
+
+  }
+}
+
+// 首页的按钮
+.actions .VPButton.medium {
+  border-radius: var(--cov-default-radius);
+}
+
+// // 移动端下的下拉页面导航
+.VPLocalNavOutlineDropdown .items {
+  // border: 1px solid var(--vp-c-brand-1);
+  border: none;
+  background-color: var(--vp-nav-bg-color);
+  border-radius: var(--cov-default-radius);
+
+  .header {
+    border-bottom: 1px solid var(--vp-c-divider);
+  }
+}
+
+.VPDoc.has-aside .content-container {
+  max-width: 100% !important;
+}
+
+// 首页头部下面的分割线
+.home .divider {
+  display: none;
+}
+
+// 头部导航栏（仅首页）
+.VPNavBar.home {
+  background-color: rgba($color: #fff, $alpha: 0.2) !important;
+  backdrop-filter: blur(18px);
+
+  &.top {
+    background-color: transparent !important;
+    backdrop-filter: blur(0px) !important;
+  }
+}
+
+.dark {
+  .VPNavBar.home {
+    background-color: rgba($color: #111, $alpha: 0.6) !important;
+    backdrop-filter: blur(10px);
+
+    &.top {
+      background-color: transparent !important;
+      backdrop-filter: blur(0px);
+    }
+  }
+}
+
+.outline-link.active {
+  color: var(--vp-c-brand-1) !important;
+}
+
+.outline-marker {
+  width: 4px !important;
+  border-radius: 4px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.edit-info {
+  display: none !important;
+}
+
+
+.aside-container {
+  width: 258px;
+}
+
+.VPNavBarMenuGroup {
+  .menu {
+    // 右上下拉导航菜单的磨砂效果
+    background-color: rgba($color: #fff, $alpha: 0.1);
+    backdrop-filter: blur(18px);
+    border-radius: var(--cov-default-radius);
+
+    .VPMenu {
+      background: none;
+    }
+  }
+}

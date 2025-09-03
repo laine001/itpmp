@@ -33,7 +33,7 @@ export function MarkdownTransform(): Plugin {
       //   return code
       // const { footer } = await getDocsMarkdown()
       const { readTime, words } = getReadingTime(code)
-      console.log(readTime, words, 'readTime')
+      // console.log(readTime, words, 'readTime')
       code = `${code}`
         .replace(/(#\s.+?\r?\n\r?\n)/, `$1\n\n<PostInfo readTime="${readTime}" words="${words}" />\n`)
       return code

@@ -1,105 +1,9 @@
-:root {
-  --cov-default-radius: 14px;
-  --cov-small-radius: 10px;
-}
-
-// // 头部菜单
-.VPMenu {
-  border: none !important;
-  border-radius: var(--cov-default-radius) !important;
-
-  .link {
-    border-radius: var(--cov-small-radius) !important;
-  }
-}
-// 侧边栏
-.VPSidebar {
-  scrollbar-color: #eaeaea transparent;
-  scrollbar-gutter: stable;
-}
-
-.dark .VPSidebar {
-  scrollbar-color: #555 transparent;
-}
-
-// 顶部搜素框
-.DocSearch-Button,
-.custom-block,
-.pager .VPLink {
-  border-radius: var(--cov-default-radius);
-}
-
-// 搜索浮层
-.shell {
-  border-radius: var(--cov-default-radius) !important;
-
-  .search-bar {
-    border-radius: var(--cov-default-radius) !important;
-    padding: 4px 10px !important;
-  }
-
-  // 搜索浮层
-  .result {
-    border-radius: var(--cov-default-radius) !important;
-  }
-}
-
-.VPHomeFeatures {
-
-  // // 首页feature
-  .VPFeature {
-    transition: all 0.28s;
-    border: 2px solid var(--vp-c-bg-soft);
-    border-radius: var(--cov-default-radius);
-
-    &:hover {
-      // border-color: var(--vp-c-brand-3);
-
-      .link-text-value .vpi-arrow-right {
-        transform: translateX(6px);
-      }
-    }
-
-    .link-text-value .vpi-arrow-right {
-      // transform: translateX(-2px);
-      transition: all 0.28s;
-    }
-
-  }
-}
-
 // 卜算子
 .pv-uv-count {
   font-size: 10px;
   color: #888;
   text-align: center;
   display: none;
-}
-
-// 首页的按钮
-.actions .VPButton.medium {
-  border-radius: var(--cov-default-radius);
-}
-
-// // 移动端下的下拉页面导航
-.VPLocalNavOutlineDropdown .items {
-  // border: 1px solid var(--vp-c-brand-1);
-  border: none;
-  background-color: var(--vp-nav-bg-color);
-  border-radius: var(--cov-default-radius);
-
-  .header {
-    border-bottom: 1px solid var(--vp-c-divider);
-  }
-
-  // .header,
-  // .outline {
-  //   background-color: var(--vp-nav-bg-color);
-  // }
-}
-
-.VPDoc.has-aside .content-container {
-  max-width: 100% !important;
 }
 
 .ai-box {
@@ -115,7 +19,7 @@
   color: var(--vp-custom-block-tip-text);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   overflow: hidden;
-  color: #333;
+  color: var(--vp-custom-block-tip-text);
   font-size: 14px;
 
   // 使用伪元素创建带动画的渐变边框
@@ -176,6 +80,7 @@
 
 // 暗色模式适配
 .dark .ai-box {
+  // color: #fff;
   background: linear-gradient(135deg,
       rgba(59, 130, 246, 0.15) 0%,
       rgba(147, 51, 234, 0.12) 50%,
@@ -194,71 +99,6 @@
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     will-change: background-position;
-  }
-}
-
-// 首页头部下面的分割线
-.home .divider {
-  display: none;
-}
-
-// 头部导航栏（仅首页）
-.VPNavBar.home {
-  background-color: rgba($color: #fff, $alpha: 0.2) !important;
-  backdrop-filter: blur(18px);
-
-  &.top {
-    background-color: transparent !important;
-    backdrop-filter: blur(0px) !important;
-  }
-}
-
-.dark {
-  .VPNavBar.home {
-    background-color: rgba($color: #111, $alpha: 0.6) !important;
-    backdrop-filter: blur(10px);
-
-    &.top {
-      background-color: transparent !important;
-      backdrop-filter: blur(0px);
-    }
-  }
-}
-
-.outline-link.active {
-  color: var(--vp-c-brand-1) !important;
-}
-
-.outline-marker {
-  width: 4px !important;
-  border-radius: 4px !important;
-  border-top-left-radius: 0px !important;
-  border-bottom-left-radius: 0px !important;
-}
-
-.edit-info {
-  display: none !important;
-}
-
-// .is-home {
-//   background: url('/images/site/bg.svg') no-repeat;
-//   background-size: cover;
-// }
-
-.aside-container {
-  width: 258px;
-}
-
-.VPNavBarMenuGroup {
-  .menu {
-    // 右上下拉导航菜单的磨砂效果
-    background-color: rgba($color: #fff, $alpha: 0.1);
-    backdrop-filter: blur(18px);
-    border-radius: var(--cov-default-radius);
-
-    .VPMenu {
-      background: none;
-    }
   }
 }
 
@@ -344,73 +184,4 @@
 
 .eye-care-mode ::-webkit-scrollbar-track {
   background: #ede8d3 !important;
-}
-
-/* 黑白模式样式 */
-.grayscale-mode {
-
-  /* 只对内容区域应用黑白滤镜，不影响主题切换按钮 */
-  .VPApp>*:not(.theme-switcher) {
-    filter: grayscale(100%) !important;
-  }
-
-  /* 确保主题切换按钮不受黑白滤镜影响 */
-  .theme-switcher {
-    filter: none !important;
-    position: fixed !important;
-    bottom: 80px !important;
-    right: 24px !important;
-    z-index: 9999 !important;
-  }
-
-  .theme-switcher .theme-btn {
-    filter: none !important;
-
-    &.active {
-      background: #666 !important;
-      border-color: #666 !important;
-    }
-  }
-
-  /* 确保按钮在黑白模式下仍然可见 */
-  .VPButton {
-    filter: inherit !important;
-  }
-
-  /* 保持导航和重要交互元素的对比度 */
-  .VPNavBar,
-  .VPSidebar,
-  .VPLocalNav {
-    filter: inherit !important;
-  }
-
-  /* 代码块在黑白模式下的处理 */
-  .vp-code-group,
-  .vp-code,
-  pre {
-    filter: inherit !important;
-  }
-
-  /* 图片在黑白模式下 */
-  img {
-    filter: inherit !important;
-  }
-
-  /* 确保文本对比度 */
-  .vp-doc h1,
-  .vp-doc h2,
-  .vp-doc h3,
-  .vp-doc h4,
-  .vp-doc h5,
-  .vp-doc h6 {
-    filter: inherit !important;
-  }
-}
-
-/* 响应式设计 - 黑白模式 */
-@media (max-width: 768px) {
-  .grayscale-mode .theme-switcher {
-    bottom: 60px !important;
-    right: 16px !important;
-  }
 }

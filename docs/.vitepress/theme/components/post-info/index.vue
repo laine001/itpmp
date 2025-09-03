@@ -57,6 +57,7 @@ const props = defineProps({
   /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
   /* box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.1); */
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   font-size: 12px;
   color: #666;

@@ -1,47 +1,50 @@
-// https://vitepress.dev/guide/custom-theme
-// import { h, defineComponent, inject } from 'vue'
 import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import DefaultTheme from 'vitepress/theme'
-// import Layout from './Layout.vue'
-import MyTooltip from './components/my-tooltip/index.vue'
 import TwikooComment from './components/twikoo-comment/index.vue'
 import { NaiveUIProvider } from './libs/navive-ui-vp'
 import { setup } from '@css-render/vue3-ssr'
-// import OutlineCollapsePlugin from './components/custom-outline/outline-collapse.plugin'
-import './style.css'
-import './my-style.scss'
+import './styles/vp.css'
+import './styles/override-vp.scss'
+import './styles/my-style.scss'
 
 import * as pkg from 'naive-ui';
-const { NConfigProvider, NBackTop, NImage, NTooltip, NIcon, NMenu } = pkg;
+const { NConfigProvider, NBackTop, NImage, NIcon } = pkg;
+
+// 类型声明
+declare global {
+  interface ImportMeta {
+    env: {
+      SSR?: boolean
+      [key: string]: any
+    }
+  }
+  interface Window {
+    _hmt: any[]
+  }
+}
 
 export default {
   extends: DefaultTheme,
   Layout: NaiveUIProvider,
-  enhanceApp({ app, router, siteData }) {
-    if (import.meta.env.SSR) {
+  enhanceApp({ app, router }) {
+    if ((import.meta as any).env?.SSR) {
       const { collect } = setup(app)
       app.provide('css-render-collect', collect)
     }
     if (inBrowser) {
       router.onAfterRouteChange = () => {
-        // setTimeout(() => {
-        //   OutlineCollapsePlugin()
-        // }, 0);
         busuanzi.fetch()
-        if (window._hmt) {
-          window._hmt.push(['_setAccount', '1a46a0f223c9af96b623437cd0065193'])
-          window._hmt.push(['_trackPageview', location.pathname + location.search])
+        if ((window as any)._hmt) {
+          (window as any)._hmt.push(['_setAccount', '1a46a0f223c9af96b623437cd0065193']);
+          (window as any)._hmt.push(['_trackPageview', location.pathname + location.search])
         }
       }
     }
     app.component('n-image', NImage)
     app.component('n-icon', NIcon)
-    app.component('n-menu', NMenu)
     app.component('NBackTop', NBackTop)
-    app.component('n-tooltip', NTooltip)
     app.component('NConfigProvider', NConfigProvider)
-    app.component('m-tooltip', MyTooltip)
     app.component('TwikooComment', TwikooComment)
   }
 }
