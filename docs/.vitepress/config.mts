@@ -2,12 +2,12 @@ import { defineConfig } from 'vitepress'
 import sidebar from './config/sidebar'
 import nav from './config/nav'
 
-const fileAndStyles: Record<string, string> = {}
-
 import { withPwa } from '@vite-pwa/vitepress'
 import { pwa } from './plugins/pwa'
 import { genFeed } from './plugins/feed'
 import { generateSitemap } from 'sitemap-ts'
+
+const fileAndStyles: Record<string, string> = {}
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(defineConfig({
@@ -236,6 +236,14 @@ export default withPwa(defineConfig({
       {
         async: 'true',
         src: 'https://www.googletagmanager.com/gtag/js?id=G-NVZ7WX3XRN'
+      }
+    ],
+    [
+      'script',
+      {
+        async: 'true',
+        crossorigin: 'anonymous',
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6697132875062696'
       }
     ],
     [
