@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.cc/</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Wed, 03 Dec 2025 08:11:46 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 09 Feb 2026 10:30:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -2673,22 +2673,24 @@ CCB是决策机构，不是作业机构；通常CCB的工作是通过评审手�
 <li>知识展会和茶座</li>
 <li>交互式培训</li>
 </ul>
+<p>可以通过面对面和虚拟方式来应用所有这些工具和技术。通常，面对面互动最有利于建立知识管理所需的信任关系。
+信任建立后可以用虚拟互动来维护这种信任关系。</p>
 <h4 id="信息管理" tabindex="-1">信息管理 <a class="header-anchor" href="#信息管理" aria-label="Permalink to &quot;信息管理&quot;">&ZeroWidthSpace;</a></h4>
 <p>信息管理工具和技术用于创建人们与知识之间的联系，可以有效促进简单、明确的显性知识的分享，主要包括：</p>
 <ul>
 <li>编撰显性知识的方法</li>
 <li>经验教训登记册</li>
 <li>图书馆服务</li>
-<li>信息手机</li>
+<li>信息收集</li>
 <li>项目管理信息系统</li>
 </ul>
 <h4 id="人际关系与团队技能-1" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-1" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
-<li>积极倾听</li>
-<li>引导</li>
-<li>领导力</li>
-<li>人际交往</li>
-<li>大局观</li>
+<li>积极倾听：有助于减少误解并促进沟通和知识分享</li>
+<li>引导：有助于有效指引团队成功的达成决定、解决方案或结论</li>
+<li>领导力：可帮助沟通愿景并鼓舞项目团队关注合适的知识和知识目标</li>
+<li>人际交往：可促进项目干系人之间建立非正式的联系和关系，为显性和隐性知识的分享创造条件</li>
+<li>大局观：有助于项目经理组织政策与职权结构等进行规划与沟通</li>
 </ul>
 <h3 id="输出-3" tabindex="-1">输出 <a class="header-anchor" href="#输出-3" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="经验教训登记册" tabindex="-1">经验教训登记册 <a class="header-anchor" href="#经验教训登记册" aria-label="Permalink to &quot;经验教训登记册&quot;">&ZeroWidthSpace;</a></h4>
@@ -2702,7 +2704,8 @@ CCB是决策机构，不是作业机构；通常CCB的工作是通过评审手�
 <p>本过程的主要作用：1. 让干系人了解项目的当前状态并认可为处理绩效问题而采取的行动；2. 通过成本和进度预测，让干系人了解项目的未来状态。
 需要在<code>整个项目期间开展</code></p>
 </div>
-<p>监督是贯穿于整个项目的项目管理活动之一，包括收集、测量和分析测量结果，以及预测趋势。</p>
+<p><code>监督</code>是贯穿于整个项目的项目管理活动之一，包括收集、测量和分析测量结果，以及预测趋势，以便推动过程改进。
+<code>控制</code>包括制订纠正或预防措施或重新规划，并跟踪行动计划的实施过程，以确保它们能有效解决问题。</p>
 <p>监控项目工作过程主要关注：</p>
 <ul>
 <li>把项目的实际绩效与项目管理计划进行比较</li>
@@ -2733,22 +2736,28 @@ CCB是决策机构，不是作业机构；通常CCB的工作是通过评审手�
 <p>-</p>
 <h4 id="数据分析" tabindex="-1">数据分析 <a class="header-anchor" href="#数据分析" aria-label="Permalink to &quot;数据分析&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
-<li>备选方案分析：</li>
-<li>成本效益分析：</li>
-<li>挣值分析：</li>
-<li>根本原因分析：</li>
-<li>趋势分析：</li>
-<li>偏差分析：</li>
+<li>备选方案分析：用于在出现偏差时选择要执行的纠正措施或纠正措施和预发措施的组合</li>
+<li>成本效益分析：有助于出现偏差时 确定最节约成本的纠正措施</li>
+<li>挣值分析：对范围、进度和成本绩效进行了综合分析</li>
+<li>根本原因分析：关注识别问题的主要原因，它可用于识别出现偏差的原因以及项目经理，为达成项目目标应重点关注的领域</li>
+<li>趋势分析：根据以往结果预测未来绩效，它可以预测项目的进度延误，提前让项目经理意识到，按照既定趋势发展后期进度
+可能出现的问题。应该在足够早的项目时间进行趋势分析，使项目团队有时间分析和纠正任何异常。可以根据趋势分析的结果提出必要的预防措施建议。</li>
+<li>偏差分析：成本估算、资源使用、资源费率、技术绩效和其他测量指标。偏差分析审查目标绩效与实
+际绩效之间的差异（或偏差），可涉及持续时间估算，可以在每个知识领域，针对特定变量开展偏差分析。
+在监控项目工作过程中，通过偏差分析对成本、时间、技术和资源偏差进行综合分析，以了解项目的总体偏
+差情况。这样就便于采取合适的预防或纠正措施。</li>
 </ul>
 <h4 id="决策" tabindex="-1">决策 <a class="header-anchor" href="#决策" aria-label="Permalink to &quot;决策&quot;">&ZeroWidthSpace;</a></h4>
-<p>常用语监控项目工作过程的决策技术是投票。投票可以包括用下列方法进行决策：<code>一致同意</code>、<code>大多数同意</code>或<code>相对多数原则</code>。</p>
+<p>常用于监控项目工作过程的决策技术是投票。投票可以包括用下列方法进行决策：<code>一致同意</code>、<code>大多数同意</code>或<code>相对多数原则</code>。</p>
 <h4 id="会议-3" tabindex="-1">会议 <a class="header-anchor" href="#会议-3" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h3 id="输出-4" tabindex="-1">输出 <a class="header-anchor" href="#输出-4" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="工作绩效报告" tabindex="-1">工作绩效报告 <a class="header-anchor" href="#工作绩效报告" aria-label="Permalink to &quot;工作绩效报告&quot;">&ZeroWidthSpace;</a></h4>
 <p>工作绩效信息可以用实体或电子形式加以合并、记录和分发。基于工作绩效信息，以实体或电子形式编制形成工作绩效报告，
 以制定决策、采取行动或引起关注。</p>
-<p>工作绩效报告的内容一般包括状态和进展报告。</p>
+<p>工作绩效报告的内容一般包括状态和进展报告。工作绩效报告可以包含挣值图表和信息、趋势线和预测
+、储备燃尽图、缺陷直方图、合同绩效信息和风险情况概述。也可以表示为引起关注、制定决策和采取行动
+的仪表指示图、热点报告、信号灯图或其他形式。</p>
 <h4 id="变更请求-1" tabindex="-1">变更请求 <a class="header-anchor" href="#变更请求-1" aria-label="Permalink to &quot;变更请求&quot;">&ZeroWidthSpace;</a></h4>
 <p>变更请求可能导致需要收集和记录新的需求。变更可能会影响项目管理计划、项目文件或产品可交付成果。应该通过实施整体变更
 控制过程对变更请求进行审查和处理。变更可能包括：</p>
@@ -2767,16 +2776,27 @@ CCB是决策机构，不是作业机构；通常CCB的工作是通过评审手�
 沟通的过程。本过程审查对项目文件、可交付成果或项目管理计划的所有变更请求，并决定对变更请求的处置方案。</p>
 <p>本过程的主要作用是确保对项目中已记录在案的变更做出综合评审。本过程需要在<code>整个项目期间开展</code>。</p>
 </div>
-<p>实施整体变更控制过程贯穿始终，参与项目的任何干系人都可以提出变更请求。</p>
+<p>实施整体变更控制过程贯穿始终，项目经理对此承担最终责任。在整个项目晟敏周期的任何事件，参与项目的任何干系人都可以提出变更请求。</p>
 <p>在基准确定之前，变更无须正式受控、实施整体变更控制过程。一旦确定了项目基准，就必须通过实施整体变更控制过程来处理变更请求。
 尽管变更可以口头提出，但所有变更请求都必须以书面形式记录，并纳入变更管理或配置管理系统中。</p>
 <h3 id="输入-5" tabindex="-1">输入 <a class="header-anchor" href="#输入-5" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-4" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-4" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<ol>
+<li>变更管理计划：为管理变更控制过程提供指导并记录ccb的角色和职责</li>
+<li>配置管理计划：描述项目的配置项，识别应对记录和更新的配置项，以便保持项目产品的一致性和有效性</li>
+<li>范围基准：提供项目和产品定义</li>
+<li>进度基准：用于评估变更对项目进度的影响</li>
+<li>成本基准：用于评估变更对项目成本的影响</li>
+</ol>
 <h4 id="项目文件-3" tabindex="-1">项目文件 <a class="header-anchor" href="#项目文件-3" aria-label="Permalink to &quot;项目文件&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<ol>
+<li>需求跟踪矩阵：有助于评估变更对项目范围的影响</li>
+<li>风险报告：提供了与变更请求有关的项目风险来源的信息</li>
+<li>估算依据：指出了持续时间、成本和资源估算是如何得出的，可用于计算变更对时间、预算和资源的影响</li>
+</ol>
 <h4 id="工作绩效报告-1" tabindex="-1">工作绩效报告 <a class="header-anchor" href="#工作绩效报告-1" aria-label="Permalink to &quot;工作绩效报告&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>对实施整体变更控制过程特别有用的工作绩效报告包括：资源可用情况、进度和成本数据、挣值报告、燃烧
+图成燃尽图。</p>
 <h4 id="变更请求-2" tabindex="-1">变更请求 <a class="header-anchor" href="#变更请求-2" aria-label="Permalink to &quot;变更请求&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="事业环境因素-5" tabindex="-1">事业环境因素 <a class="header-anchor" href="#事业环境因素-5" aria-label="Permalink to &quot;事业环境因素&quot;">&ZeroWidthSpace;</a></h4>
@@ -3200,22 +3220,24 @@ CCB是决策机构，不是作业机构；通常CCB的工作是通过评审手�
 <li>知识展会和茶座</li>
 <li>交互式培训</li>
 </ul>
+<p>可以通过面对面和虚拟方式来应用所有这些工具和技术。通常，面对面互动最有利于建立知识管理所需的信任关系。
+信任建立后可以用虚拟互动来维护这种信任关系。</p>
 <h4 id="信息管理" tabindex="-1">信息管理 <a class="header-anchor" href="#信息管理" aria-label="Permalink to &quot;信息管理&quot;">&ZeroWidthSpace;</a></h4>
 <p>信息管理工具和技术用于创建人们与知识之间的联系，可以有效促进简单、明确的显性知识的分享，主要包括：</p>
 <ul>
 <li>编撰显性知识的方法</li>
 <li>经验教训登记册</li>
 <li>图书馆服务</li>
-<li>信息手机</li>
+<li>信息收集</li>
 <li>项目管理信息系统</li>
 </ul>
 <h4 id="人际关系与团队技能-1" tabindex="-1">人际关系与团队技能 <a class="header-anchor" href="#人际关系与团队技能-1" aria-label="Permalink to &quot;人际关系与团队技能&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
-<li>积极倾听</li>
-<li>引导</li>
-<li>领导力</li>
-<li>人际交往</li>
-<li>大局观</li>
+<li>积极倾听：有助于减少误解并促进沟通和知识分享</li>
+<li>引导：有助于有效指引团队成功的达成决定、解决方案或结论</li>
+<li>领导力：可帮助沟通愿景并鼓舞项目团队关注合适的知识和知识目标</li>
+<li>人际交往：可促进项目干系人之间建立非正式的联系和关系，为显性和隐性知识的分享创造条件</li>
+<li>大局观：有助于项目经理组织政策与职权结构等进行规划与沟通</li>
 </ul>
 <h3 id="输出-3" tabindex="-1">输出 <a class="header-anchor" href="#输出-3" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="经验教训登记册" tabindex="-1">经验教训登记册 <a class="header-anchor" href="#经验教训登记册" aria-label="Permalink to &quot;经验教训登记册&quot;">&ZeroWidthSpace;</a></h4>
@@ -3229,7 +3251,8 @@ CCB是决策机构，不是作业机构；通常CCB的工作是通过评审手�
 <p>本过程的主要作用：1. 让干系人了解项目的当前状态并认可为处理绩效问题而采取的行动；2. 通过成本和进度预测，让干系人了解项目的未来状态。
 需要在<code>整个项目期间开展</code></p>
 </div>
-<p>监督是贯穿于整个项目的项目管理活动之一，包括收集、测量和分析测量结果，以及预测趋势。</p>
+<p><code>监督</code>是贯穿于整个项目的项目管理活动之一，包括收集、测量和分析测量结果，以及预测趋势，以便推动过程改进。
+<code>控制</code>包括制订纠正或预防措施或重新规划，并跟踪行动计划的实施过程，以确保它们能有效解决问题。</p>
 <p>监控项目工作过程主要关注：</p>
 <ul>
 <li>把项目的实际绩效与项目管理计划进行比较</li>
@@ -3260,22 +3283,28 @@ CCB是决策机构，不是作业机构；通常CCB的工作是通过评审手�
 <p>-</p>
 <h4 id="数据分析" tabindex="-1">数据分析 <a class="header-anchor" href="#数据分析" aria-label="Permalink to &quot;数据分析&quot;">&ZeroWidthSpace;</a></h4>
 <ul>
-<li>备选方案分析：</li>
-<li>成本效益分析：</li>
-<li>挣值分析：</li>
-<li>根本原因分析：</li>
-<li>趋势分析：</li>
-<li>偏差分析：</li>
+<li>备选方案分析：用于在出现偏差时选择要执行的纠正措施或纠正措施和预发措施的组合</li>
+<li>成本效益分析：有助于出现偏差时 确定最节约成本的纠正措施</li>
+<li>挣值分析：对范围、进度和成本绩效进行了综合分析</li>
+<li>根本原因分析：关注识别问题的主要原因，它可用于识别出现偏差的原因以及项目经理，为达成项目目标应重点关注的领域</li>
+<li>趋势分析：根据以往结果预测未来绩效，它可以预测项目的进度延误，提前让项目经理意识到，按照既定趋势发展后期进度
+可能出现的问题。应该在足够早的项目时间进行趋势分析，使项目团队有时间分析和纠正任何异常。可以根据趋势分析的结果提出必要的预防措施建议。</li>
+<li>偏差分析：成本估算、资源使用、资源费率、技术绩效和其他测量指标。偏差分析审查目标绩效与实
+际绩效之间的差异（或偏差），可涉及持续时间估算，可以在每个知识领域，针对特定变量开展偏差分析。
+在监控项目工作过程中，通过偏差分析对成本、时间、技术和资源偏差进行综合分析，以了解项目的总体偏
+差情况。这样就便于采取合适的预防或纠正措施。</li>
 </ul>
 <h4 id="决策" tabindex="-1">决策 <a class="header-anchor" href="#决策" aria-label="Permalink to &quot;决策&quot;">&ZeroWidthSpace;</a></h4>
-<p>常用语监控项目工作过程的决策技术是投票。投票可以包括用下列方法进行决策：<code>一致同意</code>、<code>大多数同意</code>或<code>相对多数原则</code>。</p>
+<p>常用于监控项目工作过程的决策技术是投票。投票可以包括用下列方法进行决策：<code>一致同意</code>、<code>大多数同意</code>或<code>相对多数原则</code>。</p>
 <h4 id="会议-3" tabindex="-1">会议 <a class="header-anchor" href="#会议-3" aria-label="Permalink to &quot;会议&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h3 id="输出-4" tabindex="-1">输出 <a class="header-anchor" href="#输出-4" aria-label="Permalink to &quot;输出&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="工作绩效报告" tabindex="-1">工作绩效报告 <a class="header-anchor" href="#工作绩效报告" aria-label="Permalink to &quot;工作绩效报告&quot;">&ZeroWidthSpace;</a></h4>
 <p>工作绩效信息可以用实体或电子形式加以合并、记录和分发。基于工作绩效信息，以实体或电子形式编制形成工作绩效报告，
 以制定决策、采取行动或引起关注。</p>
-<p>工作绩效报告的内容一般包括状态和进展报告。</p>
+<p>工作绩效报告的内容一般包括状态和进展报告。工作绩效报告可以包含挣值图表和信息、趋势线和预测
+、储备燃尽图、缺陷直方图、合同绩效信息和风险情况概述。也可以表示为引起关注、制定决策和采取行动
+的仪表指示图、热点报告、信号灯图或其他形式。</p>
 <h4 id="变更请求-1" tabindex="-1">变更请求 <a class="header-anchor" href="#变更请求-1" aria-label="Permalink to &quot;变更请求&quot;">&ZeroWidthSpace;</a></h4>
 <p>变更请求可能导致需要收集和记录新的需求。变更可能会影响项目管理计划、项目文件或产品可交付成果。应该通过实施整体变更
 控制过程对变更请求进行审查和处理。变更可能包括：</p>
@@ -3294,16 +3323,27 @@ CCB是决策机构，不是作业机构；通常CCB的工作是通过评审手�
 沟通的过程。本过程审查对项目文件、可交付成果或项目管理计划的所有变更请求，并决定对变更请求的处置方案。</p>
 <p>本过程的主要作用是确保对项目中已记录在案的变更做出综合评审。本过程需要在<code>整个项目期间开展</code>。</p>
 </div>
-<p>实施整体变更控制过程贯穿始终，参与项目的任何干系人都可以提出变更请求。</p>
+<p>实施整体变更控制过程贯穿始终，项目经理对此承担最终责任。在整个项目晟敏周期的任何事件，参与项目的任何干系人都可以提出变更请求。</p>
 <p>在基准确定之前，变更无须正式受控、实施整体变更控制过程。一旦确定了项目基准，就必须通过实施整体变更控制过程来处理变更请求。
 尽管变更可以口头提出，但所有变更请求都必须以书面形式记录，并纳入变更管理或配置管理系统中。</p>
 <h3 id="输入-5" tabindex="-1">输入 <a class="header-anchor" href="#输入-5" aria-label="Permalink to &quot;输入&quot;">&ZeroWidthSpace;</a></h3>
 <h4 id="项目管理计划-4" tabindex="-1">项目管理计划 <a class="header-anchor" href="#项目管理计划-4" aria-label="Permalink to &quot;项目管理计划&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<ol>
+<li>变更管理计划：为管理变更控制过程提供指导并记录ccb的角色和职责</li>
+<li>配置管理计划：描述项目的配置项，识别应对记录和更新的配置项，以便保持项目产品的一致性和有效性</li>
+<li>范围基准：提供项目和产品定义</li>
+<li>进度基准：用于评估变更对项目进度的影响</li>
+<li>成本基准：用于评估变更对项目成本的影响</li>
+</ol>
 <h4 id="项目文件-3" tabindex="-1">项目文件 <a class="header-anchor" href="#项目文件-3" aria-label="Permalink to &quot;项目文件&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<ol>
+<li>需求跟踪矩阵：有助于评估变更对项目范围的影响</li>
+<li>风险报告：提供了与变更请求有关的项目风险来源的信息</li>
+<li>估算依据：指出了持续时间、成本和资源估算是如何得出的，可用于计算变更对时间、预算和资源的影响</li>
+</ol>
 <h4 id="工作绩效报告-1" tabindex="-1">工作绩效报告 <a class="header-anchor" href="#工作绩效报告-1" aria-label="Permalink to &quot;工作绩效报告&quot;">&ZeroWidthSpace;</a></h4>
-<p>-</p>
+<p>对实施整体变更控制过程特别有用的工作绩效报告包括：资源可用情况、进度和成本数据、挣值报告、燃烧
+图成燃尽图。</p>
 <h4 id="变更请求-2" tabindex="-1">变更请求 <a class="header-anchor" href="#变更请求-2" aria-label="Permalink to &quot;变更请求&quot;">&ZeroWidthSpace;</a></h4>
 <p>-</p>
 <h4 id="事业环境因素-5" tabindex="-1">事业环境因素 <a class="header-anchor" href="#事业环境因素-5" aria-label="Permalink to &quot;事业环境因素&quot;">&ZeroWidthSpace;</a></h4>
