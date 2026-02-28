@@ -4,7 +4,7 @@
         <title>高项信息系统项目管理师</title>
         <link>itpmp.cc/</link>
         <description>信息系统项目管理师、软考、高级信息系统项目管理、项目管理、ITPM、ITPMP</description>
-        <lastBuildDate>Tue, 10 Feb 2026 06:34:31 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Feb 2026 08:17:53 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -13965,7 +13965,7 @@ P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计
             <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[<h1 id="一些名词和图表" tabindex="-1">一些名词和图表 <a class="header-anchor" href="#一些名词和图表" aria-label="Permalink to &quot;一些名词和图表&quot;">&ZeroWidthSpace;</a></h1>
 <div class="warning custom-block"><p class="custom-block-title">🐢</p>
-<p>龟速收集中</p>
+<p>持续收集中</p>
 </div>
 <h2 id="项目管理计划和项目文件" tabindex="-1">项目管理计划和项目文件 <a class="header-anchor" href="#项目管理计划和项目文件" aria-label="Permalink to &quot;项目管理计划和项目文件&quot;">&ZeroWidthSpace;</a></h2>
 <details class="details custom-block"><summary>⚡️记忆协助 口诀</summary>
@@ -14010,10 +14010,23 @@ P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计
 </ol>
 </li>
 </ul>
+<h2 id="可交付成果、核实的可交付成果、验收的可交付成果" tabindex="-1">可交付成果、核实的可交付成果、验收的可交付成果 <a class="header-anchor" href="#可交付成果、核实的可交付成果、验收的可交付成果" aria-label="Permalink to &quot;可交付成果、核实的可交付成果、验收的可交付成果&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>可交付成果是指在某一过程、阶段或整个项目完成时，所产出的任何独特且可验证的产品、服务或成果。它既可以是中间成果（如项目计划、WBS、测试报告），也可以是最终成果。</li>
+<li>核实的可交付成果是指已经完成，并通过 “控制质量” 过程检验合格的可交付成果。其核心关注点是 “正确性” 和 “是否满足质量要求”。</li>
+<li>验收的可交付成果是指经过 “确认范围” 过程，由客户或发起人正式确认并签字批准的、满足验收标准的可交付成果。</li>
+</ul>
+<p>逻辑关系：</p>
+<ol>
+<li>指导和管理项目工作 → 可交付成果</li>
+<li>可交付成果 →（经 控制质量）→ 核实的可交付成果</li>
+<li>核实的可交付成果 →（经 确认范围）→ 验收的可交付成果</li>
+<li>验收的可交付成果 →（输入至 结束项目或阶段）→ 最终产品、服务或成果移交</li>
+</ol>
 ]]></description>
             <content:encoded><![CDATA[<h1 id="一些名词和图表" tabindex="-1">一些名词和图表 <a class="header-anchor" href="#一些名词和图表" aria-label="Permalink to &quot;一些名词和图表&quot;">&ZeroWidthSpace;</a></h1>
 <div class="warning custom-block"><p class="custom-block-title">🐢</p>
-<p>龟速收集中</p>
+<p>持续收集中</p>
 </div>
 <h2 id="项目管理计划和项目文件" tabindex="-1">项目管理计划和项目文件 <a class="header-anchor" href="#项目管理计划和项目文件" aria-label="Permalink to &quot;项目管理计划和项目文件&quot;">&ZeroWidthSpace;</a></h2>
 <details class="details custom-block"><summary>⚡️记忆协助 口诀</summary>
@@ -14058,6 +14071,19 @@ P = (累计净现金流量开始出现正值或零的年份 - 1) + (上年累计
 </ol>
 </li>
 </ul>
+<h2 id="可交付成果、核实的可交付成果、验收的可交付成果" tabindex="-1">可交付成果、核实的可交付成果、验收的可交付成果 <a class="header-anchor" href="#可交付成果、核实的可交付成果、验收的可交付成果" aria-label="Permalink to &quot;可交付成果、核实的可交付成果、验收的可交付成果&quot;">&ZeroWidthSpace;</a></h2>
+<ul>
+<li>可交付成果是指在某一过程、阶段或整个项目完成时，所产出的任何独特且可验证的产品、服务或成果。它既可以是中间成果（如项目计划、WBS、测试报告），也可以是最终成果。</li>
+<li>核实的可交付成果是指已经完成，并通过 “控制质量” 过程检验合格的可交付成果。其核心关注点是 “正确性” 和 “是否满足质量要求”。</li>
+<li>验收的可交付成果是指经过 “确认范围” 过程，由客户或发起人正式确认并签字批准的、满足验收标准的可交付成果。</li>
+</ul>
+<p>逻辑关系：</p>
+<ol>
+<li>指导和管理项目工作 → 可交付成果</li>
+<li>可交付成果 →（经 控制质量）→ 核实的可交付成果</li>
+<li>核实的可交付成果 →（经 确认范围）→ 验收的可交付成果</li>
+<li>验收的可交付成果 →（输入至 结束项目或阶段）→ 最终产品、服务或成果移交</li>
+</ol>
 ]]></content:encoded>
         </item>
         <item>
