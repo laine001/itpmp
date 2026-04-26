@@ -5,6 +5,7 @@ import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { nextTick, provide } from "vue";
 import CustomOutline from './components/custom-outline/index.vue'
+import LobeChat from './components/lobe-chat/index.vue'
 
 const { isDark } = useData();
 
@@ -56,7 +57,7 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
     <DefaultTheme.Layout>
       <template #layout-bottom>
         <div class="pv-uv-count">
-          本站总访问量 <span id="busuanzi_value_site_pv" /> 次 本站访客数
+         本站总访问量 <span id="busuanzi_value_site_pv" /> 次本站访客数
           <span id="busuanzi_value_site_uv" /> 人次
         </div>
       </template>
@@ -68,6 +69,7 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
       </template>
     </DefaultTheme.Layout>
   </NConfigProvider>
+  <LobeChat />
 </template>
 
 <style>
