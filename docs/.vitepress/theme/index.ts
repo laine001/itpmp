@@ -2,7 +2,6 @@ import { inBrowser } from 'vitepress'
 import busuanzi from 'busuanzi.pure.js'
 import DefaultTheme from 'vitepress/theme'
 import TwikooComment from './components/twikoo-comment/index.vue'
-import LobeChat from './components/lobe-chat/index.vue'
 import { NaiveUIProvider } from './libs/navive-ui-vp'
 import { setup } from '@css-render/vue3-ssr'
 import './styles/vp.css'
@@ -46,6 +45,5 @@ export default {
     app.component('NBackTop', NBackTop)
     app.component('NConfigProvider', NConfigProvider)
     app.component('TwikooComment', TwikooComment)
-    app.component('LobeChat', LobeChat)
   }
 }
