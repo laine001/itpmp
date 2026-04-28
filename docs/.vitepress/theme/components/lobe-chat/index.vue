@@ -1,57 +1,53 @@
 <template>
   <div class="lobechat-container">
-    <button class="lobechat-btn" @click="toggleWindow">
+    <!-- 聊天按钮 -->
+    <button 
+      v-show="!isOpen" 
+      class="lobechat-btn" 
+      @click="toggleWindow"
+    >
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
       </svg>
     </button>
-    <div v-if="isOpen" class="lobechat-window">
-      <div class="lobechat-header">
-        <h3>AI 助手</h3>
-        <button class="lobechat-close" @click="closeWindow">×</button>
-      </div>
-      <div ref="messagesContainer" class="lobechat-messages">
-        <div
-          v-for="(msg, index) in messages"
-          :key="index"
-          :class="['message', msg.type]"
-        >
-          <template v-if="msg.type === 'loading'">正在思考...</template>
-          <template v-else>{{ msg.content }}</template>
+
+    <!-- 聊天窗口 -->
+    <transition name="slide-up">
+      <div v-show="isOpen" class="lobechat-window">
+        <!-- 头部 -->
+        <div class="lobechat-header">
+          <div class="header-content">
+            <div class="avatar">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+            </div>
+            <h3>ITPMP AI 助手</h3>
+          </div>
+          <button class="lobechat-close" @click="closeWindow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
         </div>
+
+        <!-- iframe 聊天内容 -->
+        <iframe 
+          class="lobechat-iframe"
+          src="https://api-chat.itpmp.cc/" 
+          frameborder="0"
+          allow="microphone"
+        ></iframe>
       </div>
-      <div class="lobechat-input-area">
-        <textarea
-          ref="textareaRef"
-          v-model="inputMessage"
-          placeholder="输入消息..."
-          rows="1"
-          @keydown="handleKeydown"
-          @input="autoResize"
-        ></textarea>
-        <button class="send-btn" :disabled="isLoading" @click="sendMessage">
-          发送
-        </button>
-      </div>
-    </div>
+    </transition>
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, nextTick } from 'vue'
-
-interface Message {
-  content: string
-  type: 'user' | 'assistant' | 'error' | 'loading'
-}
+import { ref } from 'vue'
 
 const isOpen = ref(false)
-const inputMessage = ref('')
-const messages = ref<Message[]>([])
-const isLoading = ref(false)
-const messagesContainer = ref<HTMLElement | null>(null)
-const textareaRef = ref<HTMLTextAreaElement | null>(null)
-const conversationHistory: { role: string; content: string }[] = []
 
 const toggleWindow = () => {
   isOpen.value = !isOpen.value
@@ -60,253 +56,156 @@ const toggleWindow = () => {
 const closeWindow = () => {
   isOpen.value = false
 }
-
-const scrollToBottom = () => {
-  nextTick(() => {
-    if (messagesContainer.value) {
-      messagesContainer.value.scrollTop = messagesContainer.value.scrollHeight
-    }
-  })
-}
-
-const addMessage = (content: string, type: Message['type']) => {
-  messages.value.push({ content, type })
-  scrollToBottom()
-}
-
-const autoResize = () => {
-  if (textareaRef.value) {
-    textareaRef.value.style.height = 'auto'
-    textareaRef.value.style.height = Math.min(textareaRef.value.scrollHeight, 100) + 'px'
-  }
-}
-
-const handleKeydown = (e: KeyboardEvent) => {
-  if (e.key === 'Enter' && !e.shiftKey) {
-    e.preventDefault()
-    sendMessage()
-  }
-}
-
-const sendMessage = async () => {
-  const content = inputMessage.value.trim()
-  if (!content || isLoading.value) return
-
-  inputMessage.value = ''
-  if (textareaRef.value) {
-    textareaRef.value.style.height = 'auto'
-  }
-  addMessage(content, 'user')
-  conversationHistory.push({ role: 'user', content })
-
-  isLoading.value = true
-  addMessage('', 'loading')
-
-  try {
-    const response = await fetch('/api/chat', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        messages: conversationHistory
-      })
-    })
-
-    if (!response.ok) {
-      const err = await response.json()
-      throw new Error(err.error || '请求失败')
-    }
-
-    const data = await response.json()
-    const reply = data.choices[0]?.message?.content || '未收到回复'
-
-    messages.value.pop()
-    addMessage(reply, 'assistant')
-    conversationHistory.push({ role: 'assistant', content: reply })
-  } catch (error: any) {
-    messages.value.pop()
-    addMessage(error.message || '发生错误', 'error')
-    conversationHistory.pop()
-  }
-
-  isLoading.value = false
-}
 </script>
 
 <style scoped>
 .lobechat-container {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 24px;
+  right: 24px;
   z-index: 9999;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
+/* 聊天按钮 */
 .lobechat-btn {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: #3eaf7c;
+  width: 56px;
+  height: 56px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #722ed1 0%, #9254de 100%);
   color: white;
   border: none;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 20px rgba(114, 46, 209, 0.4);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
-  transition: all 0.3s ease;
+  font-size: 22px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
 }
 
 .lobechat-btn:hover {
-  background: #369f70;
-  transform: scale(1.05);
+  transform: scale(1.1);
+  box-shadow: 0 6px 25px rgba(114, 46, 209, 0.5);
 }
 
+.lobechat-btn:active {
+  transform: scale(0.95);
+}
+
+/* 聊天窗口 */
 .lobechat-window {
-  position: fixed;
-  bottom: 90px;
-  right: 20px;
-  width: 380px;
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  width: 400px;
+  max-width: calc(100vw - 48px);
   height: 550px;
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
   background: #fff;
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  border: 1px solid rgba(114, 46, 209, 0.1);
 }
 
+/* 动画 */
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-up-enter-from,
+.slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(20px) scale(0.95);
+}
+
+/* 头部 */
 .lobechat-header {
-  background: #f8f9fa;
-  padding: 12px 16px;
-  border-bottom: 1px solid #e9ecef;
+  background: linear-gradient(135deg, #722ed1 0%, #9254de 100%);
+  padding: 16px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.lobechat-header h3 {
-  margin: 0;
-  font-size: 16px;
-  font-weight: 600;
-  color: #333;
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.lobechat-close {
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
-  color: #666;
-  padding: 0;
-  width: 24px;
-  height: 24px;
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.2);
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+}
+
+.lobechat-header h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.lobechat-close {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  padding: 6px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s ease;
 }
 
 .lobechat-close:hover {
-  color: #333;
+  background: rgba(255, 255, 255, 0.25);
 }
 
-.lobechat-messages {
+/* iframe */
+.lobechat-iframe {
   flex: 1;
-  overflow-y: auto;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.message {
-  max-width: 85%;
-  padding: 10px 14px;
-  border-radius: 12px;
-  font-size: 14px;
-  line-height: 1.5;
-  word-break: break-word;
-}
-
-.message.user {
-  align-self: flex-end;
-  background: #3eaf7c;
-  color: white;
-  border-bottom-right-radius: 4px;
-}
-
-.message.assistant {
-  align-self: flex-start;
-  background: #f1f1f1;
-  color: #333;
-  border-bottom-left-radius: 4px;
-}
-
-.message.error {
-  background: #fee;
-  color: #c00;
-  font-size: 13px;
-}
-
-.message.loading {
-  background: #f1f1f1;
-  color: #666;
-  font-style: italic;
-}
-
-.lobechat-input-area {
-  padding: 12px 16px;
-  border-top: 1px solid #e9ecef;
-  display: flex;
-  gap: 8px;
-  align-items: flex-end;
-}
-
-.lobechat-input-area textarea {
-  flex: 1;
-  padding: 10px 14px;
-  border: 1px solid #ddd;
-  border-radius: 20px;
-  resize: none;
-  font-size: 14px;
-  font-family: inherit;
-  max-height: 100px;
-  overflow-y: auto;
-}
-
-.lobechat-input-area textarea:focus {
-  outline: none;
-  border-color: #3eaf7c;
-}
-
-.send-btn {
-  padding: 10px 20px;
-  background: #3eaf7c;
-  color: white;
+  width: 100%;
   border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 500;
+  background: #fff;
 }
 
-.send-btn:hover {
-  background: #369f70;
-}
-
-.send-btn:disabled {
-  background: #ccc;
-  cursor: not-allowed;
-}
-
+/* 响应式设计 */
 @media (max-width: 768px) {
+  .lobechat-container {
+    bottom: 16px;
+    right: 16px;
+  }
+
+  .lobechat-btn {
+    width: 52px;
+    height: 52px;
+  }
+
   .lobechat-window {
-    width: 90vw;
-    height: 70vh;
-    bottom: 80px;
-    right: 5vw;
+    width: calc(100vw - 32px);
+    height: 65vh;
+    bottom: 66px;
+    right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .lobechat-window {
+    height: 60vh;
   }
 }
 </style>
