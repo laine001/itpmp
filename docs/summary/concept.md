@@ -1,3 +1,9 @@
+---
+title: 重点概念与公式 - 信息系统项目管理师核心知识点 | 软考高级速记
+description: 整理信息系统项目管理师考试核心概念、计算公式、易混淆知识点，包含记忆技巧和速查表格，助力高效备考。
+keywords: 软考重点概念，项目管理公式，挣值管理，关键路径法，软考速记，信息系统项目管理师
+---
+
 <script setup>
 import ProjectPlanFile from '../components/project-plan-file/index.vue'
 </script>
