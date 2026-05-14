@@ -2,6 +2,18 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: 信息系统项目管理师 - 软考高级备考指南 | 学习笔记与资料分享
+description: 专注信息系统项目管理师（软考高级）考试，提供十大知识领域、八大绩效域、论文模板、历年真题等完整备考资料，助您轻松通过软考！
+keywords: 信息系统项目管理师，软考高级，PMBOK，项目管理，软考备考，论文模板，十大知识领域，八大绩效域
+
+head:
+  - - meta
+    - name: keywords
+      content: 信息系统项目管理师，软考高级，PMBOK，项目管理，软考备考，论文模板，十大知识领域，八大绩效域，软考真题，项目管理师考试
+  - - link
+    - rel: canonical
+      href: https://itpmp.cc/
+
 hero:
   name: "信息系统项目管理师"
   text: "学习笔记 · 备考记录"
