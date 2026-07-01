@@ -4,6 +4,7 @@
 import { useData } from "vitepress";
 import DefaultTheme from "vitepress/theme";
 import { nextTick, provide } from "vue";
+import { Analytics } from '@vercel/analytics/vue'
 import CustomOutline from './components/custom-outline/index.vue'
 import LobeChat from './components/lobe-chat/index.vue'
 
@@ -54,6 +55,7 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
     }"
   >
     <NBackTop />
+    <Analytics mode="auto" />
     <DefaultTheme.Layout>
       <template #layout-bottom>
         <div class="pv-uv-count">
