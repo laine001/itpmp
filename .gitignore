@@ -9,6 +9,11 @@ build/
 .next/
 out/
 
+docs/_book/
+docs/book/
+docs/.vitepress/cache
+docs/dev-dist
+
 # Environment variables
 .env
 .env.local
